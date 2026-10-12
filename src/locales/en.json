@@ -431,7 +431,6 @@
     "activeCodes": "Active Codes",
     "updated": "Updated",
     "viewAllCodes": "Browse all guides",
-    "playOnRoblox": "Play on Roblox",
     "inThisSection": "In this section",
     "tableOfContents": "Table of Contents",
     "nextSteps": "Next Steps",
@@ -441,7 +440,9 @@
     "readMore": "Read more",
     "officialMedia": "Official media",
     "home": "Home",
-    "noGuidesAvailable": "No guides available yet. Check back soon!"
+    "noGuidesAvailable": "No guides available yet. Check back soon!",
+    "noActiveCodes": "No active codes currently available",
+    "checkBackSoon": "Check back soon for new codes"
   },
   "footer": {
     "aboutTitle": "Japanese Ramen Simulator Wiki",
