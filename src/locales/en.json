@@ -39,22 +39,22 @@
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn the prep-first loop: simmer broth, marinate eggs, portion toppings, and serve a small menu well before you spend a single coin."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Best Recipes",
+          "description": "Progress from shio and shoyu through miso to tonkotsu and tsukemen, and see how tare, noodles, and aroma oil shape every bowl."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Shop Upgrades",
+          "description": "Spend your first profits on throughput, not decor: extra burners, refrigeration, and seating that let the kitchen keep pace with demand."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in Japanese Ramen Simulator."
+          "title": "Co-Op Multiplayer",
+          "description": "Split broth, noodle, topping, and expeditor roles so a shared kitchen out-serves four cooks crowding the same pot."
         }
       ]
     },
@@ -62,237 +62,293 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "Best Recipes",
+        "Shop Upgrades",
+        "Co-Op Guide"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "Prep broth and toppings, price for margin, and turn a tiny stall into a busy ramen shop.",
+          "href": "/guide/japanese-ramen-simulator-beginner-guide"
+        },
+        {
+          "badge": "Popular",
+          "title": "Best Recipes",
+          "description": "Every broth, tare, noodle, and topping ranked by progression stage so you always know what to cook next.",
+          "href": "/progression/japanese-ramen-simulator-best-recipes"
         },
         {
           "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
-        },
-        {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "title": "Shop Upgrades",
+          "description": "The upgrade order that raises bowls served per hour before you spend a coin on decor.",
+          "href": "/progression/japanese-ramen-simulator-upgrades"
         },
         {
           "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
+          "title": "Ingredients Guide",
+          "description": "Broth bases, tare, noodles, toppings, and aroma oil explained by the way the game scores them.",
+          "href": "/mechanics/japanese-ramen-simulator-ingredients"
         },
         {
           "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
+          "title": "Co-Op Multiplayer",
+          "description": "Shared kitchen mechanics, station roles, and lobby setup for a clean co-op shift.",
+          "href": "/mechanics/japanese-ramen-simulator-multiplayer"
         },
         {
           "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
-        },
-        {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
-        },
-        {
-          "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
-        },
-        {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "title": "Money Guide",
+          "description": "High-margin bowls, side items, and reinvestment habits that keep your cash flow positive.",
+          "href": "/progression/japanese-ramen-simulator-money"
         }
       ]
     },
     "aboutGame": {
       "title": "What is Japanese Ramen Simulator?",
       "paragraphs": [
-        "Japanese Ramen Simulator is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Japanese Ramen Simulator is a first-person cooking and management game for PC, published on Steam in Early Access by Wild Dog. You run a small ramen shop from the kitchen up: source ingredients, simmer broth, marinate eggs, portion toppings, boil noodles to order, and hand steaming bowls to a growing line of customers.",
+        "Between services you reinvest your earnings into the business side of the shop, adding burners and storage to raise throughput, seating and staff to serve more guests, and new recipes that lift each bowl's price. The real challenge is resource management: every pot of broth and every noodle you boil costs money and time you never get back, so planning beats raw speed."
       ],
       "stats": [
         {
           "label": "Developer",
-          "value": "Midnight Continent"
+          "value": "Wild Dog"
         },
         {
           "label": "Platform",
-          "value": "Roblox"
+          "value": "PC (Steam)"
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Cooking & Management"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Modes",
+          "value": "Single-player & Co-op"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Release",
+          "value": "Early Access"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
-        },
-        {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Steam App ID",
+          "value": "4968640"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
       "title": "Explore Japanese Ramen Simulator Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "description": "Everything you need to run a profitable noodle shop: beginner steps, recipe progression, upgrade priorities, co-op roles, ingredient tiers, service tips, patch notes, and system requirements.",
       "modules": [
         {
           "order": 1,
-          "name": "Japanese Ramen Simulator Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/japanese-ramen-simulator-codes",
-          "displayType": "code-box",
+          "name": "Japanese Ramen Simulator Beginner Guide",
+          "description": "A complete introduction to running a ramen shop, covering the cooking flow, ingredient preparation, customer service, and basic management strategy so new players understand the core loop before their first shift.",
+          "href": "/guide/japanese-ramen-simulator-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Learn the order interface and read the whole ticket before you cook"
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Simmer broth first and prep toppings while it reduces"
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Boil noodles to order and serve the bowl while it is steaming"
+            },
+            {
+              "label": "4",
+              "detail": "Bank your first profits and upgrade bottlenecks, not decor"
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/japanese-ramen-simulator-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Japanese Ramen Simulator Recipes",
+          "description": "Cover ramen recipes, ingredient combinations, toppings, and menu creation strategy, and see how broth, tare, noodles, and aroma oil combine into bowls that raise your prices and reputation.",
+          "href": "/progression/japanese-ramen-simulator-best-recipes",
+          "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "S",
+              "detail": "Tonkotsu and tsukemen — heavy body and premium pricing in the late game"
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "A",
+              "detail": "Miso and spicy miso — rich, warming mid-game bowls with strong tips"
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "B",
+              "detail": "Shoyu — deeper color and aroma for minimal extra cost"
+            },
+            {
+              "label": "C",
+              "detail": "Shio — cheapest tare and shortest prep for a brand-new shop"
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/japanese-ramen-simulator-tier-list",
-          "displayType": "tier-grid",
+          "name": "Japanese Ramen Simulator Shop Upgrades",
+          "description": "Explain the shop progression systems, equipment improvements, restaurant expansion, and the ways to raise efficiency that players searching for faster growth care about most.",
+          "href": "/progression/japanese-ramen-simulator-upgrades",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "Stations",
+              "detail": "Extra burners and cooking stations directly raise bowls served per hour"
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "Storage",
+              "detail": "Refrigeration and bulk buying cut spoilage waste"
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "Seating",
+              "detail": "More tables help only once the kitchen keeps pace"
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "Staff",
+              "detail": "Hired help frees you to focus on cooking"
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/japanese-ramen-simulator-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Japanese Ramen Simulator Co Op Guide",
+          "description": "Explain the multiplayer features, team roles, and how players divide cooking, serving, cleaning, and management tasks so a shared kitchen runs like a production line instead of a crowd.",
+          "href": "/mechanics/japanese-ramen-simulator-multiplayer",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "1",
+              "detail": "Assign stations before the first ticket appears"
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "2",
+              "detail": "Give one player the broth pot so it never boils dry"
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "3",
+              "detail": "Stagger noodle baskets to avoid overlapping timers"
+            },
+            {
+              "label": "4",
+              "detail": "Keep toppings restocked during every lull"
+            },
+            {
+              "label": "5",
+              "detail": "Clear and reset tables so the next wave can sit"
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/japanese-ramen-simulator-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Japanese Ramen Simulator Ingredients",
+          "description": "List the available ingredients, toppings, and cooking materials with their roles in ramen creation, aimed at players unlocking and combining food items for higher scores.",
+          "href": "/mechanics/japanese-ramen-simulator-ingredients",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "Broth",
+              "detail": "Shio, shoyu, miso, and tonkotsu set the body of every bowl"
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Tare",
+              "detail": "Concentrated seasoning that defines the style; add it to the bowl"
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Noodles",
+              "detail": "Match thin, medium, or thick specs to the broth's weight"
+            },
+            {
+              "label": "Toppings",
+              "detail": "Chashu, ajitama, nori, menma, and scallions drive tips"
+            },
+            {
+              "label": "Aroma Oil",
+              "detail": "Garlic, sesame, or chili oil delivers the first impression"
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/japanese-ramen-simulator-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Japanese Ramen Simulator Tips",
+          "description": "Collect practical gameplay tips for improving cooking speed, customer satisfaction, restaurant layout, and daily operations, with quick fixes for the problems beginners hit most.",
+          "href": "/guide/japanese-ramen-simulator-tips",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Prep First",
+              "detail": "Simmer broth and portion toppings before you open the doors"
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Small Menu",
+              "detail": "Serve a few dishes well instead of a large menu badly"
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Tickets",
+              "detail": "Read the entire order before you touch the noodles"
+            },
+            {
+              "label": "No Waste",
+              "detail": "Buy for today and build specials around ingredients near spoiling"
+            },
+            {
+              "label": "Ledger",
+              "detail": "Review costs after each session to find your real margin"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Japanese Ramen Simulator Updates",
+          "description": "Show official news, patches, new content, balance changes, and development information so returning players can stay current with how the shop sim keeps evolving.",
+          "href": "/platforms/japanese-ramen-simulator-release-date",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Patches",
+              "detail": "Balance changes and bug fixes arrive through Steam updates"
+            },
+            {
+              "label": "Content",
+              "detail": "New recipes, stations, and shop areas expand the menu"
+            },
+            {
+              "label": "Roadmap",
+              "detail": "Release windows and features can shift during Early Access"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Japanese Ramen Simulator System Requirements",
+          "description": "Display the PC requirements, supported features, multiplayer information, and platform details that players check before deciding whether their machine can run the game.",
+          "href": "/platforms/japanese-ramen-simulator-steam",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Platform",
+              "detail": "Windows PC via Steam, with Steam Deck and gamepad support"
+            },
+            {
+              "label": "Input",
+              "detail": "Keyboard and mouse, gamepad, and touch layouts differ by build"
+            },
+            {
+              "label": "Modes",
+              "detail": "Single-player shifts plus co-op multiplayer sessions"
+            },
+            {
+              "label": "Updates",
+              "detail": "Check the Steam store page for current requirements and patches"
             }
           ]
         }
@@ -304,23 +360,23 @@
       "items": [
         {
           "question": "What is Japanese Ramen Simulator?",
-          "answer": "Japanese Ramen Simulator is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "answer": "Japanese Ramen Simulator is a first-person cooking and management game for PC on Steam, published in Early Access by Wild Dog. You source ingredients, simmer broth, boil noodles to order, plate toppings, and serve customers while reinvesting your profits into a bigger, faster shop."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "Is Japanese Ramen Simulator hard for beginners?",
+          "answer": "The first few in-game days are demanding because the game rarely pauses to explain itself, but the systems are learnable quickly. Prep broth and toppings before opening, serve a small menu well, and bank your early profits before upgrading anything."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "What should I upgrade first in Japanese Ramen Simulator?",
+          "answer": "Throughput first. Extra burners or cooking stations directly increase how many bowls you serve per hour, and refrigeration cuts spoilage waste. Seating and staff help once the kitchen keeps pace, and decor comes last."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "Does Japanese Ramen Simulator have multiplayer?",
+          "answer": "Yes. Japanese Ramen Simulator multiplayer puts several players in one shared kitchen, where a clean split of broth, noodle, topping, and front-of-house duties out-serves a team all crowding the same pot."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "How do I make money fast in Japanese Ramen Simulator?",
+          "answer": "Sell a tight menu of high-margin bowls and side items, price around 2.5 to 3 times ingredient cost, serve quickly, and skip any upgrade that does not raise your output. Margin beats raw volume in the opening hours."
         }
       ]
     },
