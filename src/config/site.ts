@@ -12,6 +12,7 @@ export interface SiteConfig {
     discord?: string;
     youtube?: string;
     twitter?: string;
+    website?: string;
     tiktok?: string;
   };
   locales: readonly string[];
@@ -29,7 +30,10 @@ export const siteConfig: SiteConfig = {
   gameUrl: "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/",
   heroVideoId: "r7uAvTFB_JQ", // Japanese Ramen Simulator Early Access Trailer (Wild Dog, official)
   social: {
+    discord: "https://discord.gg/wilddog",
     youtube: "https://www.youtube.com/@wilddoggame",
+    twitter: "https://x.com/WILDDOG_Game_EN",
+    website: "https://wilddog.jp/japaneseramensimulator",
   },
   locales: ["en", "es", "pt", "de", "fr"],
   defaultLocale: "en",
