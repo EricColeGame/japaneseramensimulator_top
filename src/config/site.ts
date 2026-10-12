@@ -1,3 +1,5 @@
+import { routing } from "@/i18n/routing";
+
 export interface SiteConfig {
   name: string;
   shortName: string;
@@ -35,6 +37,6 @@ export const siteConfig: SiteConfig = {
     twitter: "https://x.com/WILDDOG_Game_EN",
     website: "https://wilddog.jp/japaneseramensimulator",
   },
-  locales: ["en", "es", "pt", "de", "fr"],
-  defaultLocale: "en",
+  locales: routing.locales,
+  defaultLocale: routing.defaultLocale,
 };

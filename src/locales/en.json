@@ -6,7 +6,18 @@
     "description": "Your ultimate guide to Japanese Ramen Simulator on Steam! Explore ramen recipes, ingredients, shop upgrades, money-making strategies, and progression guides.",
     "legalNotice": "Unofficial fan wiki. Not affiliated with Wild Dog or Valve."
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "mechanics": "Mechanics",
+    "progression": "Progression",
+    "items": "Items",
+    "management": "Management",
+    "platforms": "Platforms",
+    "community": "Community",
+    "home": "Home",
+    "menu": "Menu",
+    "toggleTheme": "Toggle theme"
+  },
   "home": {
     "meta": {
       "title": "Japanese Ramen Simulator Wiki — Codes, Guide & Recipes",
@@ -18,13 +29,13 @@
       "description": "Japanese Ramen Simulator is a Steam cooking and management game where players prepare ingredients, cook noodles, craft ramen dishes, upgrade their restaurant, serve customers, and build the ultimate ramen shop.",
       "stats": [
         "All Recipes & Ingredients",
-        "Active Codes",
+        "Platform Guides",
         "Shop Upgrades",
         "Weekly Updates"
       ],
       "primaryCta": "Play on Steam",
       "secondaryCta": "Beginner Guide",
-      "tertiaryCta": "Active Codes",
+      "tertiaryCta": "Progression Guides",
       "videoLabel": "Official Trailer"
     },
     "updates": {
@@ -387,12 +398,39 @@
       "secondary": "Play on Steam"
     }
   },
-  "bosses": {},
+  "guide": {
+    "overviewTitle": "Japanese Ramen Simulator Guides",
+    "overviewDescription": "Beginner guides, a full walkthrough, achievements, and practical tips for every stage of your Japanese Ramen Simulator shop."
+  },
+  "mechanics": {
+    "overviewTitle": "Japanese Ramen Simulator Mechanics",
+    "overviewDescription": "Cooking, ingredients, controls, multiplayer, and ramen shop systems explained so every Japanese Ramen Simulator mechanic makes sense."
+  },
+  "progression": {
+    "overviewTitle": "Japanese Ramen Simulator Progression",
+    "overviewDescription": "Money-making, upgrades, shop expansion, best recipes, and staff guides to push your Japanese Ramen Simulator restaurant further."
+  },
+  "items": {
+    "overviewTitle": "Japanese Ramen Simulator Items & Ingredients",
+    "overviewDescription": "Broth, chashu, noodles, toppings, and menu breakdowns covering every ingredient you cook with in Japanese Ramen Simulator."
+  },
+  "management": {
+    "overviewTitle": "Japanese Ramen Simulator Management",
+    "overviewDescription": "Restaurant setup, employees, profits, and sales guides for running a busy, profitable Japanese Ramen Simulator shop."
+  },
+  "platforms": {
+    "overviewTitle": "Japanese Ramen Simulator Platforms",
+    "overviewDescription": "Steam, PS5, Xbox, Switch, and Mac details plus demo, price, and release date information for Japanese Ramen Simulator."
+  },
+  "community": {
+    "overviewTitle": "Japanese Ramen Simulator Community",
+    "overviewDescription": "Discord and Reddit hubs where Japanese Ramen Simulator players share recipes, builds, and shop strategies."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
     "updated": "Updated",
-    "viewAllCodes": "View all codes",
+    "viewAllCodes": "Browse all guides",
     "playOnRoblox": "Play on Roblox",
     "inThisSection": "In this section",
     "tableOfContents": "Table of Contents",

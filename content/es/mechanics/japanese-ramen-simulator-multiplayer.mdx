@@ -1,0 +1,101 @@
+export const metadata = {
+  title: "Guía del multijugador de Japanese Ramen Simulator: mecánicas cooperativas, roles y consejos",
+  description: "Aprende cómo funciona el multijugador de Japanese Ramen Simulator: mecánicas de cocina compartida, división de roles, configuración de lobby y soluciones a problemas comunes del cooperativo.",
+  category: "mechanics",
+  date: "2026-10-12",
+}
+
+## Por qué el multijugador cambia toda la cocina
+
+Cocinar ramen en solitario es un juego de ritmo: memorizas un bucle y lo repites hasta que se vuelve memoria muscular. El multijugador de Japanese Ramen Simulator convierte ese bucle en una conversación, porque cada tazón ahora depende del timing de otra persona, no solo del tuyo. Si alguna vez viste un tazón quedarse bajo el temporizador de fideos dos segundos de más mientras emplatabas chashu, ya entiendes por qué el cooperativo importa aquí.
+
+En el multijugador de Japanese Ramen Simulator, la cocina deja de ser un rompecabezas privado y se convierte en una pequeña línea de producción. El caldo, los fideos, los toppings, los tickets y las mesas se mueven a la vez, y el equipo que divide esas tareas con claridad atenderá a más clientes que un equipo de cuatro cocineros apiñados alrededor de la misma olla. Esta guía desglosa las mecánicas, los roles y las soluciones prácticas que mantienen una partida en marcha.
+
+Una nota importante desde el principio: las funciones, los tamaños de lobby y las opciones de menú pueden cambiar entre actualizaciones. Trata todo lo que aparece a continuación como un marco mecánico, verifica los detalles en la [página oficial de la tienda de Steam de Japanese Ramen Simulator](https://store.steampowered.com/search/?term=Japanese+Ramen+Simulator) y ajústatelo a lo que ofrezca tu versión actual.
+
+## Mecánicas cooperativas básicas en el multijugador de Japanese Ramen Simulator
+
+La mayoría de los juegos de cocina cooperativos comparten un esqueleto común, y el género de simulación de ramen lo sigue de cerca. Entender ese esqueleto es lo que te permite planificar un turno en lugar de entrar en pánico durante uno.
+
+| Mecánica | Qué hace | Por qué importa en cooperativo |
+|---|---|---|
+| Olla de caldo compartida | Un suministro de caldo alimenta cada tazón | Un jugador debe encargarse de servir con el cucharón o la olla se queda sin caldo |
+| Temporizadores de la olla de fideos | Cada canasta tiene una cuenta atrás independiente | Los solapamientos de tiempo son la causa n.º 1 de tazones arruinados |
+| Estación de preparación de toppings | Chashu, ajitama, menma, nori, cebolletas | La preparación se atrasa al instante si nadie repone |
+| Cola de tickets de pedido | Los tickets aparecen y caducan | Los tickets son el reloj compartido del equipo |
+| Servicio y limpieza de mesas | Los tazones vuelven, las mesas se reinician | Las mesas sucias frenan la siguiente oleada de clientes |
+| Progreso compartido o del anfitrión | Dinero y mejoras | Determina si los invitados conservan sus desbloqueos |
+
+La mayor diferencia mecánica entre el modo individual y el cooperativo es la *contención*. En un jugador solo compites con el reloj. En el multijugador de Japanese Ramen Simulator, también compites con tus compañeros por el mismo cucharón, el mismo quemador y el mismo espacio de encimera. Los informes de la comunidad señalan sistemáticamente esa fricción —no la dificultad— como lo que hunde las primeras partidas cooperativas.
+
+Una segunda diferencia es la latencia. Los minijuegos basados en la sincronización se sienten distintos cuando tu entrada tiene que viajar hasta un anfitrión. Si tu versión ofrece un indicador de ping o conexión, revísalo antes de un turno largo y no después de un pedido arruinado.
+
+## Configuración del lobby y desglose de roles
+
+### Crear y unirse a una sesión
+
+| Paso | Acción | Consejo práctico |
+|---|---|---|
+| 1 | Abre el menú multijugador o cooperativo | Revisa la etiqueta del menú: algunas versiones solo lo llaman "Co-op" |
+| 2 | Crea un lobby o únete a un amigo | Los lobbies con contraseña o solo por invitación evitan que se una gente al azar en plena hora punta |
+| 3 | Confirma quién es el anfitrión | El anfitrión suele ser el dueño de la partida guardada y del progreso |
+| 4 | Asigna estaciones antes del primer ticket | Treinta segundos de planificación ahorran diez tazones arruinados |
+| 5 | Haz un pedido de prueba de baja presión | Confirma que las entradas de todos se registran antes de la hora punta |
+
+Si te unes en lugar de crear la partida, haz una pregunta antes de empezar: *¿de quién es esta partida guardada?* La experiencia de los jugadores sugiere que el progreso, el dinero y el estado de desbloqueo suelen seguir al anfitrión, así que los invitados que quieran conservar sus propias mejoras deberían crear sus propias sesiones.
+
+### Quién hace qué en la línea
+
+| Estación | Tarea principal | Habilidad clave | Tarea de apoyo |
+|---|---|---|---|
+| Caldo | Servir con cucharón, sazonar, rellenar | Consistencia y porcionado | Reponer toppings |
+| Fideos | Olla, tiempo de las canastas, escurrido | Ritmo y precisión | Montaje de tazones |
+| Toppings | Preparar, emplatar, decorar | Velocidad bajo repetición | Limpieza de mesas |
+| Expedidor | Leer tickets, cantar pedidos, emplatar | Comunicación | Cualquier estación si hace falta |
+| Sala | Servir, recoger, reiniciar mesas | Conciencia espacial | Expedidor |
+
+Para una sesión de dos jugadores, la división más limpia es caldo más fideos frente a toppings más sala. Para tres o cuatro, añade un expedidor dedicado: ese rol no es glamuroso, pero es el que convierte una cocina caótica en una línea.
+
+## Solución de problemas comunes del multijugador
+
+Los juegos de cocina cooperativos viven y mueren por su netcode, y los simuladores de ramen no son la excepción. Aquí tienes una tabla de diagnóstico práctica para los problemas que los jugadores reportan con más frecuencia.
+
+| Síntoma | Causa probable | Solución |
+|---|---|---|
+| Los temporizadores parecen inconsistentes | Latencia entre anfitrión y cliente | Haz que el jugador con menos ping sea el anfitrión |
+| Un compañero no puede interactuar con una estación | Propiedad de la estación o un bloqueo suave | Ambos se alejan y luego se acercan de nuevo |
+| Los pedidos se acumulan sin tickets visibles | Desincronización de la interfaz | Haz que el expedidor cante los pedidos en voz alta |
+| El progreso no se conservó | Progreso vinculado a la partida guardada del anfitrión | Repite el turno en la partida guardada correcta |
+| La sesión se cae en plena hora punta | Inestabilidad de conexión | Cambia a conexión por cable o a un anfitrión más cercano |
+| Los jugadores siguen chocando en una estación | Falta de asignación de roles | Vuelve a dividir las estaciones entre oleadas |
+
+El patrón detrás de casi todos estos problemas es el mismo: el juego asume un estado compartido y limpio, y cualquier cosa que rompa esa suposición se manifiesta como un problema de sincronización o interacción. Cuando algo se sienta mal, no sigas insistiendo: pausa, reinicia la estación y vuelve a dividir los roles.
+
+## Consejos, etiqueta y comunicación
+
+- **Di tus acciones en voz alta.** "Dos tonkotsu, un shoyu, fideos al agua" vale más que cualquier HUD.
+- **Nunca abandones una estación sin avisar.** Las ausencias silenciosas son la forma en que se quema el caldo.
+- **Repón durante la calma, no en la hora punta.** La preparación de toppings es una tarea entre oleadas.
+- **Deja que el expedidor lidere.** Una voz leyendo tickets supera a cuatro personas adivinando.
+- **Rota los roles entre turnos.** Todos deberían conocer el temporizador de fideos, no solo quien cocina los fideos.
+- **Acuerden un punto de parada.** Los turnos terminan mal cuando un jugador se va en mitad de un pedido.
+- **Mantén las sesiones cortas al principio.** La experiencia de los jugadores sugiere que las partidas de dos a tres oleadas enseñan el ritmo más rápido que las sesiones maratónicas.
+
+La buena comunicación también significa aceptar que el multijugador de Japanese Ramen Simulator recompensa una cocina más lenta y limpia en lugar de una frenética. La velocidad viene de la repetición, no de esprintar.
+
+## Preguntas frecuentes
+
+**¿El multijugador de Japanese Ramen Simulator admite cooperativo con amigos?**
+Sí: el modo cooperativo del juego está diseñado en torno a un equipo pequeño que comparte una cocina. El tamaño exacto del lobby y los métodos de invitación varían según la versión, así que confirma las opciones actuales en la página de la tienda antes de planificar una sesión.
+
+**¿Puedo jugar al multijugador de Japanese Ramen Simulator en solitario y aun así progresar?**
+Puedes llevar la cocina solo, pero las mecánicas están ajustadas para una carga de trabajo compartida. Los jugadores en solitario normalmente acaban actuando como su propio expedidor, lo que significa una rotación de tickets más lenta y más pedidos perdidos.
+
+**¿Por qué mis pedidos cooperativos siguen arruinándose?**
+Casi siempre por temporizadores solapados. Asigna a un jugador a la olla de fideos, mantén la estación de caldo separada y haz que un expedidor lea los tickets para que nadie adivine qué cocinar después.
+
+**¿Mi progreso se conserva entre sesiones?**
+El progreso normalmente está vinculado a la partida guardada del anfitrión. Si quieres conservar tus propios desbloqueos, crea tú mismo el lobby, y confirma las reglas de guardado de tu versión antes de comprometerte con un turno largo.
+
+**¿Cuál es el mejor primer rol para un jugador nuevo?**
+Toppings. Es la estación más permisiva, te enseña el menú rápidamente y te mantiene fuera de los dos trabajos más duros —el timing del caldo y cantar tickets— hasta que hayas aprendido el ritmo.
