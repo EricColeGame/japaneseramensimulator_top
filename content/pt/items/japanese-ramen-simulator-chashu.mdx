@@ -1,107 +1,92 @@
 export const metadata = {
-  title: "Guia de Chashu em Japanese Ramen Simulator: Brasear, Fatiar e Servir a Carne de Porco Perfeita",
-  description: "Domine o chashu em Japanese Ramen Simulator: escolha o corte de porco certo, braseie para obter sabor intenso, fatie fino e transforme cada tigela em lucro de alto nível.",
+  title: "Japanese Ramen Simulator: Um Guia Prático para o Jogo Cooperativo de Gerenciamento de Lamen",
+  description: "Japanese Ramen Simulator é um simulador cooperativo de lamen para seis jogadores da Wild Dog. Veja o que é anunciado, o que os jogadores relatam e o que não está documentado.",
   category: "items",
-  date: "2026-10-12",
-}
+  date: "2026-10-14",
+};
 
-Chashu é o item que separa uma tigela de noodles esquecível daquelas pelas quais os clientes fazem fila, e em Japanese Ramen Simulator o chashu é uma das coberturas de maior valor que você pode desbloquear. Se sua carne de porco sair seca, cinzenta ou fatiada de forma irregular, suas avaliações estagnam, não importa quão bom seja seu caldo. Acerte o chashu de Japanese Ramen Simulator — o corte, o braseado, a refrigeração, a fatia — e esse será o caminho mais rápido para aumentar os preços das tigelas, satisfazer clientes exigentes e abrir espaços melhores no menu.
+A Wild Dog lançou **Japanese Ramen Simulator** em 9 de outubro de 2026, e ele chegou com uma premissa que parece simples até você tentar administrar uma cozinha com outras cinco pessoas. Este é um jogo cooperativo de gerenciamento de uma loja de lamen para até seis jogadores. Você prepara ingredientes, cozinha, serve a comida, cuida dos clientes e limpa tudo — o ciclo completo de uma loja em funcionamento, não apenas a tigela de macarrão.
 
-Este guia cobre todo o fluxo de produção do chashu: qual porco comprar, como braseá-lo sem passar do ponto, como fatiar para obter a pontuação máxima de qualidade e como precificar as tigelas para que sua margem se mantenha durante um rush. Os números exatos mudam entre builds e atualizações, então trate os valores abaixo como diretrizes de planejamento, não como constantes fixas — e sempre verifique no seu próprio arquivo salvo.
+Este artigo se atém ao que o desenvolvedor realmente anuncia, observa onde a discussão da comunidade preencheu lacunas e deixa explícito o que ninguém documentou. Se você quiser verificar qualquer coisa por conta própria, a [página oficial da loja na Steam](https://store.steampowered.com/app/4968640/) é a única fonte que importa.
 
-## Por Que o Chashu É a Estrela das Suas Tigelas de Ramen
+## O que a página da loja realmente promete
 
-Na maioria dos jogos de gerenciamento de ramen, as coberturas são a camada multiplicadora. O caldo define a atratividade base, os noodles definem a pontuação de textura, mas o chashu é o que os clientes julgam visualmente primeiro. Uma tigela com uma peça brilhante e bem fatiada de porco braseado transmite "premium" instantaneamente, o que permite cobrar mais sem perder satisfação.
+De acordo com a listagem oficial na Steam, Japanese Ramen Simulator é um simulador de gerenciamento de loja de lamen para até seis jogadores. A lista de atividades anunciadas é ampla e deliberadamente mundana:
 
-Isso importa porque o chashu também é um dos poucos itens que escala nas duas direções. No início, um único corte barato pode sustentar todo o seu menu. Depois, quando você estiver competindo por clientes fiéis de alto padrão, a mesma cobertura se torna um diferencial entre uma loja boa e uma loja excelente. Relatos da comunidade colocam consistentemente coberturas à base de porco perto do topo das listas de "mais pedidos" durante o serviço da noite, quando os clientes pedem tigelas mais ricas e pesadas.
+- Preparar ingredientes
+- Cozinhar
+- Servir a comida
+- Cuidar dos clientes
+- Limpar tudo
 
-O chashu faz três trabalhos ao mesmo tempo na sua loja:
+Além desse ciclo, a descrição diz que os jogadores criam seu próprio menu e projetam a loja. A câmera pode ser alternada entre primeira e terceira pessoa, e a página da loja destaca especificamente que jogadores propensos a enjoo de movimento podem escolher uma visão — um detalhe de acessibilidade pequeno, mas genuinamente útil, que muitos jogos de cozinha em primeira pessoa ignoram.
 
-- **Aumenta o valor base da tigela** — uma tigela com chashu normalmente alcança um preço maior do que a mesma tigela sem ele.
-- **Satisfaz preferências** — clientes com preferências por carne, sabor rico ou salgado aceitarão menos coberturas no total se houver chashu.
-- **Permite produção em lote** — um único braseado grande rende muitas porções, o que mantém seu tempo de preparo baixo nos horários de pico.
+Esse é todo o conjunto de recursos verificados. Notavelmente, a página da loja **não** publica uma lista de receitas com quantidades exatas de ingredientes, preços ou qualquer tipo de sistema de códigos. Se você viu uma tabela de "código de receita" circulando, ela não veio da própria descrição da loja do desenvolvedor.
 
-Se você ainda está decidindo em qual simulador de comida investir tempo, vale a pena [explorar a lista de simuladores de ramen e culinária na Steam](https://store.steampowered.com/search/?term=ramen+simulator) para ver como títulos diferentes lidam com sistemas de coberturas antes de se comprometer com um grind.
+## Por que o cooperativo para seis jogadores muda a forma como você cozinha
 
-## Cortes e Tipos de Chashu: Escolhendo a Carne de Porco Certa
+A maioria dos jogos de culinária é um quebra-cabeça de eficiência individual. Aqui, a variável interessante é a divisão do trabalho. Com até seis jogadores e uma loja para administrar, o gargalo raramente são os macarrões — é a coordenação.
 
-Nem todo corte de porco se comporta da mesma forma quando chega à sua estação de preparo. O teor de gordura impulsiona a pontuação de sabor, mas também deixa o cozimento mais lento e dificulta um corte limpo. A tabela abaixo resume como cada opção geralmente se sai.
+Um modelo mental prático, e que decorre das tarefas anunciadas e não de qualquer documento oficial de design:
 
-| Corte / Estilo | Nível de Gordura | Comportamento no Jogo | Melhor Uso |
-| --- | --- | --- | --- |
-| Barriga de porco enrolada | Alto | Pontuação de sabor mais rica, cozimento mais lento, precisa esfriar para fatiar | Tigelas premium estilo tonkotsu e espaços de preço alto |
-| Paleta de porco | Moderado | Sabor equilibrado, mantém bem a forma, tempo tolerante | Tigelas shoyu e shio, menus de nível médio |
-| Lombo de porco | Baixo | Barato, mas resseca rápido e pontua mal | Tigelas econômicas e preenchimento no início do jogo |
-| Chashu de frango | Baixo | Sabor mais leve, substituto mais barato, menor riqueza | Controle de custos e clientes de preferência leve |
-| Acabamento maçaricado (aburi) | Variável | Adiciona bônus de aroma tostado sobre qualquer corte base | Tigelas premium do fim do jogo e especiais |
+| Tipo de estação | Atividade anunciada | Por que importa em grupo |
+|---|---|---|
+| Preparo | Preparar ingredientes | Alimenta tudo o que vem depois; uma parada aqui deixa a panela sem suprimento |
+| Fogão | Cozinhar | Sensível ao tempo, difícil de abandonar no meio da tarefa |
+| Balcão | Servir a comida | Conecta a cozinha aos clientes, expõe erros de entrega |
+| Salão | Cuidar dos clientes | Orientado por interrupções; tira as pessoas de estações fixas |
 
-Uma regra prática: combine o corte com a faixa de preço que você vende. Barriga pertence à sua tigela mais cara, paleta à tigela de trabalho, e lombo à tigela barata que você mantém para volume. Trocar isso é o motivo mais comum pelo qual jogadores veem uma tigela premium ter desempenho abaixo do esperado.
+O objetivo da tabela não é afirmar que essas são estações literais dentro do jogo. É que a lista de tarefas anunciada se divide naturalmente em trabalho fixo e sensível ao tempo e trabalho orientado por interrupções, e os grupos tendem a falhar quando todos gravitam para a mesma categoria. Jogadores que assumem as funções móveis — servir e cuidar dos clientes — geralmente liberam os outros para manter a linha de cozimento.
 
-## Preparo Passo a Passo do Chashu em Japanese Ramen Simulator
+## Design do menu e layout da loja: onde as decisões reais acontecem
 
-O processo é simples, mas a ordem importa. Pular a etapa de refrigeração, por exemplo, arruinará a qualidade das fatias, não importa quão bom tenha sido o braseado.
+Os dois recursos com mais consequências a longo prazo são os que a página da loja menciona quase de passagem: criar seu próprio menu e projetar a loja.
 
-| Etapa | Ação | Por que Importa | Erro Frequente |
-| --- | --- | --- | --- |
-| 1. Preparo | Enrole e amarre a carne de porco em um cilindro uniforme | Formato uniforme = fatias uniformes = qualidade consistente | Deixar o corte plano e irregular |
-| 2. Selar | Doure todos os lados em fogo alto | Constrói o sabor profundo de assado que os clientes avaliam bem | Selar em fogo baixo e cozinhar a carne no vapor |
-| 3. Brasear | Cozinhe em fogo baixo com shoyu, mirin, saquê, gengibre, alho e cebolinha | O líquido é de onde vem a maior parte da pontuação de sabor | Ferver vigorosamente em vez de manter fogo baixo |
-| 4. Descansar | Esfrie e depois refrigere no líquido do braseado | Porco frio fatia limpo; porco quente desfia | Fatiar enquanto ainda está quente |
-| 5. Fatiar | Corte peças finas e consistentes contra as fibras | Fatias finas cobrem mais a tigela e parecem premium | Cortes grossos e irregulares que parecem pouco esforço |
-| 6. Manter | Mantenha as porções no líquido até o serviço | Evita ressecar durante um rush | Deixar fatias expostas no balcão |
+Como nenhuma quantidade de receita, preço de ingrediente ou custo é publicado oficialmente, trate qualquer número específico que você ler em outro lugar como uma alegação de terceiros, e não como documentação. Guias de terceiros discutiram decisões de menu e layout, mas são observações secundárias e devem ser lidas como tal.
 
-### Programe o Braseado em Torno do Pico do Almoço
+O que é seguro raciocinar é a *lógica* de um menu criado pelo jogador:
 
-Chashu é um item de produção em lote, então planeje-o como tal. Comece o braseado bem antes do seu primeiro bloco de serviço para que a carne tenha tempo de esfriar completamente. Uma abordagem comum entre jogadores é brasear durante uma janela tranquila da manhã, refrigerar durante a tarde e fatiar na hora para o público do jantar. Isso mantém a qualidade alta sem consumir as horas em que você deveria estar atendendo clientes.
+- Um menu mais curto concentra o preparo e o cozimento em menos ações, mais repetíveis, o que favorece um grupo que ainda está aprendendo a loja.
+- Um menu mais longo dá a cada um dos até seis jogadores uma função distinta, o que pode ajudar uma equipe coordenada, mas pune uma descoordenada.
+- O layout da loja e o tamanho do menu interagem: um menu que você não consegue operar fisicamente dentro da sua própria planta é um gargalo causado por você mesmo.
 
-Se acabar no meio do rush, resista à tentação de fatiar carne quente direto da panela. A penalidade de qualidade geralmente é pior do que simplesmente operar um menu mais leve por alguns minutos.
+Para quem não sabe por onde começar, a jogada de baixo risco é começar enxuto, aprender o fluxo físico da loja e depois ampliar o menu quando seu grupo tiver um ritmo repetível. Isso é prática de jogador e lógica geral de culinária, não uma estratégia documentada.
 
-## Níveis de Qualidade, Preços e Lucro
+## Primeira pessoa, terceira pessoa e enjoo de movimento
 
-Chashu não é um único item — é um espectro. Duas tigelas podem ambas dizer "chashu" e ainda assim render valores totalmente diferentes dependendo do frescor, da espessura das fatias e da guarnição. A tabela de níveis abaixo mostra como essa progressão geralmente funciona.
+A alternância de câmera merece destaque porque é um dos poucos recursos que o desenvolvedor descreve em termos concretos. Você pode alternar entre primeira e terceira pessoa, e a página da loja diz que você pode escolher uma visão se for propenso a enjoo de movimento.
 
-| Nível | Qualidade Relativa | Custo dos Ingredientes | Uso Sugerido | Perfil de Margem |
-| --- | --- | --- | --- | --- |
-| Básico | Baixa | Muito baixo | Tigelas econômicas, início do jogo, preenchimento de volume | Fina, mas segura |
-| Padrão | Média | Baixo–médio | Tigelas do menu do dia a dia | Saudável, consistente |
-| Premium | Alta | Médio–alto | Tigelas assinatura, vendas incrementais | Lucro forte por tigela |
-| Assinatura | Muito alta | Alto | Especiais limitados, clientes VIP | Maior valor, tempo apertado |
+Se você é sensível ao movimento da câmera, a terceira pessoa é a tentativa óbvia. Se você não tem certeza, a resposta honesta é que só você pode testar — abra o jogo, alterne as visões logo no início e ajuste antes de se comprometer com uma longa sessão cooperativa. Ninguém fora do desenvolvedor pode dizer qual configuração será confortável para você.
 
-Dois hábitos de precificação compensam. Primeiro, nunca precifique uma tigela de chashu premium no mesmo nível de uma padrão — a diferença de qualidade é sua justificativa para um número maior. Segundo, acompanhe seus gastos com ingredientes como proporção do preço da tigela. Se o custo do chashu ultrapassar cerca de um terço do preço da tigela, geralmente é melhor reduzir a porção ou mover esse corte para um espaço mais barato no menu.
+## O que não está documentado
 
-A experiência dos jogadores sugere que uma porção pequena e consistentemente excelente de chashu supera uma porção grande e malfeita quase sempre. Os clientes parecem dar mais peso à apresentação e à qualidade das fatias do que à quantidade pura.
+Esta é a parte que a maioria dos artigos pula. Conforme os appdetails oficiais da Steam obtidos em 14 de outubro de 2026, os itens a seguir **não** são publicados:
 
-## Marinadas, Harmonizações e Erros Comuns
+- Quantidades exatas de receitas ou listas de ingredientes
+- Preços de ingredientes ou do menu
+- Um sistema de código de receita de qualquer tipo
+- Custos de melhorias da loja
+- Sistemas de funcionários ou contratação
+- Notas de patch ou mudanças de balanceamento pós-lançamento
 
-Seu líquido de braseado é efetivamente um seletor de perfil de sabor. Trocar a base muda quais clientes respondem melhor à tigela.
-
-| Base da Marinada | Perfil de Sabor | Combina Bem Com |
-| --- | --- | --- |
-| Shoyu, mirin e saquê | Clássico, equilibrado, agridoce salgado | Tigelas tonkotsu e shoyu |
-| Com base de missô | Mais profundo, levemente adocicado, mais pesado | Especiais ricos de inverno |
-| Estilo shio (sal leve) | Limpo, deixa a carne de porco liderar | Caldos leves e noodles delicados |
-| Finalização com óleo de pimenta | Picante, aromático, ousado | Menu da madrugada e clientes que preferem picância |
-
-Erros comuns que derrubam silenciosamente sua pontuação de chashu:
-
-- **Fatiar grosso demais.** Fatias grossas parecem generosas, mas muitas vezes pontuam menos e cobrem menos a tigela.
-- **Pular a selagem.** Sem dourar, o teto de sabor continua baixo, não importa quanto tempo você braseie.
-- **Superlotar a panela.** Carne demais de uma vez significa cozimento irregular e porções inconsistentes.
-- **Ignorar o frescor.** Fatias de um dia perdem valor rápido; gire o estoque e braseie em lotes realistas.
-- **Negligenciar a guarnição.** Uma combinação de cebolinha ou ovo costuma elevar a qualidade percebida de toda a tigela.
+Se você vir números precisos para qualquer um desses itens apresentados como fato, eles foram ou extraídos dos arquivos do jogo, testados pela comunidade ou inventados — e você não tem como saber qual dos três apenas pela página. A maneira confiável de verificar qualquer um deles é conferir no jogo ou reler a página oficial da loja após uma atualização.
 
 ## FAQ
 
-**Qual é o melhor corte de porco para chashu em Japanese Ramen Simulator?**
-Para a maioria dos jogadores, a paleta de porco é a melhor escolha geral porque equilibra sabor, custo e facilidade de fatiar. A barriga de porco enrolada oferece o teto de sabor mais alto, mas exige mais tempo de preparo e refrigeração cuidadosa. Comece com paleta, depois mude para barriga quando seu fluxo de trabalho estiver estável.
+**Quantos jogadores podem entrar em uma loja?**
+Até seis, de acordo com a descrição oficial da loja.
 
-**Quão fino devo fatiar o chashu?**
-Fino o suficiente para que as fatias se acomodem sobre os noodles em vez de ficarem em cima deles. Na prática, isso significa buscar cortes consistentes e delicados, não fatias grossas. A consistência importa mais do que qualquer espessura-alvo única — fatias irregulares derrubam sua qualidade média.
+**Existe uma lista de receitas publicada com quantidades?**
+Não. A página da loja não inclui quantidades exatas de ingredientes, preços ou um sistema de códigos.
 
-**Posso fazer chashu sem uma estação de braseado completa?**
-Sim, mas seu teto de qualidade será menor. No início, uma configuração simples de cozimento em fogo baixo basta para produzir chashu de nível padrão e manter seu menu competitivo. Faça upgrade quando o chashu se tornar uma parte significativa da sua receita.
+**Posso jogar em terceira pessoa?**
+Sim. A descrição diz que você pode alternar entre visões em primeira e terceira pessoa, e escolher uma visão se for propenso a enjoo de movimento.
 
-**Por que a qualidade do meu chashu continua caindo durante o serviço?**
-Quase sempre são as condições de armazenamento. Fatias deixadas fora do líquido do braseado ressecam e perdem pontuação em pouco tempo. Mantenha as porções no líquido, fatie perto do serviço e evite pré-fatiar um lote inteiro horas antes.
+**Posso criar meu próprio menu e loja?**
+Sim — ambos são recursos anunciados.
 
-Acerte o corte, o braseado e a refrigeração, e o chashu de Japanese Ramen Simulator se torna o motor de lucro mais confiável da sua loja — um que recompensa o planejamento muito mais do que a repetição.
+**Quem desenvolveu, e quando foi lançado?**
+Wild Dog, lançado em 9 de outubro de 2026.
+
+**Onde devo verificar detalhes precisos?**
+A [página de Japanese Ramen Simulator na Steam](https://store.steampowered.com/app/4968640/). Ela é a autoridade sobre o que o jogo realmente contém.

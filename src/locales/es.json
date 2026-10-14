@@ -1,10 +1,10 @@
 {
   "site": {
-    "name": "Japanese Ramen Simulator Wiki",
+    "name": "Wiki de Japanese Ramen Simulator",
     "shortName": "Japanese Ramen Simulator",
-    "tagline": "Guías completas, recetas, mejoras y consejos",
-    "description": "¡Tu guía definitiva de Japanese Ramen Simulator en Steam! Explora recetas de ramen, ingredientes, mejoras de la tienda, estrategias para ganar dinero y guías de progresión.",
-    "legalNotice": "Wiki de fans no oficial. Sin afiliación con Wild Dog ni Valve."
+    "tagline": "Guías para cocinar, jugar en cooperativo y gestionar la tienda",
+    "description": "Una wiki de fans de Japanese Ramen Simulator en Steam. Aprende a preparar ingredientes, cocinar ramen, atender a los clientes, limpiar y llevar una tienda cooperativa para hasta seis jugadores.",
+    "legalNotice": "Wiki de fans no oficial. No está afiliada a Wild Dog ni a Valve."
   },
   "nav": {
     "guide": "Guía",
@@ -20,18 +20,18 @@
   },
   "home": {
     "meta": {
-      "title": "Japanese Ramen Simulator Wiki — Códigos, Guía y Recetas",
-      "description": "Japanese Ramen Simulator Wiki ofrece códigos activos, guías de cocina, recetas de ramen, ingredientes, mejoras de la tienda y estrategias para montar el mejor restaurante de ramen."
+      "title": "Wiki de Japanese Ramen Simulator — Guías, cocina y consejos cooperativos",
+      "description": "La Wiki de Japanese Ramen Simulator cubre información verificada del juego, guías de cocina y servicio, consejos cooperativos y estrategias de gestión de tienda para el simulador de ramen de Wild Dog en Steam."
     },
     "hero": {
-      "eyebrow": "Simulador de restaurante japonés",
-      "title": "Japanese Ramen Simulator Wiki",
-      "description": "Japanese Ramen Simulator es un juego de cocina y gestión en Steam donde los jugadores preparan ingredientes, cocinan fideos, elaboran platos de ramen, mejoran su restaurante, atienden a los clientes y construyen la tienda de ramen definitiva.",
+      "eyebrow": "Simulador de tienda de ramen en Steam",
+      "title": "Wiki de Japanese Ramen Simulator",
+      "description": "Japanese Ramen Simulator es un simulador cooperativo de gestión de tienda de ramen de Wild Dog para hasta seis jugadores. Prepara ingredientes, cocina, sirve comida, atiende a los clientes y limpia mientras diseñas tu propio menú y tienda en vista en primera o tercera persona.",
       "stats": [
-        "Todas las recetas e ingredientes",
-        "Guías de plataformas",
-        "Mejoras de la tienda",
-        "Actualizaciones semanales"
+        "Cooperativo para hasta 6 jugadores",
+        "Menú y diseño de tienda personalizados",
+        "Vista en primera o tercera persona",
+        "Lanzado el 9 de octubre de 2026"
       ],
       "primaryCta": "Jugar en Steam",
       "secondaryCta": "Guía para principiantes",
@@ -40,79 +40,79 @@
     },
     "updates": {
       "title": "Últimas actualizaciones",
-      "browse": "Ver todas las guías",
+      "browse": "Explorar todas las guías",
       "viewAll": "Ver todo"
     },
     "start": {
       "eyebrow": "Empieza aquí",
-      "title": "Tu aventura en Japanese Ramen Simulator",
+      "title": "Tu viaje en Japanese Ramen Simulator",
       "cards": [
         {
           "number": "1",
           "title": "Guía para principiantes",
-          "description": "Aprende el bucle de preparación primero: cuece el caldo, marina los huevos, porciona los toppings y sirve un menú pequeño y bien hecho antes de gastar una sola moneda."
+          "description": "Aprende el bucle cooperativo de la tienda: prepara ingredientes, cocina ramen, atiende a los clientes y limpia mientras diseñas un menú que funcione para tu equipo."
         },
         {
           "number": "2",
           "title": "Mejores recetas",
-          "description": "Avanza del shio y el shoyu al miso, el tonkotsu y el tsukemen, y descubre cómo el tare, los fideos y el aceite aromático dan forma a cada cuenco."
+          "description": "Explora cómo diseñar tu propio menú y ver cómo el caldo, la tare, los fideos y los toppings pueden combinarse en un bol. La página de la tienda no documenta listas exactas de recetas."
         },
         {
           "number": "3",
-          "title": "Mejoras de la tienda",
-          "description": "Gasta tus primeros beneficios en productividad, no en decoración: más fogones, refrigeración y asientos para que la cocina siga el ritmo de la demanda."
+          "title": "Gestión de la tienda",
+          "description": "Planifica la distribución de tu tienda, diseña el menú y organiza la limpieza y la atención al cliente para que tu equipo pueda mantener en marcha una tienda de ramen concurrida."
         },
         {
           "number": "4",
           "title": "Multijugador cooperativo",
-          "description": "Reparte los roles de caldo, fideos, toppings y expedición para que una cocina compartida atienda más que cuatro cocineros apiñados en la misma olla."
+          "description": "Reparte las tareas de preparación de ingredientes, cocina, servicio, atención al cliente y limpieza para que una cocina compartida para hasta seis jugadores funcione sin problemas."
         }
       ]
     },
     "popular": {
       "eyebrow": "Páginas populares",
-      "title": "Tendencias ahora",
+      "title": "Tendencias actuales",
       "quickLinks": [
         "Guía para principiantes",
         "Mejores recetas",
-        "Mejoras de la tienda",
+        "Mejoras de tienda",
         "Guía cooperativa"
       ],
       "cards": [
         {
           "badge": "Principiante",
           "title": "Guía para principiantes",
-          "description": "Prepara el caldo y los toppings, pon precios con margen y convierte un pequeño puesto en una tienda de ramen concurrida.",
+          "description": "Prepara ingredientes, cocina y sirve tus primeros boles, y aprende a diseñar un menú y una tienda para un pequeño equipo cooperativo.",
           "href": "/guide/japanese-ramen-simulator-beginner-guide"
         },
         {
           "badge": "Popular",
           "title": "Mejores recetas",
-          "description": "Todos los caldos, tare, fideos y toppings clasificados por etapa de progresión para que siempre sepas qué cocinar después.",
+          "description": "Principios de diseño de menús y notas documentadas sobre la jugabilidad de los boles de ramen. La página de la tienda no enumera recetas con cantidades o precios exactos.",
           "href": "/progression/japanese-ramen-simulator-best-recipes"
         },
         {
           "badge": "Actualizado",
-          "title": "Mejoras de la tienda",
-          "description": "El orden de mejoras que aumenta los cuencos servidos por hora antes de gastar una moneda en decoración.",
+          "title": "Mejoras de tienda",
+          "description": "Temas de gestión de tienda y consejos de diseño de distribución. El orden de mejora y los efectos exactos no están documentados.",
           "href": "/progression/japanese-ramen-simulator-upgrades"
         },
         {
           "badge": "Popular",
           "title": "Guía de ingredientes",
-          "description": "Bases de caldo, tare, fideos, toppings y aceite aromático explicados según cómo los puntúa el juego.",
+          "description": "Información documentada sobre la preparación de ingredientes y el diseño de tu menú. Las cantidades exactas de ingredientes y los precios no están publicados.",
           "href": "/mechanics/japanese-ramen-simulator-ingredients"
         },
         {
           "badge": "Nuevo",
           "title": "Multijugador cooperativo",
-          "description": "Mecánicas de cocina compartida, roles de cada estación y configuración del lobby para un turno cooperativo impecable.",
+          "description": "Juego cooperativo para hasta seis jugadores, que abarca tareas de estación, atención al cliente y limpieza en una tienda compartida.",
           "href": "/mechanics/japanese-ramen-simulator-multiplayer"
         },
         {
           "badge": "Popular",
           "title": "Guía de dinero",
-          "description": "Cuencos de alto margen, acompañamientos y hábitos de reinversión que mantienen tu flujo de caja positivo.",
+          "description": "Principios de gestión de tienda y satisfacción del cliente. Los precios exactos y los valores de beneficio no están documentados.",
           "href": "/progression/japanese-ramen-simulator-money"
         }
       ]
@@ -120,8 +120,8 @@
     "aboutGame": {
       "title": "¿Qué es Japanese Ramen Simulator?",
       "paragraphs": [
-        "Japanese Ramen Simulator es un juego de cocina y gestión en primera persona para PC, publicado en Steam en Acceso Anticipado por Wild Dog. Diriges una pequeña tienda de ramen desde la cocina: consigues ingredientes, cueces el caldo, marinas los huevos, porcionas los toppings, hierves los fideos al pedido y entregas cuencos humeantes a una fila creciente de clientes.",
-        "Entre servicios reinviertes tus ganancias en el lado empresarial de la tienda, añadiendo fogones y almacenamiento para aumentar la producción, asientos y personal para atender a más clientes, y nuevas recetas que elevan el precio de cada cuenco. El verdadero reto es la gestión de recursos: cada olla de caldo y cada ración de fideos cuestan dinero y tiempo que nunca recuperas, así que planificar vence a la velocidad pura."
+        "Japanese Ramen Simulator es un simulador cooperativo de gestión de tienda de ramen desarrollado por Wild Dog, lanzado en Steam el 9 de octubre de 2026. Admite hasta seis jugadores y abarca la preparación de ingredientes, la cocina, el servicio de comida, la atención a los clientes y la limpieza. Los jugadores crean su propio menú y diseñan la tienda.",
+        "Puedes jugar desde una cámara en primera o tercera persona, y el juego te permite elegir una vista si eres propenso al mareo por movimiento. La página de la tienda no publica una lista de recetas con cantidades exactas de ingredientes, precios ni un sistema de códigos, por lo que esos detalles no están documentados."
       ],
       "stats": [
         {
@@ -134,232 +134,232 @@
         },
         {
           "label": "Género",
-          "value": "Cocina y gestión"
+          "value": "Simulador de gestión de tienda de ramen"
         },
         {
           "label": "Modos",
-          "value": "Un jugador y cooperativo"
+          "value": "Cooperativo para hasta 6 jugadores"
         },
         {
           "label": "Lanzamiento",
-          "value": "Acceso Anticipado"
+          "value": "9 de octubre de 2026"
         },
         {
           "label": "Steam App ID",
           "value": "4968640"
         }
       ],
-      "cta": "Explora todas las guías"
+      "cta": "Explorar todas las guías"
     },
     "explore": {
-      "title": "Explora la Japanese Ramen Simulator Wiki",
-      "description": "Todo lo que necesitas para llevar una tienda de fideos rentable: pasos para principiantes, progresión de recetas, prioridades de mejora, roles cooperativos, niveles de ingredientes, consejos de servicio, notas de parches y requisitos del sistema.",
+      "title": "Explora la Wiki de Japanese Ramen Simulator",
+      "description": "Guías para llevar una tienda de ramen cooperativa: pasos para principiantes, diseño de menú, gestión de tienda, roles cooperativos, preparación de ingredientes, consejos de servicio, seguimiento de actualizaciones y requisitos del sistema.",
       "modules": [
         {
           "order": 1,
           "name": "Guía para principiantes de Japanese Ramen Simulator",
-          "description": "Una introducción completa a llevar una tienda de ramen, que cubre el flujo de cocina, la preparación de ingredientes, la atención al cliente y la estrategia básica de gestión para que los nuevos jugadores entiendan el bucle principal antes de su primer turno.",
+          "description": "Una introducción a llevar una tienda de ramen con hasta seis jugadores, que abarca la preparación de ingredientes, la cocina, el servicio de comida, la atención a los clientes, la limpieza y el diseño de menú para que los nuevos jugadores entiendan el bucle principal.",
           "href": "/guide/japanese-ramen-simulator-beginner-guide",
           "displayType": "step-by-step",
           "highlights": [
             {
               "label": "1",
-              "detail": "Aprende la interfaz de pedidos y lee el ticket completo antes de cocinar"
+              "detail": "Acordad los roles del equipo antes del primer pedido"
             },
             {
               "label": "2",
-              "detail": "Cuece el caldo primero y prepara los toppings mientras reduce"
+              "detail": "Preparad los ingredientes y montad la cocina antes de abrir"
             },
             {
               "label": "3",
-              "detail": "Hierve los fideos al pedido y sirve el cuenco mientras humea"
+              "detail": "Cocina y sirve boles mientras mantienes limpias las zonas de clientes"
             },
             {
               "label": "4",
-              "detail": "Guarda tus primeros beneficios y mejora los cuellos de botella, no la decoración"
+              "detail": "Revisa tu menú y la distribución de la tienda después de cada turno"
             }
           ]
         },
         {
           "order": 2,
           "name": "Recetas de Japanese Ramen Simulator",
-          "description": "Cubre recetas de ramen, combinaciones de ingredientes, toppings y estrategia de creación de menús, y descubre cómo el caldo, el tare, los fideos y el aceite aromático se combinan en cuencos que elevan tus precios y tu reputación.",
+          "description": "Cubre la creación de menús, la combinación de ingredientes, los toppings y la estrategia de diseño de menú. La página de la tienda no publica una lista de recetas con cantidades exactas de ingredientes o precios.",
           "href": "/progression/japanese-ramen-simulator-best-recipes",
           "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "S",
-              "detail": "Tonkotsu y tsukemen — cuerpo intenso y precios premium en el juego tardío"
+              "label": "Caldo",
+              "detail": "Líquido base que forma el núcleo de un bol de ramen; las cantidades exactas de la receta no están documentadas"
             },
             {
-              "label": "A",
-              "detail": "Miso y miso picante — cuencos ricos y reconfortantes de mitad de partida con buenas propinas"
+              "label": "Tare",
+              "detail": "Condimento que define el sabor del bol; las cantidades exactas de la receta no están documentadas"
             },
             {
-              "label": "B",
-              "detail": "Shoyu — más color y aroma por un coste extra mínimo"
+              "label": "Fideos",
+              "detail": "Elige el estilo de fideos que se ajuste a tu diseño de menú; las especificaciones exactas no están documentadas"
             },
             {
-              "label": "C",
-              "detail": "Shio — el tare más barato y la preparación más corta para una tienda recién abierta"
+              "label": "Toppings",
+              "detail": "Añade toppings según tu propio menú; los elementos y cantidades exactos no están publicados"
             }
           ]
         },
         {
           "order": 3,
-          "name": "Mejoras de la tienda de Japanese Ramen Simulator",
-          "description": "Explica los sistemas de progresión de la tienda, las mejoras de equipamiento, la expansión del restaurante y las formas de aumentar la eficiencia que más importan a los jugadores que buscan crecer más rápido.",
+          "name": "Gestión de tienda en Japanese Ramen Simulator",
+          "description": "Explica temas de diseño de tienda, planificación de menú, atención al cliente y gestión de recursos relevantes para llevar tu tienda de ramen. El orden de mejora y los efectos exactos no están documentados.",
           "href": "/progression/japanese-ramen-simulator-upgrades",
           "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Estaciones",
-              "detail": "Los fogones y estaciones de cocina extra aumentan directamente los cuencos servidos por hora"
+              "label": "Distribución de la tienda",
+              "detail": "Diseña tu tienda para favorecer el flujo de cocina, servicio y limpieza"
             },
             {
-              "label": "Almacenamiento",
-              "detail": "La refrigeración y la compra al por mayor reducen el desperdicio por deterioro"
+              "label": "Diseño de menú",
+              "detail": "Crea tu propio menú y ajústalo según cómo vaya el servicio"
             },
             {
-              "label": "Asientos",
-              "detail": "Más mesas solo ayudan cuando la cocina sigue el ritmo"
+              "label": "Atención al cliente",
+              "detail": "Atiende a los clientes para que se vayan satisfechos"
             },
             {
-              "label": "Personal",
-              "detail": "La ayuda contratada te libera para centrarte en cocinar"
+              "label": "Limpieza",
+              "detail": "Mantén limpias las zonas de trabajo y de comedor para que el turno transcurra sin problemas"
             }
           ]
         },
         {
           "order": 4,
           "name": "Guía cooperativa de Japanese Ramen Simulator",
-          "description": "Explica las funciones multijugador, los roles del equipo y cómo los jugadores reparten las tareas de cocinar, servir, limpiar y gestionar para que una cocina compartida funcione como una línea de producción en lugar de una multitud.",
+          "description": "Explica el juego cooperativo para hasta seis jugadores, cómo dividir la preparación de ingredientes, la cocina, el servicio de comida, la atención a los clientes y la limpieza para que una tienda compartida funcione sin problemas.",
           "href": "/mechanics/japanese-ramen-simulator-multiplayer",
           "displayType": "step-by-step",
           "highlights": [
             {
               "label": "1",
-              "detail": "Asigna las estaciones antes de que aparezca el primer ticket"
+              "detail": "Asignad las tareas de cada estación antes de que aparezca el primer pedido"
             },
             {
               "label": "2",
-              "detail": "Da a un jugador la olla de caldo para que nunca se quede seca"
+              "detail": "Que un jugador se encargue de la preparación de ingredientes"
             },
             {
               "label": "3",
-              "detail": "Escalona las cestas de fideos para evitar temporizadores superpuestos"
+              "detail": "Coordina la cocina y el servicio para evitar cuellos de botella"
             },
             {
               "label": "4",
-              "detail": "Mantén los toppings reabastecidos durante cada pausa"
+              "detail": "Mantén ordenadas las zonas de clientes durante cada momento de calma"
             },
             {
               "label": "5",
-              "detail": "Recoge y reordena las mesas para que se siente la siguiente oleada"
+              "detail": "Rota las tareas de limpieza para que las mesas queden libres para nuevos clientes"
             }
           ]
         },
         {
           "order": 5,
           "name": "Ingredientes de Japanese Ramen Simulator",
-          "description": "Enumera los ingredientes, toppings y materiales de cocina disponibles con su papel en la creación del ramen, dirigido a jugadores que desbloquean y combinan alimentos para obtener mejores puntuaciones.",
+          "description": "Explica la preparación de ingredientes y el papel de los ingredientes en la creación de menús. La página de la tienda no enumera cantidades exactas de ingredientes, precios ni un sistema de códigos.",
           "href": "/mechanics/japanese-ramen-simulator-ingredients",
           "displayType": "card-list",
           "highlights": [
             {
               "label": "Caldo",
-              "detail": "Shio, shoyu, miso y tonkotsu definen el cuerpo de cada cuenco"
+              "detail": "Líquido base para el ramen; las cantidades exactas de preparación no están documentadas"
             },
             {
               "label": "Tare",
-              "detail": "Condimento concentrado que define el estilo; añádelo al cuenco"
+              "detail": "Condimento usado para dar sabor al bol; las cantidades exactas no están documentadas"
             },
             {
               "label": "Fideos",
-              "detail": "Ajusta el grosor fino, medio o grueso al peso del caldo"
+              "detail": "Tipo de fideo usado en cada bol; las especificaciones exactas no están documentadas"
             },
             {
               "label": "Toppings",
-              "detail": "Chashu, ajitama, nori, menma y cebolleta impulsan las propinas"
+              "detail": "Añade toppings a tu propio menú; los elementos y cantidades exactos no están publicados"
             },
             {
               "label": "Aceite aromático",
-              "detail": "El ajo, el sésamo o el aceite de chile dan la primera impresión"
+              "detail": "Aceite de acabado opcional; los tipos y cantidades exactos no están documentados"
             }
           ]
         },
         {
           "order": 6,
           "name": "Consejos de Japanese Ramen Simulator",
-          "description": "Reúne consejos prácticos para mejorar la velocidad de cocina, la satisfacción del cliente, el diseño del restaurante y las operaciones diarias, con soluciones rápidas a los problemas más habituales de los principiantes.",
+          "description": "Consejos prácticos de juego para cocinar en cooperativo, satisfacción del cliente, distribución de la tienda y operaciones diarias, con soluciones rápidas para problemas comunes de principiantes.",
           "href": "/guide/japanese-ramen-simulator-tips",
           "displayType": "card-list",
           "highlights": [
             {
               "label": "Prepara primero",
-              "detail": "Cuece el caldo y porciona los toppings antes de abrir las puertas"
+              "detail": "Prepara los ingredientes y monta la cocina antes de abrir"
             },
             {
-              "label": "Menú pequeño",
-              "detail": "Sirve pocos platos bien hechos en lugar de un menú grande mal hecho"
+              "label": "Menú reducido",
+              "detail": "Diseña un menú enfocado que tu equipo pueda cocinar y servir bien"
             },
             {
-              "label": "Tickets",
-              "detail": "Lee el pedido completo antes de tocar los fideos"
+              "label": "Lee los pedidos",
+              "detail": "Revisa todo el pedido antes de empezar a cocinar"
             },
             {
               "label": "Sin desperdicio",
-              "detail": "Compra para el día y crea especiales con ingredientes a punto de estropearse"
+              "detail": "Prepara solo lo que necesites y usa los ingredientes antes de que se estropeen"
             },
             {
-              "label": "Libro de cuentas",
-              "detail": "Revisa los costes tras cada sesión para encontrar tu margen real"
+              "label": "Revisa",
+              "detail": "Después de cada turno, revisa qué ralentizó a tu equipo"
             }
           ]
         },
         {
           "order": 7,
           "name": "Actualizaciones de Japanese Ramen Simulator",
-          "description": "Muestra noticias oficiales, parches, contenido nuevo, cambios de equilibrio e información de desarrollo para que los jugadores que regresan sigan al día con la evolución del simulador.",
+          "description": "Sigue noticias oficiales, parches e información de desarrollo para el lanzamiento en Steam. La página de la tienda no publica notas de parche confirmadas ni una hoja de ruta pública.",
           "href": "/platforms/japanese-ramen-simulator-release-date",
           "displayType": "card-list",
           "highlights": [
             {
               "label": "Parches",
-              "detail": "Los cambios de equilibrio y las correcciones llegan mediante actualizaciones de Steam"
+              "detail": "Steam puede entregar actualizaciones y correcciones de errores después del lanzamiento; las notas de parche confirmadas no están publicadas"
             },
             {
               "label": "Contenido",
-              "detail": "Nuevas recetas, estaciones y zonas de la tienda amplían el menú"
+              "detail": "Nuevas recetas, estaciones y áreas de tienda pueden ampliar el juego; no documentado"
             },
             {
               "label": "Hoja de ruta",
-              "detail": "Las ventanas de lanzamiento y las funciones pueden cambiar durante el Acceso Anticipado"
+              "detail": "Las ventanas de lanzamiento y las funciones futuras no están documentadas"
             }
           ]
         },
         {
           "order": 8,
           "name": "Requisitos del sistema de Japanese Ramen Simulator",
-          "description": "Muestra los requisitos de PC, las funciones compatibles, la información multijugador y los detalles de plataforma que los jugadores consultan antes de decidir si su equipo puede ejecutar el juego.",
+          "description": "Muestra los requisitos para PC, las funciones compatibles y los detalles de plataforma que los jugadores consultan antes de comprar. Los requisitos exactos no están publicados en la página de la tienda.",
           "href": "/platforms/japanese-ramen-simulator-steam",
           "displayType": "code-cards",
           "highlights": [
             {
               "label": "Plataforma",
-              "detail": "PC Windows vía Steam, con compatibilidad con Steam Deck y mando"
+              "detail": "PC con Windows a través de Steam; la compatibilidad con Steam Deck y mando no está documentada"
             },
             {
               "label": "Entrada",
-              "detail": "Teclado y ratón, mando y diseños táctiles varían según la versión"
+              "detail": "Teclado y ratón; las configuraciones de mando y táctil no están documentadas"
             },
             {
               "label": "Modos",
-              "detail": "Turnos para un jugador y sesiones cooperativas multijugador"
+              "detail": "Juego cooperativo para hasta seis jugadores"
             },
             {
               "label": "Actualizaciones",
-              "detail": "Consulta la página de Steam para ver los requisitos y parches actuales"
+              "detail": "Consulta la página de la tienda de Steam para ver los requisitos actuales y los parches"
             }
           ]
         }
@@ -371,88 +371,88 @@
       "items": [
         {
           "question": "¿Qué es Japanese Ramen Simulator?",
-          "answer": "Japanese Ramen Simulator es un juego de cocina y gestión en primera persona para PC en Steam, publicado en Acceso Anticipado por Wild Dog. Consigues ingredientes, cueces el caldo, hierves los fideos al pedido, emplatas los toppings y atiendes a los clientes mientras reinviertes tus beneficios en una tienda más grande y rápida."
+          "answer": "Japanese Ramen Simulator es un simulador cooperativo de gestión de tienda de ramen de Wild Dog, lanzado en Steam el 9 de octubre de 2026. Admite hasta seis jugadores y abarca la preparación de ingredientes, la cocina, el servicio de comida, la atención a los clientes y la limpieza. Creas tu propio menú y diseñas la tienda."
         },
         {
           "question": "¿Es difícil Japanese Ramen Simulator para principiantes?",
-          "answer": "Los primeros días de juego son exigentes porque el juego rara vez se detiene a explicarse, pero los sistemas se aprenden rápido. Prepara el caldo y los toppings antes de abrir, sirve bien un menú pequeño y guarda tus primeros beneficios antes de mejorar nada."
+          "answer": "El juego no documenta dificultad ni tutoriales. Como es un simulador de gestión con hasta seis jugadores cooperativos, un turno fluido suele depender de acordar los roles y preparar los ingredientes antes del servicio."
         },
         {
-          "question": "¿Qué debería mejorar primero en Japanese Ramen Simulator?",
-          "answer": "La productividad primero. Los fogones o estaciones de cocina extra aumentan directamente cuántos cuencos sirves por hora, y la refrigeración reduce el desperdicio por deterioro. Los asientos y el personal ayudan cuando la cocina sigue el ritmo, y la decoración va al final."
+          "question": "¿Cómo debería enfocar la gestión de la tienda en Japanese Ramen Simulator?",
+          "answer": "La página de la tienda dice que creas tu propio menú y diseñas la tienda. El juego no publica un orden de mejoras ni efectos exactos. Un enfoque práctico es mantener la distribución de la tienda y el menú manejables para el tamaño de tu equipo y ajustar después de cada turno."
         },
         {
-          "question": "¿Japanese Ramen Simulator tiene multijugador?",
-          "answer": "Sí. El multijugador de Japanese Ramen Simulator reúne a varios jugadores en una cocina compartida, donde un reparto claro de las tareas de caldo, fideos, toppings y sala atiende más que un equipo apiñado en la misma olla."
+          "question": "¿Tiene multijugador Japanese Ramen Simulator?",
+          "answer": "Sí. Japanese Ramen Simulator admite juego cooperativo para hasta seis jugadores, con tareas compartidas que abarcan la preparación de ingredientes, la cocina, el servicio de comida, la atención a los clientes y la limpieza."
         },
         {
-          "question": "¿Cómo gano dinero rápido en Japanese Ramen Simulator?",
-          "answer": "Vende un menú ajustado de cuencos y acompañamientos de alto margen, pon precios de unas 2,5 a 3 veces el coste de los ingredientes, sirve rápido y sáltate cualquier mejora que no aumente tu producción. El margen supera al volumen bruto en las primeras horas."
+          "question": "¿Cómo puedo ganar dinero rápido en Japanese Ramen Simulator?",
+          "answer": "La página de la tienda no publica precios, valores de beneficio ni un sistema de ganancias. La satisfacción del cliente y el diseño del menú son funciones descritas, por lo que atender bien a los clientes y gestionar tu tienda son prioridades razonables, pero las cifras exactas no están documentadas."
         }
       ]
     },
     "finalCta": {
       "title": "¿Listo para dominar Japanese Ramen Simulator?",
-      "description": "Desde tu primer cuenco de ramen hasta un restaurante totalmente mejorado, nuestra wiki comunitaria te lo cubre todo con guías gratuitas y actualizadas.",
-      "primary": "Lee la guía para principiantes",
+      "description": "Desde tu primer bol hasta un turno cooperativo coordinado, nuestra wiki de fans recopila información verificada del juego y guías prácticas para llevar tu tienda de ramen.",
+      "primary": "Leer la guía para principiantes",
       "secondary": "Jugar en Steam"
     }
   },
   "guide": {
     "overviewTitle": "Guías de Japanese Ramen Simulator",
-    "overviewDescription": "Guías para principiantes, un recorrido completo, logros y consejos prácticos para cada etapa de tu tienda de Japanese Ramen Simulator."
+    "overviewDescription": "Guías para principiantes, tutoriales cooperativos y consejos prácticos para cada etapa de tu tienda en Japanese Ramen Simulator."
   },
   "mechanics": {
     "overviewTitle": "Mecánicas de Japanese Ramen Simulator",
-    "overviewDescription": "Cocina, ingredientes, controles, multijugador y sistemas de la tienda de ramen explicados para que cada mecánica de Japanese Ramen Simulator tenga sentido."
+    "overviewDescription": "Cocina, preparación de ingredientes, controles, multijugador y sistemas de tienda explicados para que cada mecánica de Japanese Ramen Simulator tenga sentido."
   },
   "progression": {
-    "overviewTitle": "Progresión de Japanese Ramen Simulator",
-    "overviewDescription": "Guías de dinero, mejoras, expansión de la tienda, mejores recetas y personal para llevar más lejos tu restaurante de Japanese Ramen Simulator."
+    "overviewTitle": "Progresión en Japanese Ramen Simulator",
+    "overviewDescription": "Guías de gestión de tienda, diseño de menú, atención al cliente y limpieza para llevar tu tienda de Japanese Ramen Simulator más lejos."
   },
   "items": {
     "overviewTitle": "Objetos e ingredientes de Japanese Ramen Simulator",
-    "overviewDescription": "Caldo, chashu, fideos, toppings y desgloses de menús que cubren cada ingrediente con el que cocinas en Japanese Ramen Simulator."
+    "overviewDescription": "Desglose de caldos, fideos, toppings y menús que cubren los ingredientes con los que cocinas en Japanese Ramen Simulator. Las cantidades y precios exactos no están publicados."
   },
   "management": {
-    "overviewTitle": "Gestión de Japanese Ramen Simulator",
-    "overviewDescription": "Guías de configuración del restaurante, empleados, beneficios y ventas para dirigir una tienda de Japanese Ramen Simulator concurrida y rentable."
+    "overviewTitle": "Gestión en Japanese Ramen Simulator",
+    "overviewDescription": "Guías de configuración del restaurante, personal, beneficios y ventas para llevar una concurrida tienda de Japanese Ramen Simulator. Los valores exactos no están documentados."
   },
   "platforms": {
     "overviewTitle": "Plataformas de Japanese Ramen Simulator",
-    "overviewDescription": "Detalles de Steam, PS5, Xbox, Switch y Mac, además de información sobre demo, precio y fecha de lanzamiento de Japanese Ramen Simulator."
+    "overviewDescription": "Steam, fecha de lanzamiento y detalles de plataforma de Japanese Ramen Simulator. Las versiones para PS5, Xbox, Switch y Mac no están documentadas."
   },
   "community": {
     "overviewTitle": "Comunidad de Japanese Ramen Simulator",
-    "overviewDescription": "Hubs de Discord y Reddit donde los jugadores de Japanese Ramen Simulator comparten recetas, builds y estrategias de tienda."
+    "overviewDescription": "Espacios de fans donde los jugadores de Japanese Ramen Simulator comparten recetas, builds y estrategias de tienda. Las invitaciones oficiales de Discord y Reddit no están documentadas."
   },
   "shared": {
-    "wikiNavigation": "Navegación del wiki",
+    "wikiNavigation": "Navegación de la wiki",
     "activeCodes": "Códigos activos",
     "updated": "Actualizado",
-    "viewAllCodes": "Ver todas las guías",
+    "viewAllCodes": "Explorar todas las guías",
     "inThisSection": "En esta sección",
     "tableOfContents": "Índice",
     "nextSteps": "Próximos pasos",
     "needHelp": "¿Necesitas ayuda?",
-    "relatedReading": "Lecturas relacionadas",
+    "relatedReading": "Lectura relacionada",
     "relatedGuides": "Guías relacionadas",
     "readMore": "Leer más",
     "officialMedia": "Medios oficiales",
     "home": "Inicio",
     "noGuidesAvailable": "Aún no hay guías disponibles. ¡Vuelve pronto!",
-    "noActiveCodes": "No hay códigos activos disponibles en este momento",
-    "checkBackSoon": "Vuelve pronto para ver nuevos códigos"
+    "noActiveCodes": "No hay ningún sistema de códigos documentado para este juego",
+    "checkBackSoon": "Consulta la página de Steam para ver noticias oficiales"
   },
   "footer": {
-    "aboutTitle": "Japanese Ramen Simulator Wiki",
-    "about": "Japanese Ramen Simulator Wiki es un centro de guías independiente creado por fans que cubre recetas de ramen, ingredientes, guías de cocina, mejoras de la tienda y conocimientos esenciales del juego tanto para jugadores nuevos como veteranos.",
+    "aboutTitle": "Wiki de Japanese Ramen Simulator",
+    "about": "La Wiki de Japanese Ramen Simulator es un centro de guías independiente creado por fans que cubre la gestión de tiendas de ramen, la preparación de ingredientes, la cocina, el juego cooperativo y conocimientos esenciales del juego tanto para jugadores nuevos como veteranos.",
     "quickLinks": "Enlaces rápidos",
     "guides": "Guías",
     "legal": "Legal",
-    "copyright": "2026 Japanese Ramen Simulator Wiki. Sin afiliación con Wild Dog ni Valve.",
-    "description": "Simulador de gestión de tienda de ramen en Steam. Cocina fideos, crea platos y construye el restaurante de ramen de tus sueños.",
-    "playGame": "Juega a Japanese Ramen Simulator en Steam",
+    "copyright": "2026 Wiki de Japanese Ramen Simulator. No afiliada a Wild Dog ni a Valve.",
+    "description": "Simulador cooperativo de gestión de tienda de ramen en Steam. Prepara ingredientes, cocina, sirve y construye tu tienda de ramen con hasta seis jugadores.",
+    "playGame": "Jugar a Japanese Ramen Simulator en Steam",
     "officialDiscord": "Discord oficial",
     "officialYoutube": "YouTube oficial",
     "officialTwitter": "X (Twitter) oficial",
@@ -460,8 +460,8 @@
     "beginnerGuide": "Guía para principiantes",
     "raceGuides": "Recetas de ramen",
     "bossGuides": "Guías de cocina",
-    "buildGuide": "Mejoras de la tienda",
-    "privacyPolicy": "Política de Privacidad",
-    "termsOfService": "Términos de Servicio"
+    "buildGuide": "Mejoras de tienda",
+    "privacyPolicy": "Política de privacidad",
+    "termsOfService": "Términos de servicio"
   }
 }

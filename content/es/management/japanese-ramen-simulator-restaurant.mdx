@@ -1,126 +1,78 @@
 export const metadata = {
-  title: "Guía de gestión de restaurantes de Japanese Ramen Simulator: construye un próspero imperio de fideos",
-  description: "Domina tu restaurante de Japanese Ramen Simulator con consejos probados sobre preparación de caldo, precios del menú, personal, distribución de asientos y mejoras que aumentan las ganancias rápidamente.",
+  title: "Japanese Ramen Simulator: Guía de una ramen shop cooperativa",
+  description: "Japanese Ramen Simulator es un juego cooperativo de ramen para seis jugadores de Wild Dog. Esto es lo que se anuncia, lo que reportan los jugadores y lo que aún no está documentado.",
   category: "management",
-  date: "2026-10-12",
-}
+  date: "2026-10-14",
+};
 
-Un restaurante de Japanese Ramen Simulator parece sencillo sobre el papel: hervir caldo, cocinar fideos, atender a los clientes, pagar el alquiler. En la práctica, estos juegos de gestión recompensan exactamente los instintos en los que se apoyan los dueños de tiendas reales: constancia, velocidad y saber qué bol de ramen es el que realmente paga las cuentas. Si alguna vez has visto una cola virtual del almuerzo descontrolarse mientras tu medidor de reputación se vacía, ya sabes por qué dominar los sistemas que hay detrás de un restaurante de Japanese Ramen Simulator importa más que los reflejos rápidos.
+Japanese Ramen Simulator llega en un momento extraño para el género de los juegos de cocina. La mayoría de los simuladores de restaurantes piden a un solo jugador que haga malabares con todas las estaciones en solitario, y por eso muchos de ellos colapsan en el caos al tercer pedido. La propuesta de Wild Dog, lanzada el 9 de octubre de 2026, en cambio, construye toda la experiencia en torno a un equipo de hasta seis personas que comparten una sola ramen shop. Esa única decisión de diseño cambia lo que el juego te exige: menos multitarea frenética, más coordinación, y un menú que tú y tus amigos diseñan en lugar de uno que te entregan hecho.
 
-Esta guía desglosa el bucle central de los sims de gestión de tiendas de ramen, desde los tiempos de preparación y la ingeniería del menú hasta el personal, los asientos y la expansión. Todo está escrito para jugadores que quieren menos turnos fallidos y más beneficios constantes y acumulativos.
+La [página oficial de Steam](https://store.steampowered.com/app/4968640/) del juego es la autoridad sobre lo que realmente promete, y vale la pena leerla con atención antes de comprar, porque la descripción de la tienda es amplia y los detalles importan.
 
-## Qué hace que los simuladores de tiendas de ramen funcionen
+## Lo que Wild Dog realmente anuncia
 
-La mayoría de los juegos de este nicho comparten un esqueleto común. Heredas o alquilas una pequeña tienda de barra, compras ingredientes con un presupuesto limitado y atiendes a clientes cuya paciencia es un recurso visible que va contando. Reputación, flujo de caja y frescura de los ingredientes forman una tensión a tres bandas: gasta demasiado en stock premium y te arruinas, gasta muy poco y las reseñas se hunden.
+Según los appdetails oficiales obtenidos de Steam, Japanese Ramen Simulator es un simulador de gestión de ramen shop para hasta seis jugadores. El desarrollador es Wild Dog, y la fecha de lanzamiento es el 9 de octubre de 2026. La lista de características anunciadas cubre todo el ciclo de gestionar el local:
 
-El género ha crecido de forma constante junto al auge general de los sims de cocina, y puedes explorar la cosecha actual de títulos de gestión de ramen y fideos en [los listados de simuladores de ramen de Steam](https://store.steampowered.com/search/?term=ramen+simulator) para ver lo diferente que cada uno maneja la fórmula.
+- Preparar ingredientes
+- Cocinar
+- Servir la comida
+- Atender a los clientes
+- Limpiar
 
-| Sistema central | Qué controla | Por qué importa |
-|---|---|---|
-| Caldo y stock | Puntuación de sabor, tiempo de preparación, caducidad | El caldo premium sube las reseñas pero se come el margen de beneficio |
-| Manejo de los fideos | Tiempo de cocción, valoración de la textura | Los fideos pasados de cocción son la queja más común con diferencia |
-| Paciencia del cliente | Tolerancia de espera, abandonos | Impulsa directamente la ganancia o pérdida de reputación |
-| Precios | Margen del menú por bol | Determina la rapidez con la que puedes reinvertir |
-| Reputación | Volumen de clientes | La puerta de acceso a todo lo demás |
-| Mejoras | Asientos, equipamiento, decoración | Convierte la reputación en capacidad de servicio |
+Más allá del ciclo principal, la descripción de la tienda dice que los jugadores crean su propio menú y diseñan el local. También indica que puedes alternar entre vistas en primera y tercera persona, y que existe una opción de vista para jugadores propensos al mareo por movimiento. Ese último punto es más considerado de lo que parece. Las cocinas en los juegos en primera persona implican muchos giros rápidos entre estaciones, y ofrecer ambas perspectivas es una decisión práctica de accesibilidad, no un simple reclamo de marketing.
 
-La idea clave: reputación sin capacidad de servicio es una trampa. Una tienda de cinco estrellas con seis asientos seguirá perdiendo dinero en una noche ajetreada.
+Fíjate en lo que la descripción *no* incluye. No hay una lista publicada de recetas con cantidades exactas de ingredientes, ni tabla de precios, ni costes de mejoras del local, ni sistema de contratación de personal, ni ningún sistema de códigos o trucos mencionado en la página oficial. Cualquiera que afirme lo contrario se basa en algo distinto a la documentación del propio desarrollador.
 
-## El bucle de juego diario, fase por fase
+## El menú lo diseñas tú
 
-Casi todos los sims de gestión de ramen estructuran el día en fases distintas, y cada una tiene un modo de fallo que pilla desprevenidos a los jugadores nuevos.
+La característica anunciada más interesante es la creación de menús. En lugar de desbloquear platos fijos en un orden establecido, según se informa el juego permite al equipo construir su propia selección. Eso tiene consecuencias reales en cómo se desarrolla una partida, porque un menú es tanto un plan de carga de trabajo como una lista de productos.
 
-| Fase | Acciones clave | Fallo habitual |
-|---|---|---|
-| Preparación matutina | Comprar ingredientes, cocer el caldo a fuego lento, racionar los toppings | Comprar de menos y quedarse sin existencias en plena hora punta |
-| Antes del servicio | Fijar el menú, asignar personal, preparar guarniciones | Olvidarse de reponer gyoza o arroz |
-| Hora punta del almuerzo | Tomar pedidos, controlar los tiempos de los fideos, sentar a los clientes | Dejar que la cola supere los límites de paciencia |
-| Valle de la tarde | Limpiar, reponer, formar al personal, mejoras menores | Desperdiciar la ventana en tiempo muerto |
-| Hora punta de la cena | Pedidos de mayor valor, grupos más grandes | Falta de personal para el volumen |
-| Cierre | Pagar alquiler y salarios, revisar estadísticas | Ignorar el informe diario que muestra tu plato más flojo |
+Aquí se aplica la lógica general de cocina, y lo que sigue es práctica de jugadores, no documentación del desarrollador:
 
-Un hábito práctico basado en la experiencia de los jugadores: trata el valle de la tarde como tu ventana de planificación. Comprueba qué plato se vendió menos, retíralo o ajústale el precio, y raciona los toppings para la noche de modo que la hora punta de la cena empiece con la despensa llena.
+| Decisión del menú | Efecto práctico en un turno cooperativo |
+|---|---|
+| Menos platos | Menos estaciones de preparación que abastecer, más fácil para que los nuevos jugadores aprendan sus roles |
+| Más platos | Mayor atractivo para los clientes, pero más tareas en paralelo y más limpieza |
+| Ingredientes base compartidos | Reduce el ir y venir entre el almacén y la estación |
+| Platos especializados | Mayor techo de habilidad, mejor una vez que el equipo conoce sus roles |
 
-## Ingeniería del menú: qué boles dan dinero de verdad
+El razonamiento es sencillo. Cada plato que añades al menú añade una cadena de preparación, un paso de cocción y limpieza. En una tienda de seis jugadores, eso no es necesariamente un problema, porque puedes dividir el trabajo. Pero sí significa que el menú es un documento de coordinación. Un equipo que añade diez platos el primer día pasará más tiempo corriendo que cocinando.
 
-El diseño del menú es donde se gana o se pierde un restaurante de Japanese Ramen Simulator. Los jugadores nuevos tienden a desbloquearlo todo y ponerlo todo en la carta, lo que colapsa la estación de preparación y ralentiza cada pedido. Los veteranos llevan un menú ajustado y rápido, con una o dos piezas premium como escaparate.
+## Repartir roles entre seis jugadores
 
-| Estilo de bol | Velocidad de preparación | Margen típico | Mejor uso |
-|---|---|---|---|
-| Shio (sal) | Rápida | Moderado | Multitud del almuerzo de alto volumen |
-| Shoyu (soja) | Rápida | Moderado | Venta segura del día a día |
-| Miso | Media | Bueno | Picos de demanda con frío |
-| Tonkotsu | Lenta | Alto | Hora punta de la cena, precios premium |
-| Tsukemen (para mojar) | Media | Alto | Diferenciación frente a rivales |
-| Variantes picantes | Media | Alto | Clientes jóvenes, propinas más altas |
-| Guarniciones (gyoza, arroz) | Muy rápida | Bajo por unidad, alta tasa de acompañamiento | Aumentar el ticket medio |
+Seis jugadores es un número inusual para un simulador de gestión, y es la característica que más define la identidad del juego. El ciclo anunciado cubre preparación, cocción, servicio, atención al cliente y limpieza, lo que naturalmente se divide en grupos aproximados de roles. Nada en la descripción oficial exige roles específicos, así que cualquier división del trabajo es práctica de la comunidad, no un sistema diseñado.
 
-Tres reglas que se cumplen en casi todos los sims de ramen:
+Un reparto con sentido común sería algo así: una o dos personas en la preparación de ingredientes, una o dos en las estaciones de cocción, una encargada de la sala y los clientes, y una que se mueva entre servir y limpiar. Si eso funciona depende enteramente de cómo estén configurados el diseño del local y el menú, y la página oficial no publica un sistema de roles con responsabilidades definidas. Los jugadores deberían tratar cualquier guía de roles como una sugerencia inicial y ajustarla según lo que realmente se convierta en cuello de botella durante el servicio.
 
-- **Limita tu menú a cuatro o seis boles al principio.** Cada receta extra añade pasos de preparación y categorías de ingredientes que debes tener en stock.
-- **Pon precio por margen, no por prestigio.** Un bol barato vendido cuarenta veces supera a uno caro vendido cinco veces.
-- **Acompaña siempre con una guarnición.** Incluso un gyoza pequeño o una ración de arroz eleva el ticket medio sin ralentizar mucho la cocina.
+El requisito de limpieza merece atención. Aparece en la lista de características anunciadas junto a cocinar y servir, no como una ocurrencia tardía. En la práctica, eso suele significar que la suciedad se acumula y alguien tiene que ocuparse de ella, que es exactamente el tipo de tarea que se ignora cuando todos están ocupados. Asignarla explícitamente, en lugar de asumir que alguien se dará cuenta, es el enfoque más seguro.
 
-Los informes de la comunidad muestran de forma consistente que un menú estrecho y rápido genera más ingresos que uno amplio y lento durante las primeras semanas de juego.
+## Primera persona, tercera persona y mareo por movimiento
 
-## Personal, asientos y sobrevivir a la hora punta del almuerzo
+El cambio de cámara está documentado en la descripción de la tienda, al igual que la adaptación para el mareo por movimiento. Este es uno de los pocos detalles de accesibilidad que el desarrollador señala explícitamente, lo que sugiere que esperan que los jugadores cambien de vista según la situación en lugar de elegir una de forma permanente.
 
-La mano de obra es tu mayor coste recurrente después del alquiler, así que contrata con criterio. Cada rol resuelve un cuello de botella concreto, y contratar al equivocado primero es un error clásico de principiante.
+La tercera persona generalmente ofrece una lectura más amplia del tráfico en el local y de las posiciones de los compañeros de equipo, lo que ayuda cuando coordinas un momento de ajetreo. La primera persona tiende a ser mejor para el trabajo de precisión en una estación. Como el juego admite ambas, la respuesta práctica es usar la que convenga a la tarea en cuestión, y cambiar de inmediato a la opción más cómoda si empiezas a sentirte mal.
 
-| Rol | Resuelve | Prioridad de contratación | Notas |
-|---|---|---|---|
-| Cocinero / estación de fideos | Capacidad de la cocina | La más alta | Tu primera contratación en casi cualquier build |
-| Camarero | Entrega de pedidos y recogida | Alta | Evita que se estanque la rotación de mesas |
-| Cajero | Velocidad de pago en la barra | Media | Importa más cuando amplías los asientos |
-| Ayudante de preparación | Cortar ingredientes y reponer | Media | Libera al cocinero durante las horas punta |
-| Limpiador | Puntuación de suciedad e higiene | Baja–Media | Si lo descuidas, las reseñas caen |
+## Lo que no está documentado
 
-La distribución de los asientos merece más atención de la que suele recibir. Los asientos de barra son baratos, rápidos de atender y perfectos para comensales solos. Las mesas ocupan más espacio pero gestionan grupos que gastan más por persona.
+Varias cosas sobre las que los jugadores suelen preguntar simplemente no están en la página oficial de la tienda. No hay una lista publicada de recetas con cantidades, ni datos de precios de ingredientes, ni tabla de costes de mejoras del local, ni sistema de gestión de personal, ni sistema de códigos. Los appdetails oficiales de Steam para la app 4968640 tampoco incluyen notas de parches ni una hoja de ruta.
 
-| Distribución | Asientos por casilla | Mejor para | Desventaja |
-|---|---|---|---|
-| Solo barra | Alta | Velocidad, comensales solos | Los grupos se saltan tu tienda |
-| Barra + mesas pequeñas | Equilibrada | La mayoría de builds de mitad de partida | Servicio algo más lento |
-| Predominio de mesas | Baja | Grupos grandes, tickets más altos | Las esperas largas frustran a los clientes solos |
+Si quieres confirmar si algo de esto existe en la versión final, el método fiable es consultar la página oficial de Steam y los propios menús y documentación dentro del juego tras el lanzamiento. Las guías de terceros pueden ser útiles para primeras impresiones, pero son observaciones secundarias, no documentación del desarrollador, y deben tratarse como tal cuando entren en conflicto con lo que indica la página de la tienda.
 
-Un patrón fiable: empieza solo con barra para una rotación rápida y luego añade mesas para dos cuando tu reputación atraiga grupos. Mantén un camino de circulación despejado entre la cocina y el asiento más lejano: los atascos de pathing son una de las causas de abandono más subestimadas.
+## FAQ
 
-## Prioridades de mejora y cuándo expandirse
+**¿Cuántos jugadores pueden unirse a una tienda?**
+Hasta seis, según la descripción oficial de Steam.
 
-Las mejoras se acumulan, pero solo si atacan tu cuello de botella actual. Gastar en decoración mientras tu cocina es el factor limitante solo produce un atasco más bonito.
+**¿Puedo jugar solo?**
+La página de la tienda describe un juego para hasta seis jugadores, pero no indica explícitamente un modo para un solo jugador. Consulta la página oficial o el propio juego para confirmar el soporte actual para un jugador.
 
-| Mejora | Nivel aproximado | Prioridad | Beneficio real |
-|---|---|---|---|
-| Cocedor de fideos más rápido | Temprano | Muy alta | Acorta cada pedido |
-| Segunda encimera de preparación | Temprano–Medio | Alta | Trabajo de ingredientes en paralelo |
-| Nevera más grande | Medio | Alta | Compra al por mayor, reduce el desperdicio |
-| Asientos adicionales | Medio | Alta | Ganancia directa de capacidad |
-| Mejor cartelería / decoración | Medio | Media | Atrae nuevos tipos de cliente |
-| Segunda ubicación | Tardío | Situacional | Solo cuando la primera ubicación se gestiona sola |
+**¿Hay una lista fija de recetas?**
+No se publica en la página de la tienda ninguna lista de recetas con cantidades exactas. Se anuncia la creación de menús; las recetas específicas no están documentadas.
 
-Una prueba sencilla antes de cualquier compra: ¿cuál es mi cuello de botella actual: velocidad de cocina, asientos o afluencia de clientes? Compra la mejora que arregle esa única cosa y vuelve a medir. Expandirte a una segunda ubicación antes de que la primera funcione sin tu atención constante suele repartir tu tiempo demasiado y arrastrar hacia abajo ambas tiendas.
+**¿Qué cámara debería usar?**
+Se admiten tanto la primera como la tercera persona. A los jugadores propensos al mareo por movimiento el desarrollador les indica que hay una opción de vista disponible, así que elige la que te resulte cómoda.
 
-## Errores que hunden a las tiendas de ramen nuevas
+**¿Quién lo desarrolló y cuándo se lanzó?**
+Wild Dog, lanzado el 9 de octubre de 2026.
 
-- **Pasar los fideos de cocción.** Los tiempos importan más que cualquier otra acción individual. Sácalos antes, no después.
-- **Ignorar el informe diario.** Te dice qué plato es un lastre y dónde se rindieron los clientes.
-- **Contratar personal antes de tener ingresos para cubrir los salarios.** Una sola semana mala puede arrasar tu colchón de efectivo.
-- **Perseguir cada desbloqueo.** Las recetas nuevas no son automáticamente mejores recetas.
-- **Dejar que la higiene se descuide.** Las penalizaciones por suciedad golpean la reputación, y la reputación es tu motor de clientes.
-- **Descuidar el valle de la tarde.** Esa hora tranquila es tu mejor oportunidad para reponer y ajustar precios.
-
-Trata cada turno como un pequeño experimento. Cambia una variable —un precio, una casilla de asiento, una contratación— y observa los números del día siguiente. Ese hábito iterativo es lo que separa una barra en apuros de un imperio del ramen.
-
-## Preguntas frecuentes
-
-**¿Es difícil para principiantes un juego de restaurante de Japanese Ramen Simulator?**
-Los primeros días de juego suelen ser indulgentes, y la dificultad aumenta a medida que crece tu reputación y las multitudes se hacen más grandes. Céntrate en un menú pequeño y en tiempos de fideos rápidos, y la curva de aprendizaje se aplana enseguida.
-
-**¿Qué debería mejorar primero en un sim de tienda de ramen?**
-La velocidad de la cocina casi siempre va primero. Un cocedor más rápido o una segunda estación de preparación acortan cada pedido, lo que aumenta la capacidad sin añadir costes de personal.
-
-**¿Cuántos boles debería tener en el menú al principio?**
-De cuatro a seis es un rango saludable. Mantiene manejables las categorías de ingredientes y evita que la estación de preparación se convierta en un cuello de botella durante la hora punta del almuerzo.
-
-**¿De verdad importan las guarniciones como el gyoza?**
-Sí. Se preparan rápido y elevan el ticket medio, algo que importa más al beneficio a largo plazo que exprimir el margen de tu bol estrella.
+La forma más segura de abordar Japanese Ramen Simulator es tratar la descripción oficial como el límite de lo confirmado, construir tu menú en torno a lo que tu equipo realmente puede ejecutar, y verificar el resto dentro del juego.

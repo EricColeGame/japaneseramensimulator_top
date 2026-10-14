@@ -1,126 +1,78 @@
 export const metadata = {
-  title: "Guia de Gerenciamento de Restaurante no Japanese Ramen Simulator: Construa um Império de Lámen Próspero",
-  description: "Domine seu restaurante no Japanese Ramen Simulator com dicas comprovadas sobre preparo de caldo, precificação de menu, contratação de equipe, layout de assentos e melhorias que aumentam o lucro rapidamente.",
+  title: "Japanese Ramen Simulator: Guia de uma Loja de Ramen Cooperativa",
+  description: "Japanese Ramen Simulator é um jogo cooperativo de loja de ramen para seis jogadores da Wild Dog. Veja o que é anunciado, o que os jogadores relatam e o que ainda não está documentado.",
   category: "management",
-  date: "2026-10-12",
-}
+  date: "2026-10-14",
+};
 
-Um restaurante no Japanese Ramen Simulator parece simples no papel: ferver caldo, cozinhar macarrão, servir clientes, pagar o aluguel. Na prática, esses jogos de gerenciamento recompensam exatamente os instintos que donos de lojas reais usam — consistência, velocidade e saber qual tigela realmente paga as contas. Se você já viu uma fila de almoço virtual sair do controle enquanto sua barra de reputação despenca, você já sabe por que dominar os sistemas por trás de um restaurante no Japanese Ramen Simulator importa mais do que reflexos rápidos.
+Japanese Ramen Simulator chega num momento estranho para o gênero de jogos de culinária. A maioria dos simuladores de restaurante pede que um único jogador dê conta de todas as estações sozinho, e é por isso que tantos deles entram em colapso no terceiro pedido. A proposta da Wild Dog, lançada em 9 de outubro de 2026, em vez disso constrói toda a experiência em torno de uma equipe de até seis pessoas compartilhando uma loja de ramen. Essa única escolha de design muda o que o jogo exige de você: menos multitarefa frenética, mais coordenação, e um menu que você e seus amigos criam em vez de um menu entregue pronto.
 
-Este guia detalha o loop central dos simuladores de gerenciamento de loja de lámen, do timing de preparo e engenharia de menu até contratação, assentos e expansão. Tudo aqui foi escrito para jogadores que querem menos turnos fracassados e mais lucro constante e composto.
+A [página oficial do jogo na Steam](https://store.steampowered.com/app/4968640/) é a autoridade sobre o que ele realmente promete, e vale a pena lê-la com atenção antes de comprar, porque a descrição da loja é ampla e os detalhes importam.
 
-## O Que Faz os Simuladores de Loja de Lámen Funcionarem
+## O Que a Wild Dog Realmente Anuncia
 
-A maioria dos jogos desse nicho compartilha uma estrutura comum. Você herda ou aluga uma pequena loja de balcão, compra ingredientes com orçamento limitado e atende clientes cuja paciência é um recurso visível e que corre contra o tempo. Reputação, fluxo de caixa e frescor dos ingredientes formam uma tensão tripla: gaste demais em estoque premium e você quebra; gaste de menos e as avaliações despencam.
+De acordo com os appdetails oficiais obtidos na Steam, Japanese Ramen Simulator é um simulador de gerenciamento de loja de ramen para até seis jogadores. A desenvolvedora é a Wild Dog, e a data de lançamento é 9 de outubro de 2026. A lista de recursos anunciados cobre todo o ciclo de administrar a loja:
 
-O gênero cresceu constantemente junto com o boom mais amplo dos simuladores de culinária, e você pode navegar pela safra atual de títulos de gerenciamento de lámen e macarrão nas [listagens de simuladores de lámen da Steam](https://store.steampowered.com/search/?term=ramen+simulator) para ver como cada um lida com a fórmula de maneira diferente.
+- Preparar ingredientes
+- Cozinhar
+- Servir a comida
+- Cuidar dos clientes
+- Limpar
 
-| Sistema Central | O Que Controla | Por Que Importa |
-|---|---|---|
-| Caldo e estoque | Pontuação de sabor, tempo de preparo, deterioração | Caldo premium aumenta avaliações, mas consome margens de lucro |
-| Manuseio do macarrão | Timing de cozimento, avaliação de textura | Macarrão cozido demais é a reclamação mais comum |
-| Paciência do cliente | Tolerância de espera, desistências | Impulsiona diretamente o ganho ou a perda de reputação |
-| Precificação | Margem do menu por tigela | Define com que rapidez você pode reinvestir |
-| Reputação | Volume de fluxo de clientes | O portão para todo o resto |
-| Melhorias | Assentos, equipamentos, decoração | Converte reputação em capacidade de atendimento |
+Além do ciclo principal, a descrição da loja diz que os jogadores criam seu próprio menu e projetam a loja. Também afirma que você pode alternar entre visões em primeira e terceira pessoa, e que existe uma opção de visualização para jogadores propensos a enjoo de movimento. Esse último ponto é mais atencioso do que parece. Cozinhas em jogos em primeira pessoa envolvem muitas viradas rápidas entre estações, e oferecer ambas as perspectivas é uma decisão prática de acessibilidade, não um item de marketing.
 
-A principal percepção: reputação sem capacidade de atendimento é uma armadilha. Uma loja cinco estrelas com seis lugares ainda perderá dinheiro em uma noite movimentada.
+Observe o que a descrição *não* inclui. Não há lista de receitas publicada com quantidades exatas de ingredientes, nem tabela de preços, nem custos de melhorias da loja, nem sistema de contratação de funcionários, e nenhum sistema de códigos ou cheats mencionado em qualquer lugar da página oficial. Quem afirmar o contrário está se baseando em algo que não é a documentação da própria desenvolvedora.
 
-## O Loop Diário de Jogo, Fase por Fase
+## O Menu É Seu para Criar
 
-Quase todo simulador de gerenciamento de lámen estrutura um dia em fases distintas, e cada uma tem um modo de falha que pega novos jogadores.
+O recurso anunciado mais interessante é a criação de menu. Em vez de desbloquear pratos fixos numa ordem definida, o jogo supostamente permite que a equipe monte sua própria linha de pratos. Isso tem consequências reais para como uma sessão se desenrola, porque um menu é tanto um plano de carga de trabalho quanto uma lista de produtos.
 
-| Fase | Ações Principais | Falha Comum |
-|---|---|---|
-| Preparo matinal | Comprar ingredientes, apurar caldo, porcionar coberturas | Comprar de menos e acabar no meio do rush |
-| Pré-serviço | Definir menu, atribuir equipe, preparar acompanhamentos | Esquecer de reabastecer gyoza ou arroz |
-| Rush do almoço | Anotar pedidos, cronometrar macarrão, acomodar clientes | Deixar a fila ultrapassar os limites de paciência |
-| Pausa da tarde | Limpar, reabastecer, treinar equipe, pequenas melhorias | Desperdiçar a janela com ociosidade |
-| Rush do jantar | Pedidos de maior valor, grupos maiores | Equipe insuficiente para o volume |
-| Fechamento | Pagar aluguel e salários, revisar estatísticas | Ignorar o relatório diário que mostra seu prato fraco |
+A lógica geral de culinária se aplica aqui, e o seguinte é prática dos jogadores, não documentação da desenvolvedora:
 
-Um hábito prático da experiência dos jogadores: trate a pausa da tarde como sua janela de planejamento. Veja qual prato vendeu menos, remova-o ou reajuste o preço, e porcione coberturas antecipadamente para a noite, para que o rush do jantar comece com a despensa cheia.
+| Decisão de menu | Efeito prático num turno cooperativo |
+|---|---|
+| Menos pratos | Menos estações de preparo para abastecer, mais fácil para novos jogadores aprenderem funções |
+| Mais pratos | Apelo mais amplo aos clientes, mas mais tarefas paralelas e mais limpeza |
+| Ingredientes-base compartilhados | Reduz a correria entre o armazenamento e a estação |
+| Pratos especializados | Teto de habilidade mais alto, melhor quando a equipe já conhece suas funções |
 
-## Engenharia de Menu: Quais Tigelas Realmente Dão Lucro
+O raciocínio é direto. Cada prato que você adiciona ao menu acrescenta uma cadeia de preparo, uma etapa de cozimento e limpeza. Numa loja de seis jogadores, isso não é necessariamente um problema, porque você pode dividir o trabalho. Mas significa que o menu é um documento de coordenação. Uma equipe que adiciona dez pratos no primeiro dia vai passar mais tempo correndo do que cozinhando.
 
-O design do menu é onde um restaurante no Japanese Ramen Simulator é ganho ou perdido. Novos jogadores tendem a desbloquear tudo e listar tudo, o que inunda a estação de preparo e atrasa cada pedido. Veteranos trabalham com um menu enxuto e rápido, com uma ou duas peças premium de destaque.
+## Dividindo Funções Entre Seis Jogadores
 
-| Estilo de Tigela | Velocidade de Preparo | Margem Típica | Melhor Uso |
-|---|---|---|---|
-| Shio (sal) | Rápida | Moderada | Público de almoço em alto volume |
-| Shoyu (soja) | Rápida | Moderada | Vendedor seguro para o dia a dia |
-| Miso | Média | Boa | Picos de demanda em tempo frio |
-| Tonkotsu | Lenta | Alta | Rush do jantar, preço premium |
-| Tsukemen (com molho para mergulhar) | Média | Alta | Diferenciação contra concorrentes |
-| Variantes picantes | Média | Alta | Clientes mais jovens, gorjetas maiores |
-| Acompanhamentos (gyoza, arroz) | Muito rápida | Baixa por item, alta taxa de adesão | Aumentar o ticket médio |
+Seis jogadores é um número incomum para um simulador de gerenciamento, e é o recurso que mais define a identidade do jogo. O ciclo anunciado cobre preparo, cozimento, servir, atendimento ao cliente e limpeza, o que naturalmente se divide em grupos aproximados de funções. Nada na descrição oficial determina funções específicas, então qualquer divisão de trabalho é prática da comunidade, não um sistema projetado.
 
-Três regras que valem para quase todo simulador de lámen:
+Uma divisão de bom senso seria mais ou menos assim: uma ou duas pessoas no preparo de ingredientes, uma ou duas nas estações de cozimento, uma cuidando do salão e dos clientes, e uma circulando entre servir e limpar. Se isso funciona depende inteiramente de como o layout da loja e o menu estão configurados, e a página oficial não publica um sistema de funções com responsabilidades definidas. Os jogadores devem tratar qualquer guia de funções como uma sugestão inicial e ajustar com base no que realmente vira gargalo durante o serviço.
 
-- **Limite seu menu a quatro ou seis tigelas no começo.** Cada receita extra adiciona etapas de preparo e categorias de ingredientes que você precisa estocar.
-- **Precifique pela margem, não pelo prestígio.** Uma tigela barata vendida quarenta vezes supera uma tigela cara vendida cinco vezes.
-- **Sempre inclua um acompanhamento.** Até um pequeno gyoza ou porção de arroz eleva o ticket médio sem atrasar muito a cozinha.
+O requisito de limpeza merece atenção. Ele aparece na lista de recursos anunciados ao lado de cozinhar e servir, não como uma reflexão tardia. Na prática, isso geralmente significa que a sujeira se acumula e alguém tem que lidar com ela, que é exatamente o tipo de tarefa que é ignorada quando todo mundo está ocupado. Designá-la explicitamente, em vez de presumir que alguém vai notar, é a abordagem mais segura.
 
-Relatos da comunidade mostram consistentemente que um menu estreito e rápido rende mais do que um amplo e lento nas primeiras várias semanas de jogo.
+## Primeira Pessoa, Terceira Pessoa e Enjoo de Movimento
 
-## Equipe, Assentos e Como Sobreviver ao Rush do Almoço
+A alternância de câmera está documentada na descrição da loja, assim como a adaptação para enjoo de movimento. Este é um dos poucos detalhes de acessibilidade que a desenvolvedora destaca explicitamente, o que sugere que ela espera que os jogadores troquem de visão conforme a situação, em vez de escolher uma permanentemente.
 
-A mão de obra é seu maior custo recorrente depois do aluguel, então contrate com critério. Cada função resolve um gargalo específico, e contratar a pessoa errada primeiro é um erro clássico do início.
+A terceira pessoa geralmente dá uma leitura mais ampla do movimento da loja e das posições dos companheiros de equipe, o que ajuda quando você está coordenando um corre-corre. A primeira pessoa tende a ser melhor para trabalho de precisão numa estação. Como o jogo suporta ambas, a resposta prática é usar a que se adequa à tarefa em questão, e mudar para a opção mais confortável imediatamente se você começar a se sentir mal.
 
-| Função | Resolve | Prioridade de Contratação | Observações |
-|---|---|---|---|
-| Cozinheiro / estação de macarrão | Capacidade da cozinha | Mais alta | Sua primeira contratação em quase toda build |
-| Atendente | Entrega e limpeza de pedidos | Alta | Evita travamentos na rotatividade das mesas |
-| Operador de caixa | Velocidade de pagamento no balcão | Média | Importa mais quando os assentos aumentam |
-| Assistente de preparo | Corte de ingredientes e reabastecimento | Média | Libera o cozinheiro durante os rushes |
-| Faxineiro | Pontuação de sujeira e higiene | Baixa–Média | Negligencie e as avaliações caem |
+## O Que Não Está Documentado
 
-O layout de assentos merece mais atenção do que costuma receber. Lugares no balcão são baratos, rápidos de atender e perfeitos para clientes sozinhos. Mesas custam mais espaço, mas atendem grupos que gastam mais por pessoa.
+Várias coisas sobre as quais os jogadores costumam perguntar simplesmente não estão na página oficial da loja. Não há lista de receitas publicada com quantidades, nem dados de preços de ingredientes, nem tabela de custos de melhorias da loja, nem sistema de gerenciamento de funcionários, e nem sistema de códigos. Os appdetails oficiais da Steam para o app 4968640 também não incluem notas de atualização nem um roadmap.
 
-| Layout | Assentos por Bloco | Melhor Para | Desvantagem |
-|---|---|---|---|
-| Somente balcão | Alto | Velocidade, clientes sozinhos | Grupos pulam sua loja |
-| Balcão + mesas pequenas | Equilibrado | Maioria das builds de meio de jogo | Atendimento um pouco mais lento |
-| Muitas mesas | Baixo | Grupos grandes, tickets mais altos | Longas esperas frustram clientes sozinhos |
+Se você quiser confirmar se algum desses itens existe na versão final, o método confiável é verificar a página oficial na Steam e os próprios menus e documentação do jogo após o lançamento. Guias de terceiros podem ser úteis para impressões iniciais, mas são observações secundárias, não documentação da desenvolvedora, e devem ser tratados como tal quando entrarem em conflito com o que a página da loja afirma.
 
-Um padrão confiável: comece somente com balcão para rotatividade rápida, depois adicione mesas para dois quando sua reputação atrair grupos. Mantenha um caminho livre entre a cozinha e o assento mais distante — congestionamentos de rota são uma das causas mais subestimadas de desistências.
+## Perguntas Frequentes
 
-## Prioridades de Melhorias e Quando Expandir
+**Quantos jogadores podem entrar numa loja?**
+Até seis, segundo a descrição oficial da Steam.
 
-As melhorias se acumulam, mas só se resolverem seu gargalo atual. Gastar em decoração enquanto a cozinha é o fator limitante só produz um engarrafamento mais bonito.
+**Posso jogar sozinho?**
+A página da loja descreve um jogo para até seis jogadores, mas não afirma explicitamente um modo solo. Verifique a página oficial ou o próprio jogo para confirmar o suporte solo atual.
 
-| Melhoria | Nível Aproximado | Prioridade | Benefício Real |
-|---|---|---|---|
-| Cozedor de macarrão mais rápido | Início | Muito alta | Encurta cada pedido individual |
-| Segundo balcão de preparo | Início–Meio | Alta | Trabalho paralelo com ingredientes |
-| Geladeira maior | Meio | Alta | Compra em volume, reduz deterioração |
-| Assentos extras | Meio | Alta | Ganho direto de capacidade de atendimento |
-| Sinalização / decoração melhores | Meio | Média | Atrai novos tipos de clientes |
-| Segunda unidade | Final | Situacional | Só quando a primeira unidade funciona sozinha |
+**Existe uma lista fixa de receitas?**
+Nenhuma lista de receitas com quantidades exatas é publicada na página da loja. A criação de menu é anunciada; receitas específicas não são documentadas.
 
-Um teste simples antes de qualquer compra: qual é meu gargalo atual — velocidade da cozinha, assentos ou fluxo de clientes? Compre a melhoria que corrige essa única coisa e depois meça de novo. Expandir para uma segunda unidade antes que a primeira opere sem sua atenção constante geralmente espalha demais seu tempo e arrasta as duas lojas para baixo.
+**Qual câmera devo usar?**
+Tanto a primeira quanto a terceira pessoa são suportadas. Jogadores propensos a enjoo de movimento são avisados pela desenvolvedora de que há uma opção de visualização disponível, então escolha a que for mais confortável.
 
-## Erros Que Afundam Novas Lojas de Lámen
+**Quem desenvolveu, e quando foi lançado?**
+Wild Dog, lançado em 9 de outubro de 2026.
 
-- **Cozinhar demais o macarrão.** O timing importa mais do que qualquer outra ação isolada. Retire-o cedo, não tarde.
-- **Ignorar o relatório diário.** Ele mostra qual prato é peso morto e onde os clientes desistiram.
-- **Contratar equipe antes de ter receita para cobrir os salários.** Uma única semana ruim pode acabar com sua reserva de caixa.
-- **Perseguir todo desbloqueio.** Receitas novas não são automaticamente receitas melhores.
-- **Deixar a higiene de lado.** Penalidades de sujeira atingem a reputação, e a reputação é o motor do seu fluxo de clientes.
-- **Negligenciar a pausa da tarde.** Essa hora tranquila é sua melhor chance de reabastecer e reajustar preços.
-
-Trate cada turno como um pequeno experimento. Mude uma variável — um preço, um bloco de assentos, uma contratação — e observe os números do dia seguinte. Esse hábito iterativo é o que separa um balcão em dificuldades de um império de lámen.
-
-## FAQ
-
-**Um jogo de restaurante no Japanese Ramen Simulator é difícil para iniciantes?**
-Os primeiros dias de jogo costumam ser tranquilos, e a dificuldade aumenta conforme sua reputação cresce e as multidões ficam maiores. Foque em um menu pequeno e no timing rápido do macarrão, e a curva de aprendizado se achata rapidamente.
-
-**O que devo melhorar primeiro em um simulador de loja de lámen?**
-A velocidade da cozinha quase sempre vem primeiro. Um cozedor mais rápido ou uma segunda estação de preparo encurta cada pedido, o que aumenta a capacidade de atendimento sem adicionar custos de equipe.
-
-**Quantas tigelas devem estar no meu menu no começo?**
-Quatro a seis é uma faixa saudável. Mantém as categorias de ingredientes gerenciáveis e impede que a estação de preparo se torne um gargalo durante o rush do almoço.
-
-**Acompanhamentos como gyoza realmente importam?**
-Sim. Eles são rápidos de preparar e aumentam o ticket médio, o que importa mais para o lucro de longo prazo do que espremer margem da sua tigela carro-chefe.
+A maneira mais segura de abordar Japanese Ramen Simulator é tratar a descrição oficial como o limite do que está confirmado, montar seu menu em torno do que sua equipe consegue realmente executar, e verificar o resto dentro do jogo.

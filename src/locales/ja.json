@@ -2,36 +2,36 @@
   "site": {
     "name": "Japanese Ramen Simulator Wiki",
     "shortName": "Japanese Ramen Simulator",
-    "tagline": "完全ガイド・レシピ・アップグレード・ヒント",
-    "description": "SteamのJapanese Ramen Simulator完全ガイド！ラーメンのレシピ、食材、店舗アップグレード、稼ぎ方の戦略、進行ガイドを網羅しています。",
-    "legalNotice": "非公式のファンウィキです。Wild Dog社およびValve社とは関係ありません。"
+    "tagline": "料理、協力プレイ、店舗管理のガイド",
+    "description": "Steam版Japanese Ramen Simulatorのファンウィキ。食材の下準備、ラーメンの調理、接客、片付け、最大6人での協力店舗運営の方法を学べます。",
+    "legalNotice": "非公式ファンウィキ。Wild DogやValveとは提携していません。"
   },
   "nav": {
     "guide": "ガイド",
     "mechanics": "ゲームシステム",
     "progression": "進行",
     "items": "アイテム",
-    "management": "経営",
-    "platforms": "対応機種",
+    "management": "店舗管理",
+    "platforms": "対応プラットフォーム",
     "community": "コミュニティ",
     "home": "ホーム",
     "menu": "メニュー",
-    "toggleTheme": "テーマ切替"
+    "toggleTheme": "テーマを切り替え"
   },
   "home": {
     "meta": {
-      "title": "Japanese Ramen Simulator Wiki — コード・ガイド・レシピ",
-      "description": "Japanese Ramen Simulator Wikiでは、有効なコード、料理ガイド、ラーメンのレシピ、食材、店舗アップグレード、最高のラーメン店を作るための戦略を紹介しています。"
+      "title": "Japanese Ramen Simulator Wiki — ガイド、料理、協力プレイのヒント",
+      "description": "Japanese Ramen Simulator Wikiでは、確認済みのゲーム情報、料理と接客のガイド、協力プレイのヒント、Wild DogのSteamラーメンシミュレーターの店舗管理戦略を扱います。"
     },
     "hero": {
-      "eyebrow": "日本のラーメン店シミュレーター",
+      "eyebrow": "Steamラーメン店シミュレーター",
       "title": "Japanese Ramen Simulator Wiki",
-      "description": "Japanese Ramen Simulatorは、Steamの料理・経営ゲームです。プレイヤーは食材を仕込み、麺を茹で、ラーメンを作り、店をアップグレードし、お客様に提供して、究極のラーメン店を築き上げます。",
+      "description": "Japanese Ramen Simulatorは、Wild Dogによる最大6人用の協力型ラーメン店管理シミュレーターです。食材を準備し、調理し、料理を提供し、お客様の対応をし、片付けをしながら、一人称または三人称視点で自分のメニューと店舗をデザインできます。",
       "stats": [
-        "全レシピと食材",
-        "対応機種ガイド",
-        "店舗アップグレード",
-        "毎週更新"
+        "最大6人協力プレイ",
+        "カスタムメニュー＆店舗デザイン",
+        "一人称または三人称視点",
+        "2026年10月9日リリース"
       ],
       "primaryCta": "Steamでプレイ",
       "secondaryCta": "初心者ガイド",
@@ -44,75 +44,75 @@
       "viewAll": "すべて表示"
     },
     "start": {
-      "eyebrow": "まずはこちら",
-      "title": "Japanese Ramen Simulatorの歩み",
+      "eyebrow": "はじめに",
+      "title": "Japanese Ramen Simulatorの旅",
       "cards": [
         {
           "number": "1",
           "title": "初心者ガイド",
-          "description": "まずは仕込みの流れを覚えましょう。スープを煮込み、味玉を漬け、トッピングを小分けにし、1コインも使う前に小さなメニューを丁寧に提供します。"
+          "description": "協力店舗のループを学びましょう。食材を準備し、ラーメンを調理し、お客様に提供し、片付けながら、チームに合ったメニューをデザインします。"
         },
         {
           "number": "2",
           "title": "ベストレシピ",
-          "description": "塩・醤油から味噌、豚骨、つけ麺へと進み、タレ・麺・香味油が一杯の味をどう決めるかを学びます。"
+          "description": "自分のメニューをデザインする方法と、スープ、タレ、麺、トッピングが一杯のラーメンにどう組み合わさるかを探ります。正確なレシピリストはストアページには記載されていません。"
         },
         {
           "number": "3",
-          "title": "店舗アップグレード",
-          "description": "最初の利益は装飾ではなく生産性に使いましょう。コンロの増設、冷蔵設備、席を増やして、厨房が需要に追いつけるようにします。"
+          "title": "店舗管理",
+          "description": "店舗のレイアウトを計画し、メニューをデザインし、清掃と接客を整理して、チームが忙しいラーメン店を運営し続けられるようにします。"
         },
         {
           "number": "4",
           "title": "協力マルチプレイ",
-          "description": "スープ・麺・トッピング・提供の役割を分担し、同じ鍋に群がる4人よりも効率よく共有キッチンを回します。"
+          "description": "食材の下準備、調理、提供、接客、清掃の業務を分担し、最大6人用の共有キッチンが円滑に回るようにします。"
         }
       ]
     },
     "popular": {
       "eyebrow": "人気ページ",
-      "title": "今話題の記事",
+      "title": "今話題のページ",
       "quickLinks": [
         "初心者ガイド",
         "ベストレシピ",
         "店舗アップグレード",
-        "協力プレイガイド"
+        "協力ガイド"
       ],
       "cards": [
         {
           "badge": "初心者向け",
           "title": "初心者ガイド",
-          "description": "スープとトッピングを仕込み、利益が出る価格を設定し、小さな屋台を賑わうラーメン店に育てましょう。",
+          "description": "食材を下準備し、最初の一杯を調理・提供し、小規模な協力チーム向けにメニューと店舗をデザインする方法を学びます。",
           "href": "/guide/japanese-ramen-simulator-beginner-guide"
         },
         {
           "badge": "人気",
           "title": "ベストレシピ",
-          "description": "スープ、タレ、麺、トッピングを進行段階ごとに整理し、次に何を作るべきかがすぐ分かります。",
+          "description": "ラーメンのメニューデザイン原則と文書化されたゲームプレイノート。ストアページには正確な分量や価格付きのレシピは記載されていません。",
           "href": "/progression/japanese-ramen-simulator-best-recipes"
         },
         {
           "badge": "更新済み",
           "title": "店舗アップグレード",
-          "description": "装飾に1コインも使う前に、1時間あたりの提供数を増やすアップグレードの順番を解説します。",
+          "description": "店舗管理のトピックとレイアウトデザインのヒント。アップグレードの順序や正確な効果は文書化されていません。",
           "href": "/progression/japanese-ramen-simulator-upgrades"
         },
         {
           "badge": "人気",
           "title": "食材ガイド",
-          "description": "スープのベース、タレ、麺、トッピング、香味油を、ゲームの評価基準に沿って解説します。",
+          "description": "食材の準備とメニューデザインに関する文書化された情報。正確な食材の分量や価格は公開されていません。",
           "href": "/mechanics/japanese-ramen-simulator-ingredients"
         },
         {
           "badge": "新着",
           "title": "協力マルチプレイ",
-          "description": "共有キッチンの仕組み、担当ステーションの役割、ロビー設定まで、快適な協力プレイのコツを紹介します。",
+          "description": "最大6人用の協力プレイ。共有店舗での持ち場の役割、接客、清掃を扱います。",
           "href": "/mechanics/japanese-ramen-simulator-multiplayer"
         },
         {
           "badge": "人気",
-          "title": "稼ぎ方ガイド",
-          "description": "高利益の一杯やサイドメニュー、再投資の習慣で、キャッシュフローを黒字に保つ方法を解説します。",
+          "title": "お金ガイド",
+          "description": "店舗管理と顧客満足の原則。正確な価格や利益額は文書化されていません。",
           "href": "/progression/japanese-ramen-simulator-money"
         }
       ]
@@ -120,8 +120,8 @@
     "aboutGame": {
       "title": "Japanese Ramen Simulatorとは？",
       "paragraphs": [
-        "Japanese Ramen Simulatorは、Wild DogがSteamで早期アクセス配信するPC向けの一人称視点の料理・経営ゲームです。小さなラーメン店を厨房から切り盛りし、食材を仕入れ、スープを煮込み、味玉を漬け、トッピングを小分けにし、注文ごとに麺を茹で、湯気の立つ一杯を増え続けるお客様に届けます。",
-        "営業の合間には、売上を店の事業面に再投資します。コンロや保管設備を増やして生産量を上げ、席とスタッフを増やしてより多くのお客様を迎え、一杯の価格を高める新レシピを追加します。本当の難しさはリソース管理です。スープ一鍋も麺一玉も、戻ってこないお金と時間を消費するため、速度よりも計画性がものを言います。"
+        "Japanese Ramen Simulatorは、Wild Dogが開発し、2026年10月9日にSteamでリリースされた協力型ラーメン店管理シミュレーターです。最大6人でのプレイに対応し、食材の準備、調理、料理の提供、お客様の対応、片付けを扱います。プレイヤーは自分のメニューを作成し、店舗をデザインします。",
+        "一人称または三人称カメラでプレイでき、乗り物酔いしやすい場合は視点を選ぶことができます。ストアページには、正確な食材の分量、価格、コードシステムを含むレシピリストは公開されていないため、それらの詳細は文書化されていません。"
       ],
       "stats": [
         {
@@ -129,20 +129,20 @@
           "value": "Wild Dog"
         },
         {
-          "label": "対応機種",
+          "label": "プラットフォーム",
           "value": "PC (Steam)"
         },
         {
           "label": "ジャンル",
-          "value": "料理・経営"
+          "value": "ラーメン店管理シミュレーター"
         },
         {
           "label": "モード",
-          "value": "シングルプレイ・協力プレイ"
+          "value": "最大6人協力プレイ"
         },
         {
           "label": "リリース",
-          "value": "早期アクセス"
+          "value": "2026年10月9日"
         },
         {
           "label": "Steam App ID",
@@ -153,213 +153,213 @@
     },
     "explore": {
       "title": "Japanese Ramen Simulator Wikiを探る",
-      "description": "儲かるラーメン店を営むために必要なすべて。初心者向けの手順、レシピの進行、アップグレードの優先順位、協力プレイの役割、食材の段階、接客のコツ、パッチノート、動作環境をまとめています。",
+      "description": "協力型ラーメン店運営のためのガイド。初心者向けステップ、メニューデザイン、店舗管理、協力プレイの役割、食材の準備、接客のヒント、アップデート追跡、システム要件を扱います。",
       "modules": [
         {
           "order": 1,
           "name": "Japanese Ramen Simulator 初心者ガイド",
-          "description": "ラーメン店の営み方を包括的に紹介します。調理の流れ、食材の仕込み、接客、基本的な経営戦略を扱い、新人プレイヤーが最初のシフトの前に中心となるループを理解できるようにします。",
+          "description": "最大6人でラーメン店を運営するための入門。食材の準備、調理、料理の提供、お客様の対応、片付け、メニューデザインを扱い、新規プレイヤーがコアループを理解できるようにします。",
           "href": "/guide/japanese-ramen-simulator-beginner-guide",
           "displayType": "step-by-step",
           "highlights": [
             {
               "label": "1",
-              "detail": "注文画面を覚え、調理前に伝票を最後まで読む"
+              "detail": "最初の注文前にチームの役割を決める"
             },
             {
               "label": "2",
-              "detail": "まずスープを煮込み、煮詰まる間にトッピングを仕込む"
+              "detail": "開店前に食材を準備しキッチンを整える"
             },
             {
               "label": "3",
-              "detail": "注文ごとに麺を茹で、湯気が立っているうちに提供する"
+              "detail": "接客エリアを清潔に保ちながらラーメンを調理・提供する"
             },
             {
               "label": "4",
-              "detail": "最初の利益は確保し、装飾ではなくボトルネックを改善する"
+              "detail": "各シフト後にメニューと店舗レイアウトを見直す"
             }
           ]
         },
         {
           "order": 2,
           "name": "Japanese Ramen Simulator レシピ",
-          "description": "ラーメンのレシピ、食材の組み合わせ、トッピング、メニュー構成の戦略を扱い、スープ・タレ・麺・香味油がどう組み合わさって価格と評判を高める一杯になるかを解説します。",
+          "description": "メニュー作成、食材の組み合わせ、トッピング、メニューデザイン戦略を扱います。ストアページには正確な食材の分量や価格付きのレシピリストは公開されていません。",
           "href": "/progression/japanese-ramen-simulator-best-recipes",
           "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "S",
-              "detail": "豚骨とつけ麺 — 濃厚なコクと終盤の高単価"
+              "label": "スープ",
+              "detail": "ラーメンの核となるベースの液体。正確なレシピの分量は文書化されていません"
             },
             {
-              "label": "A",
-              "detail": "味噌と辛味噌 — 中盤を支えるコクのある一杯でチップも狙える"
+              "label": "タレ",
+              "detail": "一杯の味を決定づける調味料。正確なレシピの分量は文書化されていません"
             },
             {
-              "label": "B",
-              "detail": "醤油 — わずかな追加コストで色と香りが深まる"
+              "label": "麺",
+              "detail": "メニューデザインに合った麺のスタイルを選ぶ。正確な仕様は文書化されていません"
             },
             {
-              "label": "C",
-              "detail": "塩 — 最も安いタレと最短の仕込みで開店直後に最適"
+              "label": "トッピング",
+              "detail": "自分のメニューに基づいてトッピングを追加する。正確なアイテムや分量は公開されていません"
             }
           ]
         },
         {
           "order": 3,
-          "name": "Japanese Ramen Simulator 店舗アップグレード",
-          "description": "店舗の進行システム、設備の改良、店の拡張、そして効率を高める方法を解説します。より速い成長を求めるプレイヤーが最も気にする内容です。",
+          "name": "Japanese Ramen Simulator 店舗管理",
+          "description": "ラーメン店運営に関連する店舗デザイン、メニュー計画、接客、リソース管理のトピックを説明します。アップグレードの順序や正確な効果は文書化されていません。",
           "href": "/progression/japanese-ramen-simulator-upgrades",
           "displayType": "code-cards",
           "highlights": [
             {
-              "label": "調理設備",
-              "detail": "コンロや調理台を増やすと1時間あたりの提供数が直接増える"
+              "label": "店舗レイアウト",
+              "detail": "調理、提供、清掃の流れを支えるように店舗をデザインする"
             },
             {
-              "label": "保管設備",
-              "detail": "冷蔵とまとめ買いで傷みによるロスを減らす"
+              "label": "メニューデザイン",
+              "detail": "自分のメニューを作成し、接客の進み具合に応じて調整する"
             },
             {
-              "label": "席",
-              "detail": "厨房が追いついて初めて席の増設が効果を発揮する"
+              "label": "接客",
+              "detail": "お客様が満足して帰れるように対応する"
             },
             {
-              "label": "スタッフ",
-              "detail": "雇った人手で調理に集中できる"
+              "label": "清掃",
+              "detail": "作業エリアと客席エリアを清掃して円滑なシフトを維持する"
             }
           ]
         },
         {
           "order": 4,
-          "name": "Japanese Ramen Simulator 協力プレイガイド",
-          "description": "マルチプレイの機能、チームの役割、調理・提供・片付け・経営のタスクをどう分担すれば、共有キッチンが人混みではなく生産ラインのように回るかを解説します。",
+          "name": "Japanese Ramen Simulator 協力ガイド",
+          "description": "最大6人用の協力プレイを説明し、共有店舗が円滑に回るように食材の準備、調理、料理の提供、お客様の対応、片付けをどう分担するかを扱います。",
           "href": "/mechanics/japanese-ramen-simulator-multiplayer",
           "displayType": "step-by-step",
           "highlights": [
             {
               "label": "1",
-              "detail": "最初の伝票が出る前にステーションを割り当てる"
+              "detail": "最初の注文が現れる前に持ち場の役割を割り当てる"
             },
             {
               "label": "2",
-              "detail": "スープ鍋は1人が担当し、煮詰まらないようにする"
+              "detail": "1人のプレイヤーが食材の準備を担当する"
             },
             {
               "label": "3",
-              "detail": "麺かごのタイミングをずらして重ならないようにする"
+              "detail": "調理と提供を連携させ、ボトルネックを避ける"
             },
             {
               "label": "4",
-              "detail": "手が空いたら常にトッピングを補充する"
+              "detail": "接客エリアを常にきれいに保つ"
             },
             {
               "label": "5",
-              "detail": "テーブルを片付けて次のお客様を迎える"
+              "detail": "清掃の担当を交代し、新しいお客様が座れるようにする"
             }
           ]
         },
         {
           "order": 5,
           "name": "Japanese Ramen Simulator 食材",
-          "description": "使用できる食材、トッピング、調理素材と、ラーメン作りでの役割を一覧にします。食材を解放して組み合わせ、より高いスコアを目指すプレイヤー向けです。",
+          "description": "食材の準備と、メニュー作成における食材の役割を説明します。ストアページには正確な食材の分量、価格、コードシステムは記載されていません。",
           "href": "/mechanics/japanese-ramen-simulator-ingredients",
           "displayType": "card-list",
           "highlights": [
             {
               "label": "スープ",
-              "detail": "塩・醤油・味噌・豚骨が一杯のコクを決める"
+              "detail": "ラーメンのベースの液体。正確な調理分量は文書化されていません"
             },
             {
               "label": "タレ",
-              "detail": "スタイルを決める濃縮調味料。丼に加えて仕上げる"
+              "detail": "一杯に味をつける調味料。正確な分量は文書化されていません"
             },
             {
               "label": "麺",
-              "detail": "細麺・中太麺・太麺をスープの重さに合わせる"
+              "detail": "各ラーメンに使用する麺の種類。正確な仕様は文書化されていません"
             },
             {
               "label": "トッピング",
-              "detail": "チャーシュー、味玉、海苔、メンマ、ねぎがチップを左右する"
+              "detail": "自分のメニューにトッピングを追加する。正確なアイテムや分量は公開されていません"
             },
             {
               "label": "香味油",
-              "detail": "にんにく・ごま・ラー油が第一印象を決める"
+              "detail": "任意の仕上げ油。正確な種類や分量は文書化されていません"
             }
           ]
         },
         {
           "order": 6,
-          "name": "Japanese Ramen Simulator のコツ",
-          "description": "調理速度、顧客満足度、店のレイアウト、日々のオペレーションを改善する実践的なコツを集め、初心者がよくつまずく問題への手早い対処法も紹介します。",
+          "name": "Japanese Ramen Simulator ヒント",
+          "description": "協力調理、顧客満足、店舗レイアウト、日々の業務に関する実践的なゲームプレイのヒントと、よくある初心者向けの問題の簡単な解決策。",
           "href": "/guide/japanese-ramen-simulator-tips",
           "displayType": "card-list",
           "highlights": [
             {
-              "label": "まず仕込み",
-              "detail": "開店前にスープを煮込み、トッピングを小分けにする"
+              "label": "まず下準備",
+              "detail": "開店前に食材を準備しキッチンを整える"
             },
             {
-              "label": "小さなメニュー",
-              "detail": "大きなメニューを雑に出すより、少数の料理を丁寧に提供する"
+              "label": "絞ったメニュー",
+              "detail": "チームがうまく調理・提供できる焦点を絞ったメニューをデザインする"
             },
             {
-              "label": "伝票",
-              "detail": "麺に触る前に注文内容を最後まで読む"
+              "label": "注文を確認",
+              "detail": "調理を始める前に注文全体を確認する"
             },
             {
-              "label": "ロス削減",
-              "detail": "今日必要な分だけ買い、傷みかけの食材で限定メニューを作る"
+              "label": "無駄なし",
+              "detail": "必要な分だけ準備し、食材が傷む前に使い切る"
             },
             {
-              "label": "帳簿",
-              "detail": "各営業後に原価を見直し、本当の利益率を把握する"
+              "label": "振り返り",
+              "detail": "各シフト後、チームの足を引っ張った点を見直す"
             }
           ]
         },
         {
           "order": 7,
           "name": "Japanese Ramen Simulator アップデート",
-          "description": "公式ニュース、パッチ、新コンテンツ、バランス調整、開発情報を紹介し、復帰したプレイヤーが進化を続ける店舗シムの最新状況を追えるようにします。",
+          "description": "Steamリリースの公式ニュース、パッチ、開発情報を追跡します。ストアページには確認済みのパッチノートや公開ロードマップは公開されていません。",
           "href": "/platforms/japanese-ramen-simulator-release-date",
           "displayType": "card-list",
           "highlights": [
             {
               "label": "パッチ",
-              "detail": "バランス調整と不具合修正はSteamの更新で配信される"
+              "detail": "リリース後、Steamがアップデートやバグ修正を配信する場合があります。確認済みのパッチノートは公開されていません"
             },
             {
               "label": "コンテンツ",
-              "detail": "新しいレシピ、設備、店舗エリアでメニューが広がる"
+              "detail": "新しいレシピ、持ち場、店舗エリアでゲームが拡張される可能性があります。文書化されていません"
             },
             {
               "label": "ロードマップ",
-              "detail": "早期アクセス中は配信時期や機能が変わる場合がある"
+              "detail": "リリース時期や今後の機能は文書化されていません"
             }
           ]
         },
         {
           "order": 8,
-          "name": "Japanese Ramen Simulator 動作環境",
-          "description": "PCの動作環境、対応機能、マルチプレイ情報、対応機種の詳細を表示し、自分のPCで動くかどうかを確認したいプレイヤーに情報を提供します。",
+          "name": "Japanese Ramen Simulator システム要件",
+          "description": "購入前にプレイヤーが確認するPC要件、対応機能、プラットフォームの詳細を表示します。正確な要件はストアページに公開されていません。",
           "href": "/platforms/japanese-ramen-simulator-steam",
           "displayType": "code-cards",
           "highlights": [
             {
-              "label": "対応機種",
-              "detail": "Steam経由のWindows PC。Steam Deckとゲームパッドにも対応"
+              "label": "プラットフォーム",
+              "detail": "Steam経由のWindows PC。Steam Deckやゲームパッド対応は文書化されていません"
             },
             {
               "label": "入力",
-              "detail": "キーボード＆マウス、ゲームパッド、タッチの各レイアウトはビルドにより異なる"
+              "detail": "キーボードとマウス。ゲームパッドやタッチのレイアウトは文書化されていません"
             },
             {
               "label": "モード",
-              "detail": "シングルプレイのシフトと協力マルチプレイのセッション"
+              "detail": "最大6人用の協力プレイ"
             },
             {
-              "label": "更新",
-              "detail": "最新の動作環境とパッチはSteamストアページを確認"
+              "label": "アップデート",
+              "detail": "最新の要件やパッチはSteamストアページで確認してください"
             }
           ]
         }
@@ -367,91 +367,91 @@
     },
     "faq": {
       "title": "よくある質問",
-      "description": "Japanese Ramen Simulatorに関するよくある質問に手早くお答えします。",
+      "description": "Japanese Ramen Simulatorに関する最も一般的な質問への簡単な回答。",
       "items": [
         {
-          "question": "Japanese Ramen Simulatorとは何ですか？",
-          "answer": "Japanese Ramen Simulatorは、Wild Dogが早期アクセスで配信するSteamのPC向け一人称視点の料理・経営ゲームです。食材を仕入れ、スープを煮込み、注文ごとに麺を茹で、トッピングを盛り付け、お客様に提供しながら、利益をより大きく速い店へ再投資します。"
+          "question": "Japanese Ramen Simulatorとは？",
+          "answer": "Japanese Ramen Simulatorは、Wild Dogによる協力型ラーメン店管理シミュレーターで、2026年10月9日にSteamでリリースされました。最大6人でのプレイに対応し、食材の準備、調理、料理の提供、お客様の対応、片付けを扱います。自分のメニューを作成し、店舗をデザインできます。"
         },
         {
-          "question": "Japanese Ramen Simulatorは初心者に難しいですか？",
-          "answer": "最初の数日は、ゲームがほとんど説明を挟まないため手ごわく感じますが、仕組みはすぐに覚えられます。開店前にスープとトッピングを仕込み、小さなメニューを丁寧に提供し、何かを強化する前に最初の利益を確保しましょう。"
+          "question": "Japanese Ramen Simulatorは初心者には難しいですか？",
+          "answer": "ゲームには難易度やチュートリアルは文書化されていません。最大6人の協力プレイヤーがいる管理シミュレーターであるため、円滑なシフトは通常、役割を合意し、営業前に食材を準備することにかかっています。"
         },
         {
-          "question": "Japanese Ramen Simulatorで最初に何を強化すべきですか？",
-          "answer": "まず生産性です。コンロや調理台を増やすと1時間あたりの提供数が直接増え、冷蔵設備は傷みによるロスを減らします。席とスタッフは厨房が追いついてから効果を発揮し、装飾は最後です。"
+          "question": "Japanese Ramen Simulatorでは店舗管理にどう取り組めばよいですか？",
+          "answer": "ストアページには、自分のメニューを作成し店舗をデザインすると記載されています。ゲームはアップグレードの順序や正確な効果を公開していません。実践的なアプローチは、チームの人数に合わせて店舗レイアウトとメニューを管理しやすく保ち、各シフト後に調整することです。"
         },
         {
-          "question": "Japanese Ramen Simulatorにマルチプレイはありますか？",
-          "answer": "はい。Japanese Ramen Simulatorのマルチプレイでは複数のプレイヤーが1つの共有キッチンに入り、スープ・麺・トッピング・ホールの役割をきれいに分担することで、同じ鍋に群がるチームよりも多くのお客様に対応できます。"
+          "question": "Japanese Ramen Simulatorにはマルチプレイがありますか？",
+          "answer": "はい。Japanese Ramen Simulatorは最大6人用の協力プレイに対応し、食材の準備、調理、料理の提供、お客様の対応、片付けの業務を共有します。"
         },
         {
-          "question": "Japanese Ramen Simulatorで素早く稼ぐには？",
-          "answer": "高利益の一杯とサイドメニューに絞ったメニューを売り、食材原価の約2.5〜3倍で価格を設定し、素早く提供し、生産量を上げない強化は見送りましょう。序盤は粗利益が物量に勝ります。"
+          "question": "Japanese Ramen Simulatorでお金を早く稼ぐには？",
+          "answer": "ストアページには価格、利益額、金銭稼ぎのシステムは公開されていません。顧客満足とメニューデザインは説明されている機能であるため、お客様に良いサービスを提供し店舗を管理することは合理的な優先事項ですが、正確な数値は文書化されていません。"
         }
       ]
     },
     "finalCta": {
-      "title": "Japanese Ramen Simulatorを極める準備はできましたか？",
-      "description": "最初の一杯から完全にアップグレードした店まで、コミュニティウィキが無料で最新のガイドをそろえてお届けします。",
+      "title": "Japanese Ramen Simulatorをマスターする準備はできましたか？",
+      "description": "最初の一杯から連携した協力シフトまで、当ファンウィキはラーメン店運営のための確認済みゲーム情報と実践的なガイドを集めています。",
       "primary": "初心者ガイドを読む",
       "secondary": "Steamでプレイ"
     }
   },
   "guide": {
     "overviewTitle": "Japanese Ramen Simulator ガイド",
-    "overviewDescription": "初心者ガイド、完全攻略、実績、そしてJapanese Ramen Simulatorの店舗のあらゆる段階に役立つ実践的なコツ。"
+    "overviewDescription": "Japanese Ramen Simulatorの店舗のあらゆる段階に向けた初心者ガイド、協力プレイのウォークスルー、実践的なヒント。"
   },
   "mechanics": {
     "overviewTitle": "Japanese Ramen Simulator ゲームシステム",
-    "overviewDescription": "調理、食材、操作、マルチプレイ、ラーメン店の仕組みを解説し、Japanese Ramen Simulatorのすべてのシステムを理解できるようにします。"
+    "overviewDescription": "調理、食材の準備、操作、マルチプレイ、店舗システムを説明し、Japanese Ramen Simulatorのあらゆるメカニクスを理解できるようにします。"
   },
   "progression": {
     "overviewTitle": "Japanese Ramen Simulator 進行",
-    "overviewDescription": "稼ぎ方、アップグレード、店舗拡張、ベストレシピ、スタッフのガイドで、Japanese Ramen Simulatorの店をさらに前進させます。"
+    "overviewDescription": "Japanese Ramen Simulatorの店舗をさらに前進させるための店舗管理、メニューデザイン、接客、清掃のガイド。"
   },
   "items": {
-    "overviewTitle": "Japanese Ramen Simulator アイテムと食材",
-    "overviewDescription": "スープ、チャーシュー、麺、トッピング、メニュー解説まで、Japanese Ramen Simulatorで使うあらゆる食材を網羅します。"
+    "overviewTitle": "Japanese Ramen Simulator アイテム＆食材",
+    "overviewDescription": "Japanese Ramen Simulatorで調理に使う食材を扱うスープ、麺、トッピング、メニュー解説。正確な分量や価格は公開されていません。"
   },
   "management": {
-    "overviewTitle": "Japanese Ramen Simulator 経営",
-    "overviewDescription": "店舗の立ち上げ、従業員、利益、売上のガイドで、賑わう儲かるJapanese Ramen Simulatorの店を運営します。"
+    "overviewTitle": "Japanese Ramen Simulator 管理",
+    "overviewDescription": "忙しいJapanese Ramen Simulatorの店舗を運営するためのレストラン設営、スタッフ、利益、売上のガイド。正確な数値は文書化されていません。"
   },
   "platforms": {
-    "overviewTitle": "Japanese Ramen Simulator 対応機種",
-    "overviewDescription": "Steam、PS5、Xbox、Switch、Macの詳細に加え、Japanese Ramen Simulatorの体験版、価格、発売日情報を掲載します。"
+    "overviewTitle": "Japanese Ramen Simulator 対応プラットフォーム",
+    "overviewDescription": "Japanese Ramen SimulatorのSteam、リリース日、プラットフォームの詳細。PS5、Xbox、Switch、Mac版は文書化されていません。"
   },
   "community": {
     "overviewTitle": "Japanese Ramen Simulator コミュニティ",
-    "overviewDescription": "Japanese Ramen Simulatorのプレイヤーがレシピやビルド、店舗戦略を共有するDiscordとRedditのハブ。"
+    "overviewDescription": "Japanese Ramen Simulatorのプレイヤーがレシピ、ビルド、店舗戦略を共有するファンスペース。公式DiscordやRedditの招待は文書化されていません。"
   },
   "shared": {
-    "wikiNavigation": "ウィキナビ",
+    "wikiNavigation": "ウィキナビゲーション",
     "activeCodes": "有効なコード",
-    "updated": "更新",
+    "updated": "更新済み",
     "viewAllCodes": "すべてのガイドを見る",
-    "inThisSection": "このセクション",
+    "inThisSection": "このセクション内",
     "tableOfContents": "目次",
     "nextSteps": "次のステップ",
-    "needHelp": "お困りですか？",
+    "needHelp": "助けが必要ですか？",
     "relatedReading": "関連記事",
     "relatedGuides": "関連ガイド",
     "readMore": "続きを読む",
     "officialMedia": "公式メディア",
     "home": "ホーム",
-    "noGuidesAvailable": "まだガイドがありません。近日公開をお待ちください！",
-    "noActiveCodes": "現在有効なコードはありません",
-    "checkBackSoon": "新しいコードは近日公開予定です"
+    "noGuidesAvailable": "利用可能なガイドはまだありません。また後で確認してください！",
+    "noActiveCodes": "このゲームにはコードシステムが文書化されていません",
+    "checkBackSoon": "公式ニュースはSteamページで確認してください"
   },
   "footer": {
     "aboutTitle": "Japanese Ramen Simulator Wiki",
-    "about": "Japanese Ramen Simulator Wikiは、ラーメンのレシピ、食材、料理ガイド、店舗アップグレード、そして新規・ベテランの両プレイヤーに役立つゲーム知識を扱う、ファン制作の独立系ガイドハブです。",
+    "about": "Japanese Ramen Simulator Wikiは、ラーメン店管理、食材の準備、調理、協力プレイ、そして新規・ベテランプレイヤー双方にとって必要なゲーム知識を扱う、独立したファン制作のガイドハブです。",
     "quickLinks": "クイックリンク",
     "guides": "ガイド",
-    "legal": "法的事項",
-    "copyright": "2026 Japanese Ramen Simulator Wiki. Wild Dog社およびValve社とは関係ありません。",
-    "description": "Steamのラーメン店経営シム。麺を茹で、料理を作り、夢のラーメン店を築き上げましょう。",
+    "legal": "法的情報",
+    "copyright": "2026 Japanese Ramen Simulator Wiki. Wild DogやValveとは提携していません。",
+    "description": "Steamの協力型ラーメン店管理シミュレーター。食材を準備し、調理し、提供し、最大6人でラーメン店を築き上げましょう。",
     "playGame": "SteamでJapanese Ramen Simulatorをプレイ",
     "officialDiscord": "公式Discord",
     "officialYoutube": "公式YouTube",
@@ -459,7 +459,7 @@
     "vvBuilder": "公式サイト",
     "beginnerGuide": "初心者ガイド",
     "raceGuides": "ラーメンレシピ",
-    "bossGuides": "料理ガイド",
+    "bossGuides": "調理ガイド",
     "buildGuide": "店舗アップグレード",
     "privacyPolicy": "プライバシーポリシー",
     "termsOfService": "利用規約"

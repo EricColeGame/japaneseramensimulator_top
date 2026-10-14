@@ -2,8 +2,8 @@
   "site": {
     "name": "Japanese Ramen Simulator Wiki",
     "shortName": "Japanese Ramen Simulator",
-    "tagline": "Complete Guides, Recipes, Upgrades & Tips",
-    "description": "Your ultimate guide to Japanese Ramen Simulator on Steam! Explore ramen recipes, ingredients, shop upgrades, money-making strategies, and progression guides.",
+    "tagline": "Guides for Cooking, Co-Op & Shop Management",
+    "description": "A fan wiki for Japanese Ramen Simulator on Steam. Learn how to prepare ingredients, cook ramen, serve customers, clean up, and run a co-operative shop for up to six players.",
     "legalNotice": "Unofficial fan wiki. Not affiliated with Wild Dog or Valve."
   },
   "nav": {
@@ -20,18 +20,18 @@
   },
   "home": {
     "meta": {
-      "title": "Japanese Ramen Simulator Wiki — Codes, Guide & Recipes",
-      "description": "Japanese Ramen Simulator Wiki provides working codes, cooking guides, ramen recipes, ingredients, shop upgrades, and strategies to build the best ramen restaurant."
+      "title": "Japanese Ramen Simulator Wiki — Guides, Cooking & Co-Op Tips",
+      "description": "Japanese Ramen Simulator Wiki covers verified game info, cooking and serving guides, co-op tips, and shop management strategies for Wild Dog's Steam ramen sim."
     },
     "hero": {
-      "eyebrow": "Japanese Restaurant Simulator",
+      "eyebrow": "Steam Ramen Shop Simulator",
       "title": "Japanese Ramen Simulator Wiki",
-      "description": "Japanese Ramen Simulator is a Steam cooking and management game where players prepare ingredients, cook noodles, craft ramen dishes, upgrade their restaurant, serve customers, and build the ultimate ramen shop.",
+      "description": "Japanese Ramen Simulator is a co-operative ramen shop management simulator by Wild Dog for up to six players. Prepare ingredients, cook, serve food, look after customers and clean up while designing your own menu and shop in first-person or third-person view.",
       "stats": [
-        "All Recipes & Ingredients",
-        "Platform Guides",
-        "Shop Upgrades",
-        "Weekly Updates"
+        "Up to 6 Players Co-Op",
+        "Custom Menu & Shop Design",
+        "First- or Third-Person View",
+        "Released 9 October 2026"
       ],
       "primaryCta": "Play on Steam",
       "secondaryCta": "Beginner Guide",
@@ -50,22 +50,22 @@
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Learn the prep-first loop: simmer broth, marinate eggs, portion toppings, and serve a small menu well before you spend a single coin."
+          "description": "Learn the co-op shop loop: prepare ingredients, cook ramen, serve customers, and clean up as you design a menu that works for your team."
         },
         {
           "number": "2",
           "title": "Best Recipes",
-          "description": "Progress from shio and shoyu through miso to tonkotsu and tsukemen, and see how tare, noodles, and aroma oil shape every bowl."
+          "description": "Explore how to design your own menu and see how broth, tare, noodles, and toppings can come together in a bowl. Exact recipe lists are not documented on the store page."
         },
         {
           "number": "3",
-          "title": "Shop Upgrades",
-          "description": "Spend your first profits on throughput, not decor: extra burners, refrigeration, and seating that let the kitchen keep pace with demand."
+          "title": "Shop Management",
+          "description": "Plan your shop layout, design the menu, and organise cleaning and customer care so your team can keep a busy ramen shop running."
         },
         {
           "number": "4",
           "title": "Co-Op Multiplayer",
-          "description": "Split broth, noodle, topping, and expeditor roles so a shared kitchen out-serves four cooks crowding the same pot."
+          "description": "Split preparing ingredients, cooking, serving, customer care, and cleaning duties so a shared kitchen for up to six players runs smoothly."
         }
       ]
     },
@@ -82,37 +82,37 @@
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Prep broth and toppings, price for margin, and turn a tiny stall into a busy ramen shop.",
+          "description": "Prep ingredients, cook and serve your first bowls, and learn how to design a menu and shop for a small co-op team.",
           "href": "/guide/japanese-ramen-simulator-beginner-guide"
         },
         {
           "badge": "Popular",
           "title": "Best Recipes",
-          "description": "Every broth, tare, noodle, and topping ranked by progression stage so you always know what to cook next.",
+          "description": "Menu design principles and documented gameplay notes for ramen bowls. The store page does not list recipes with exact quantities or prices.",
           "href": "/progression/japanese-ramen-simulator-best-recipes"
         },
         {
           "badge": "Updated",
           "title": "Shop Upgrades",
-          "description": "The upgrade order that raises bowls served per hour before you spend a coin on decor.",
+          "description": "Shop management topics and layout design tips. Upgrade order and exact effects are not documented.",
           "href": "/progression/japanese-ramen-simulator-upgrades"
         },
         {
           "badge": "Popular",
           "title": "Ingredients Guide",
-          "description": "Broth bases, tare, noodles, toppings, and aroma oil explained by the way the game scores them.",
+          "description": "Documented information on preparing ingredients and designing your menu. Exact ingredient quantities and pricing are not published.",
           "href": "/mechanics/japanese-ramen-simulator-ingredients"
         },
         {
           "badge": "New",
           "title": "Co-Op Multiplayer",
-          "description": "Shared kitchen mechanics, station roles, and lobby setup for a clean co-op shift.",
+          "description": "Co-operative play for up to six players, covering station duties, customer care, and cleaning up in a shared shop.",
           "href": "/mechanics/japanese-ramen-simulator-multiplayer"
         },
         {
           "badge": "Popular",
           "title": "Money Guide",
-          "description": "High-margin bowls, side items, and reinvestment habits that keep your cash flow positive.",
+          "description": "Shop management and customer satisfaction principles. Exact prices and profit values are not documented.",
           "href": "/progression/japanese-ramen-simulator-money"
         }
       ]
@@ -120,8 +120,8 @@
     "aboutGame": {
       "title": "What is Japanese Ramen Simulator?",
       "paragraphs": [
-        "Japanese Ramen Simulator is a first-person cooking and management game for PC, published on Steam in Early Access by Wild Dog. You run a small ramen shop from the kitchen up: source ingredients, simmer broth, marinate eggs, portion toppings, boil noodles to order, and hand steaming bowls to a growing line of customers.",
-        "Between services you reinvest your earnings into the business side of the shop, adding burners and storage to raise throughput, seating and staff to serve more guests, and new recipes that lift each bowl's price. The real challenge is resource management: every pot of broth and every noodle you boil costs money and time you never get back, so planning beats raw speed."
+        "Japanese Ramen Simulator is a co-operative ramen shop management simulator developed by Wild Dog, released on Steam on 9 October 2026. It supports up to six players and covers preparing ingredients, cooking, serving food, looking after customers and cleaning up. Players create their own menu and design the shop.",
+        "You can play from a first-person or third-person camera, and the game lets you choose a view if you are prone to motion sickness. The store page does not publish a recipe list with exact ingredient quantities, prices, or a code system, so those details are not documented."
       ],
       "stats": [
         {
@@ -134,15 +134,15 @@
         },
         {
           "label": "Genre",
-          "value": "Cooking & Management"
+          "value": "Ramen Shop Management Simulator"
         },
         {
           "label": "Modes",
-          "value": "Single-player & Co-op"
+          "value": "Co-op up to 6 players"
         },
         {
           "label": "Release",
-          "value": "Early Access"
+          "value": "9 October 2026"
         },
         {
           "label": "Steam App ID",
@@ -153,209 +153,209 @@
     },
     "explore": {
       "title": "Explore Japanese Ramen Simulator Wiki",
-      "description": "Everything you need to run a profitable noodle shop: beginner steps, recipe progression, upgrade priorities, co-op roles, ingredient tiers, service tips, patch notes, and system requirements.",
+      "description": "Guides for running a co-operative ramen shop: beginner steps, menu design, shop management, co-op roles, ingredient preparation, service tips, update tracking, and system requirements.",
       "modules": [
         {
           "order": 1,
           "name": "Japanese Ramen Simulator Beginner Guide",
-          "description": "A complete introduction to running a ramen shop, covering the cooking flow, ingredient preparation, customer service, and basic management strategy so new players understand the core loop before their first shift.",
+          "description": "An introduction to running a ramen shop with up to six players, covering preparing ingredients, cooking, serving food, looking after customers, cleaning up, and menu design so new players understand the core loop.",
           "href": "/guide/japanese-ramen-simulator-beginner-guide",
           "displayType": "step-by-step",
           "highlights": [
             {
               "label": "1",
-              "detail": "Learn the order interface and read the whole ticket before you cook"
+              "detail": "Agree on team roles before the first order"
             },
             {
               "label": "2",
-              "detail": "Simmer broth first and prep toppings while it reduces"
+              "detail": "Prepare ingredients and set up the kitchen before opening"
             },
             {
               "label": "3",
-              "detail": "Boil noodles to order and serve the bowl while it is steaming"
+              "detail": "Cook and serve bowls while keeping customer areas clean"
             },
             {
               "label": "4",
-              "detail": "Bank your first profits and upgrade bottlenecks, not decor"
+              "detail": "Review your menu and shop layout after each shift"
             }
           ]
         },
         {
           "order": 2,
           "name": "Japanese Ramen Simulator Recipes",
-          "description": "Cover ramen recipes, ingredient combinations, toppings, and menu creation strategy, and see how broth, tare, noodles, and aroma oil combine into bowls that raise your prices and reputation.",
+          "description": "Covers menu creation, ingredient combination, toppings, and menu design strategy. The store page does not publish a recipe list with exact ingredient quantities or prices.",
           "href": "/progression/japanese-ramen-simulator-best-recipes",
           "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "S",
-              "detail": "Tonkotsu and tsukemen — heavy body and premium pricing in the late game"
+              "label": "Broth",
+              "detail": "Base liquid that forms the core of a ramen bowl; exact recipe quantities are not documented"
             },
             {
-              "label": "A",
-              "detail": "Miso and spicy miso — rich, warming mid-game bowls with strong tips"
+              "label": "Tare",
+              "detail": "Seasoning that defines the bowl's flavour; exact recipe quantities are not documented"
             },
             {
-              "label": "B",
-              "detail": "Shoyu — deeper color and aroma for minimal extra cost"
+              "label": "Noodles",
+              "detail": "Choose noodle style to match your menu design; exact specifications are not documented"
             },
             {
-              "label": "C",
-              "detail": "Shio — cheapest tare and shortest prep for a brand-new shop"
+              "label": "Toppings",
+              "detail": "Add toppings based on your own menu; exact items and quantities are not published"
             }
           ]
         },
         {
           "order": 3,
-          "name": "Japanese Ramen Simulator Shop Upgrades",
-          "description": "Explain the shop progression systems, equipment improvements, restaurant expansion, and the ways to raise efficiency that players searching for faster growth care about most.",
+          "name": "Japanese Ramen Simulator Shop Management",
+          "description": "Explains shop design, menu planning, customer care, and resource management topics relevant to running your ramen shop. Upgrade order and exact effects are not documented.",
           "href": "/progression/japanese-ramen-simulator-upgrades",
           "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Stations",
-              "detail": "Extra burners and cooking stations directly raise bowls served per hour"
+              "label": "Shop Layout",
+              "detail": "Design your shop to support cooking, serving, and cleaning flow"
             },
             {
-              "label": "Storage",
-              "detail": "Refrigeration and bulk buying cut spoilage waste"
+              "label": "Menu Design",
+              "detail": "Create your own menu and adjust it based on how service goes"
             },
             {
-              "label": "Seating",
-              "detail": "More tables help only once the kitchen keeps pace"
+              "label": "Customer Care",
+              "detail": "Look after customers so they leave satisfied"
             },
             {
-              "label": "Staff",
-              "detail": "Hired help frees you to focus on cooking"
+              "label": "Cleaning",
+              "detail": "Keep work and dining areas clean-up to maintain a smooth shift"
             }
           ]
         },
         {
           "order": 4,
-          "name": "Japanese Ramen Simulator Co Op Guide",
-          "description": "Explain the multiplayer features, team roles, and how players divide cooking, serving, cleaning, and management tasks so a shared kitchen runs like a production line instead of a crowd.",
+          "name": "Japanese Ramen Simulator Co-Op Guide",
+          "description": "Explains co-operative play for up to six players, how to divide preparing ingredients, cooking, serving food, looking after customers and cleaning up so a shared shop runs smoothly.",
           "href": "/mechanics/japanese-ramen-simulator-multiplayer",
           "displayType": "step-by-step",
           "highlights": [
             {
               "label": "1",
-              "detail": "Assign stations before the first ticket appears"
+              "detail": "Assign station duties before the first order appears"
             },
             {
               "label": "2",
-              "detail": "Give one player the broth pot so it never boils dry"
+              "detail": "Have one player manage ingredient preparation"
             },
             {
               "label": "3",
-              "detail": "Stagger noodle baskets to avoid overlapping timers"
+              "detail": "Coordinate cooking and serving to avoid bottlenecks"
             },
             {
               "label": "4",
-              "detail": "Keep toppings restocked during every lull"
+              "detail": "Keep customer areas tidy during every lull"
             },
             {
               "label": "5",
-              "detail": "Clear and reset tables so the next wave can sit"
+              "detail": "Rotate cleaning duties so tables free up for new customers"
             }
           ]
         },
         {
           "order": 5,
           "name": "Japanese Ramen Simulator Ingredients",
-          "description": "List the available ingredients, toppings, and cooking materials with their roles in ramen creation, aimed at players unlocking and combining food items for higher scores.",
+          "description": "Explains ingredient preparation and the role of ingredients in menu creation. The store page does not list exact ingredient quantities, prices, or a code system.",
           "href": "/mechanics/japanese-ramen-simulator-ingredients",
           "displayType": "card-list",
           "highlights": [
             {
               "label": "Broth",
-              "detail": "Shio, shoyu, miso, and tonkotsu set the body of every bowl"
+              "detail": "Base liquid for ramen; exact preparation quantities are not documented"
             },
             {
               "label": "Tare",
-              "detail": "Concentrated seasoning that defines the style; add it to the bowl"
+              "detail": "Seasoning used to flavour the bowl; exact quantities are not documented"
             },
             {
               "label": "Noodles",
-              "detail": "Match thin, medium, or thick specs to the broth's weight"
+              "detail": "Noodle type used in each bowl; exact specifications are not documented"
             },
             {
               "label": "Toppings",
-              "detail": "Chashu, ajitama, nori, menma, and scallions drive tips"
+              "detail": "Add toppings to your own menu; exact items and quantities are not published"
             },
             {
               "label": "Aroma Oil",
-              "detail": "Garlic, sesame, or chili oil delivers the first impression"
+              "detail": "Optional finishing oil; exact types and quantities are not documented"
             }
           ]
         },
         {
           "order": 6,
           "name": "Japanese Ramen Simulator Tips",
-          "description": "Collect practical gameplay tips for improving cooking speed, customer satisfaction, restaurant layout, and daily operations, with quick fixes for the problems beginners hit most.",
+          "description": "Practical gameplay tips for co-operative cooking, customer satisfaction, shop layout, and daily operations, with quick fixes for common beginner problems.",
           "href": "/guide/japanese-ramen-simulator-tips",
           "displayType": "card-list",
           "highlights": [
             {
               "label": "Prep First",
-              "detail": "Simmer broth and portion toppings before you open the doors"
+              "detail": "Prepare ingredients and set up the kitchen before opening"
             },
             {
-              "label": "Small Menu",
-              "detail": "Serve a few dishes well instead of a large menu badly"
+              "label": "Lean Menu",
+              "detail": "Design a focused menu that your team can cook and serve well"
             },
             {
-              "label": "Tickets",
-              "detail": "Read the entire order before you touch the noodles"
+              "label": "Read Orders",
+              "detail": "Check the whole order before you start cooking"
             },
             {
               "label": "No Waste",
-              "detail": "Buy for today and build specials around ingredients near spoiling"
+              "detail": "Prepare only what you need and use ingredients before they spoil"
             },
             {
-              "label": "Ledger",
-              "detail": "Review costs after each session to find your real margin"
+              "label": "Review",
+              "detail": "After each shift, review what slowed your team down"
             }
           ]
         },
         {
           "order": 7,
           "name": "Japanese Ramen Simulator Updates",
-          "description": "Show official news, patches, new content, balance changes, and development information so returning players can stay current with how the shop sim keeps evolving.",
+          "description": "Tracks official news, patches, and development information for the Steam release. The store page does not publish confirmed patch notes or a public roadmap.",
           "href": "/platforms/japanese-ramen-simulator-release-date",
           "displayType": "card-list",
           "highlights": [
             {
               "label": "Patches",
-              "detail": "Balance changes and bug fixes arrive through Steam updates"
+              "detail": "Steam may deliver updates and bug fixesafter release; confirmed patch notes are not published"
             },
             {
               "label": "Content",
-              "detail": "New recipes, stations, and shop areas expand the menu"
+              "detail": "New recipes, stations, and shop areas may expand the game; not documented"
             },
             {
               "label": "Roadmap",
-              "detail": "Release windows and features can shift during Early Access"
+              "detail": "Release windows and future features are not documented"
             }
           ]
         },
         {
           "order": 8,
           "name": "Japanese Ramen Simulator System Requirements",
-          "description": "Display the PC requirements, supported features, multiplayer information, and platform details that players check before deciding whether their machine can run the game.",
+          "description": "Displays PC requirements, supported features, and platform details that players check before buying. Exact requirements are not published on the store page.",
           "href": "/platforms/japanese-ramen-simulator-steam",
           "displayType": "code-cards",
           "highlights": [
             {
               "label": "Platform",
-              "detail": "Windows PC via Steam, with Steam Deck and gamepad support"
+              "detail": "Windows PC via Steam; Steam Deck and gamepad support are not documented"
             },
             {
               "label": "Input",
-              "detail": "Keyboard and mouse, gamepad, and touch layouts differ by build"
+              "detail": "Keyboard and mouse; gamepad and touch layouts are not documented"
             },
             {
               "label": "Modes",
-              "detail": "Single-player shifts plus co-op multiplayer sessions"
+              "detail": "Co-operative play for up to six players"
             },
             {
               "label": "Updates",
@@ -371,60 +371,60 @@
       "items": [
         {
           "question": "What is Japanese Ramen Simulator?",
-          "answer": "Japanese Ramen Simulator is a first-person cooking and management game for PC on Steam, published in Early Access by Wild Dog. You source ingredients, simmer broth, boil noodles to order, plate toppings, and serve customers while reinvesting your profits into a bigger, faster shop."
+          "answer": "Japanese Ramen Simulator is a co-operative ramen shop management simulator by Wild Dog, released on Steam on 9 October 2026. It supports up to six players and covers preparing ingredients, cooking, serving food, looking after customers and cleaning up. You create your own menu and design the shop."
         },
         {
           "question": "Is Japanese Ramen Simulator hard for beginners?",
-          "answer": "The first few in-game days are demanding because the game rarely pauses to explain itself, but the systems are learnable quickly. Prep broth and toppings before opening, serve a small menu well, and bank your early profits before upgrading anything."
+          "answer": "The game does not document difficulty or tutorials. Because it is a management simulator with up to six co-op players, a smooth shift usually depends on agreeing on roles and preparing ingredients before service."
         },
         {
-          "question": "What should I upgrade first in Japanese Ramen Simulator?",
-          "answer": "Throughput first. Extra burners or cooking stations directly increase how many bowls you serve per hour, and refrigeration cuts spoilage waste. Seating and staff help once the kitchen keeps pace, and decor comes last."
+          "question": "How should I approach shop management in Japanese Ramen Simulator?",
+          "answer": "The store page says you create your own menu and design the shop. The game does not publish an upgrade order or exact effects. A practical approach is to keep the shop layout and menu manageable for your team size and adjust after each shift."
         },
         {
           "question": "Does Japanese Ramen Simulator have multiplayer?",
-          "answer": "Yes. Japanese Ramen Simulator multiplayer puts several players in one shared kitchen, where a clean split of broth, noodle, topping, and front-of-house duties out-serves a team all crowding the same pot."
+          "answer": "Yes. Japanese Ramen Simulator supports co-operative play for up to six players, with shared duties covering preparing ingredients, cooking, serving food, looking after customers and cleaning up."
         },
         {
           "question": "How do I make money fast in Japanese Ramen Simulator?",
-          "answer": "Sell a tight menu of high-margin bowls and side items, price around 2.5 to 3 times ingredient cost, serve quickly, and skip any upgrade that does not raise your output. Margin beats raw volume in the opening hours."
+          "answer": "The store page does not publish prices, profit values, or a money-making system. Customer satisfaction and menu design are described features, so serving customers well and managing your shop are reasonable priorities, but exact figures are not documented."
         }
       ]
     },
     "finalCta": {
       "title": "Ready to Master Japanese Ramen Simulator?",
-      "description": "From your first bowl of ramen to a fully upgraded restaurant, our community wiki has you covered with free, up-to-date guides.",
+      "description": "From your first bowl to a coordinated co-op shift, our fan wiki collects verified game information and practical guides for running your ramen shop.",
       "primary": "Read the Beginner Guide",
       "secondary": "Play on Steam"
     }
   },
   "guide": {
     "overviewTitle": "Japanese Ramen Simulator Guides",
-    "overviewDescription": "Beginner guides, a full walkthrough, achievements, and practical tips for every stage of your Japanese Ramen Simulator shop."
+    "overviewDescription": "Beginner guides, co-op walkthroughs, and practical tips for every stage of your Japanese Ramen Simulator shop."
   },
   "mechanics": {
     "overviewTitle": "Japanese Ramen Simulator Mechanics",
-    "overviewDescription": "Cooking, ingredients, controls, multiplayer, and ramen shop systems explained so every Japanese Ramen Simulator mechanic makes sense."
+    "overviewDescription": "Cooking, ingredient preparation, controls, multiplayer, and shop systems explained so every Japanese Ramen Simulator mechanic makes sense."
   },
   "progression": {
     "overviewTitle": "Japanese Ramen Simulator Progression",
-    "overviewDescription": "Money-making, upgrades, shop expansion, best recipes, and staff guides to push your Japanese Ramen Simulator restaurant further."
+    "overviewDescription": "Shop management, menu design, customer care, and cleaning guides to push your Japanese Ramen Simulator shop further."
   },
   "items": {
     "overviewTitle": "Japanese Ramen Simulator Items & Ingredients",
-    "overviewDescription": "Broth, chashu, noodles, toppings, and menu breakdowns covering every ingredient you cook with in Japanese Ramen Simulator."
+    "overviewDescription": "Broth, noodles, toppings, and menu breakdowns covering the ingredients you cook with in Japanese Ramen Simulator. Exact quantities and prices are not published."
   },
   "management": {
     "overviewTitle": "Japanese Ramen Simulator Management",
-    "overviewDescription": "Restaurant setup, employees, profits, and sales guides for running a busy, profitable Japanese Ramen Simulator shop."
+    "overviewDescription": "Restaurant setup, staff, profits, and sales guides for running a busy Japanese Ramen Simulator shop. Exact values are not documented."
   },
   "platforms": {
     "overviewTitle": "Japanese Ramen Simulator Platforms",
-    "overviewDescription": "Steam, PS5, Xbox, Switch, and Mac details plus demo, price, and release date information for Japanese Ramen Simulator."
+    "overviewDescription": "Steam, release date, and platform details for Japanese Ramen Simulator. PS5, Xbox, Switch, and Mac versions are not documented."
   },
   "community": {
     "overviewTitle": "Japanese Ramen Simulator Community",
-    "overviewDescription": "Discord and Reddit hubs where Japanese Ramen Simulator players share recipes, builds, and shop strategies."
+    "overviewDescription": "Fan spaces where Japanese Ramen Simulator players share recipes, builds, and shop strategies. Official Discord and Reddit invites are not documented."
   },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
@@ -441,17 +441,17 @@
     "officialMedia": "Official media",
     "home": "Home",
     "noGuidesAvailable": "No guides available yet. Check back soon!",
-    "noActiveCodes": "No active codes currently available",
-    "checkBackSoon": "Check back soon for new codes"
+    "noActiveCodes": "No code system is documented for this game",
+    "checkBackSoon": "Check the Steam page for official news"
   },
   "footer": {
     "aboutTitle": "Japanese Ramen Simulator Wiki",
-    "about": "Japanese Ramen Simulator Wiki is an independent fan-built guide hub covering ramen recipes, ingredients, cooking guides, shop upgrades, and essential game knowledge for new and veteran players alike.",
+    "about": "Japanese Ramen Simulator Wiki is an independent fan-built guide hub covering ramen shop management, ingredient preparation, cooking, co-op play, and essential game knowledge for new and veteran players alike.",
     "quickLinks": "Quick Links",
     "guides": "Guides",
     "legal": "Legal",
     "copyright": "2026 Japanese Ramen Simulator Wiki. Not affiliated with Wild Dog or Valve.",
-    "description": "Ramen shop management sim on Steam. Cook noodles, craft dishes, and build your dream ramen restaurant.",
+    "description": "Co-operative ramen shop management sim on Steam. Prepare ingredients, cook, serve, and build your ramen shop with up to six players.",
     "playGame": "Play Japanese Ramen Simulator on Steam",
     "officialDiscord": "Official Discord",
     "officialYoutube": "Official YouTube",

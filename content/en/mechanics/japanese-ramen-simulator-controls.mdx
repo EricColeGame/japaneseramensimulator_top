@@ -1,135 +1,85 @@
 export const metadata = {
-  title: "Japanese Ramen Simulator Controls: Complete Guide to Keyboard, Mouse, and Gamepad Input",
-  description: "A practical guide to Japanese Ramen Simulator controls: default keyboard, gamepad, and touch layouts, remapping tips, and fixes for common input issues.",
+  title: "Japanese Ramen Simulator: Co-op Shop Management Explained",
+  description: "Japanese Ramen Simulator is a six-player co-op ramen shop sim by Wild Dog. Here's what's advertised, what players report, and what's undocumented.",
   category: "mechanics",
-  date: "2026-10-12",
-}
+  date: "2026-10-14",
+};
 
-## Why Getting the Controls Right Matters
+"Japanese Ramen Simulator" arrived on Steam on 9 October 2026, developed by Wild Dog. If you have seen clips of people frantically ladling broth while a teammate burns garlic oil, that is the basic premise: a cooperative ramen shop management game for up to six players, played from either a first-person or third-person camera. This article sticks to what the developer actually advertises, separates that from community guesswork, and is honest about the parts nobody has documented yet.
 
-If you have ever burned a batch of broth because your character would not move when you told them to, you already understand why Japanese Ramen Simulator controls deserve a serious look. Nearly every task in a ramen shop sim — chopping scallions, timing noodle boil, carrying steaming bowls to the counter — depends on fast, repeatable inputs. Fumbling the Japanese Ramen Simulator controls costs you customers, tips, and reputation.
+The official store page is here: [Japanese Ramen Simulator on Steam](https://store.steampowered.com/app/4968640/). Everything below that is described as "advertised" comes from that listing.
 
-This guide covers the control schemes you are most likely to encounter: keyboard and mouse, gamepad, and touch. Because builds differ between platforms and updates, treat every layout below as a starting point. Your in-game settings menu is the final authority, and it is always worth opening it before your first shift.
+## What the Steam page actually promises
 
-## Default Japanese Ramen Simulator Controls at a Glance
+Wild Dog's store description is short and unusually specific about scope. The game is a **ramen shop management simulator** for **up to six players** in co-op. The advertised activity loop breaks down into five named jobs:
 
-Most players report a fairly conventional layout for this kind of first-person cooking sim. Movement uses standard WASD, the camera follows the mouse, and context-sensitive interaction keys handle most object handling. The table below reflects the bindings that community members most commonly describe; if yours differ, rebind them rather than fighting muscle memory.
+- Preparing ingredients
+- Cooking
+- Serving food
+- Looking after customers
+- Cleaning up
 
-| Action | Typical default key | What it does |
-| --- | --- | --- |
-| Move | W, A, S, D | Walk around the shop and kitchen |
-| Look / camera | Mouse movement | Aim your view at counters, pots, and customers |
-| Interact / pick up | E or F | Grab bowls, ingredients, and utensils |
-| Chop / prepare | Left mouse button | Repeated presses or a held input for prep work |
-| Place / cook | Right mouse button or Space | Drop ingredients into pots or hand off bowls |
-| Sprint | Shift | Move quickly between the kitchen and counter |
-| Inventory / recipe book | Tab | Check stock, recipes, and order tickets |
-| Pause / menu | Esc | Open settings, save, or exit |
+On top of the service loop, the page advertises two creative systems. Players **create their own menu**, and players **design the shop**. Both are presented as player-driven rather than as fixed progressions through preset content.
 
-Two habits separate comfortable players from frustrated ones. First, walk before you sprint — sprinting into a counter usually knocks items loose. Second, tap interact instead of holding it, because many sims register a hold as a different action than a press.
+The page also addresses comfort directly. You can **switch between first-person and third-person views**, and the description notes you can pick a view if you are prone to motion sickness. That is a genuinely useful detail for a game built around standing at a counter and moving between tight stations.
 
-### Gamepad Defaults
+| Advertised feature | What it implies in practice |
+|---|---|
+| Up to 6-player co-op | Roles can be split, but nothing forces a fixed class |
+| Prepare, cook, serve, attend, clean | Multi-step tasks with a failure window (cold food, dirty tables) |
+| Create your own menu | Menu composition is a player decision, not a fixed list |
+| Design the shop | Layout is editable, which affects movement and workflow |
+| First/third-person toggle | Accessibility option, not a separate mode |
 
-Controller support varies by build, but the mapping below matches the most frequently reported configuration. Analog sticks generally feel better for carrying bowls, since you get finer control over speed and direction.
+## What is not documented
 
-| Action | Typical button | Notes |
-| --- | --- | --- |
-| Move | Left stick | Analog speed control helps with full bowls |
-| Camera | Right stick | Adjust sensitivity in settings if it feels twitchy |
-| Interact | A / Cross | Context-sensitive: pick up, open, hand over |
-| Chop / prepare | Right trigger | Hold-and-release often mirrors mouse behavior |
-| Serve / place | X / Square | Drops the held item where you are aiming |
-| Sprint | L3 or left bumper | Some builds use a bumper to avoid stick strain |
-| Menu | Start / Options | Pause, settings, and save options |
+This is where most "guide" content goes wrong. The Steam listing does **not** publish a recipe list. It does not publish exact ingredient quantities, ingredient prices, shop upgrade costs, a staff hiring system, or anything resembling a code or cheat system. There are no hotkey lists, no patch notes, and no character stats on the official page as of 14 October 2026.
 
-### Touch Controls on Mobile
+So if you see a table claiming "recipe X needs 240ml of tare and costs ¥180," treat it as unsourced unless it names a verifiable in-game screen. The honest answer is that recipe behaviour lives inside the game, and the way to confirm any specific number is to open the relevant in-game panel yourself or check whether Wild Dog has posted patch notes on the Steam news hub. Our own coverage cannot substitute for that.
 
-Mobile versions replace the physical layout with on-screen elements. Community reports describe a virtual joystick on the left, swipe-to-look on the right, and a tap-to-chop interaction for prep stations.
+## How co-op roles tend to split (player practice, not developer spec)
 
-| Action | Gesture | Tip |
-| --- | --- | --- |
-| Move | Drag virtual joystick | Keep your thumb near the center for smoother turns |
-| Look | Swipe on the right half | Short swipes are more accurate than long ones |
-| Interact | Tap the object | Tap once, wait for the animation, then tap again |
-| Chop | Rapid taps | Rhythm matters more than raw speed |
-| Menu | On-screen button | Usually top corner; check for a settings gear |
+Because six players share one counter and one kitchen, the natural pressure is toward specialization. The following is **community-style player practice**, not a documented system — the game does not advertise fixed classes, so treat this as a starting convention your group can throw out.
 
-## How Each Control Maps to the Cooking Loop
+In a typical session, groups tend to divide into a preparation side (chopping, portioning, keeping the ingredient trays stocked) and a service side (cooking to order, plating, running food to the counter), with one person floating between the dining area and the sink. Cleaning is the task most often neglected, and it is also the one the store page explicitly lists, which suggests the developers expect it to matter rather than be decoration.
 
-Understanding the loop helps you decide which Japanese Ramen Simulator controls to prioritize when remapping. A typical shift follows a repeating cycle: take an order, gather ingredients, prepare them, cook, assemble, and serve. Each stage leans on a different input style.
+The practical logic is simple: the menu is yours to design. A menu with many distinct builds creates more parallel work than a menu with few. If your team is new, a smaller menu keeps the kitchen readable while everyone learns the stations. If your team is coordinated, a wider menu gives each player a distinct job. That is menu *logic*, not a recipe list — we are not inventing quantities.
 
-| Stage | Primary input | Precision needed |
-| --- | --- | --- |
-| Taking orders | Interact key | Low |
-| Gathering ingredients | Move + interact | Medium |
-| Chopping and prep | Chop input (held or tapped) | High |
-| Boiling and timing | Place/cook + timer awareness | High |
-| Assembling the bowl | Interact + place | Medium |
-| Serving the customer | Place/serve | Medium |
+## Menu and shop design: reasoning from advertised facts
 
-The chopping stage is where most new players lose time. If your chop input is a rapid tap, place your finger or mouse so the cursor stays over the cutting board — moving between taps wastes fractions of a second that add up across a busy shift.
+The page says players create their own menu and design the shop, and that is essentially all it says. That leaves two reasoning traps worth avoiding.
 
-## Customizing and Remapping Your Controls
+First, do not assume the design tools are separate from service. In management sims of this shape, layout usually feeds directly into how quickly a server can cross the room. The shop designer is therefore a service-speed tool, not a cosmetic one. You can verify whether that is true here by rebuilding a layout and timing a full dinner rush in both versions.
 
-Remapping is the single highest-value change most players can make. If your keyboard has extra mouse buttons or a number pad, bind the two most-used actions — interact and chop — to inputs your dominant hand can reach without looking.
+Second, do not assume a bigger menu is better. The advertised loop includes preparing ingredients *and* cleaning up, so every added dish adds both a preparation step and a cleanup surface. The menu is a workload dial.
 
-| Common problem | Suggested change | Why it helps |
-| --- | --- | --- |
-| Hand cramps from sprinting | Move sprint to a side mouse button | Keeps your left hand on movement keys |
-| Slow chopping | Bind chop to a thumb button or trigger | Reduces finger travel between actions |
-| Camera feels jerky | Lower look sensitivity by 10–20% | Smoother aiming at pots and counters |
-| Accidental drops | Separate "place" from "interact" | Prevents dropping bowls when grabbing items |
-| Missed orders | Bind the recipe book to a nearby key | Fewer glances away from the counter |
+## Motion sickness and camera choice
 
-A good rule of thumb: any action you perform more than twenty times per shift should be reachable without moving your hand position. If it is not, rebind it.
+The camera toggle is worth calling out because it is one of the few features Wild Dog frames as an accessibility decision rather than a gameplay one. The store description explicitly says players can choose a view if prone to motion sickness. If you are sensitive to first-person motion, the third-person option is the one to try first, and it is switchable rather than locked at the start.
 
-## Controller vs. Keyboard vs. Touch: Which Should You Use?
+## How to verify anything you read elsewhere
 
-There is no universal winner, but each input method has clear strengths. Player experience suggests keyboard and mouse wins for precision prep work, while a controller is more comfortable for long sessions and smoother movement.
+Given how little is officially documented, verification is the whole game. Three checks cover almost everything:
 
-| Input method | Best for | Weakness |
-| --- | --- | --- |
-| Keyboard + mouse | Fast chopping, precise aiming, menu navigation | Less comfortable over long play sessions |
-| Gamepad | Carrying bowls, relaxed movement, couch play | Slower cursor-style interactions |
-| Touch | Quick sessions, portability | Least precise for timed cooking tasks |
+1. Open the Steam store page and read the description — if a claim is not there, it is not developer-documented.
+2. Check the Steam news hub for Wild Dog's own posts, which is where patch notes would appear if published.
+3. Test it in-game. Menu composition, layout effects on service speed, and cleaning pressure are all things you can measure in a single session.
 
-If you play on PC and own a controller, try both during a slow shift. Many players settle on keyboard for prep and a controller for everything else, switching based on the task rather than committing to one.
-
-## Troubleshooting Common Control Problems
-
-Input issues are one of the most common complaints in cooking sim communities. Most have simple fixes that do not require reinstalling anything.
-
-| Symptom | Likely cause | Fix |
-| --- | --- | --- |
-| Character does not move | Window focus lost or a menu is open | Click the game window, close overlays |
-| Input lag | High graphics load or background apps | Lower settings, close browsers |
-| Controller not detected | Missing or outdated drivers | Reconnect, check platform controller settings |
-| Keys do nothing | Conflicting bindings | Reset to defaults, then remap one key at a time |
-| Camera spins wildly | Stick drift or very high sensitivity | Increase dead zone, lower sensitivity |
-
-Overlay software from other game launchers is a frequent culprit. If your Japanese Ramen Simulator controls stop responding mid-shift, disable overlays before you assume the game is broken.
-
-## Practical Tips for Cleaner, Faster Service
-
-- **Set sensitivity before your first rush.** You cannot fine-tune camera speed while five customers are waiting.
-- **Practice the chop rhythm.** Timed inputs reward consistency more than frantic clicking.
-- **Keep one hand anchored.** Whether on WASD or a stick, returning to a known position speeds up every action.
-- **Bind the recipe book.** Checking orders without leaving the counter saves real seconds.
-- **Use sprint deliberately.** Sprint on empty hallways, walk near counters and customers.
-- **Rebind one key at a time.** Changing five bindings at once makes it impossible to know what broke.
-
-For platform-specific setup details and update notes, the [Steam store listing for ramen simulator titles](https://store.steampowered.com/search/?term=ramen+simulator) is a reasonable place to confirm which input features a given build supports.
+Anything that fails all three is speculation.
 
 ## FAQ
 
-**Are Japanese Ramen Simulator controls the same on every platform?**
-No. Keyboard and mouse, gamepad, and touch layouts differ, and individual builds may ship with different defaults. Always check the in-game settings menu first.
+**How many players does Japanese Ramen Simulator support?**
+Up to six, per the official Steam description.
 
-**Can I remap the Japanese Ramen Simulator controls?**
-Most builds allow rebinding through a settings or options menu. Community reports suggest remapping is supported broadly, though the exact range of rebindable actions varies.
+**Who developed it and when did it release?**
+Wild Dog, released 9 October 2026 on Steam (app 4968640).
 
-**Why does my character stop responding mid-shift?**
-The usual causes are a lost window focus, an open overlay, or a controller disconnecting. Close background overlays and re-check your input device before troubleshooting further.
+**Does it have a recipe list with quantities?**
+Not on the official store page. No recipe quantities, prices, or code system are published there.
 
-**Is a controller better than keyboard and mouse?**
-It depends on the task. Keyboard and mouse tends to be more precise for chopping and aiming, while a controller is more comfortable and smoother for movement over long sessions. Many players use both.
+**Can I play in third person?**
+Yes — the store page advertises switching between first-person and third-person, and notes you can choose a view if prone to motion sickness.
+
+**Is there a staff hiring or upgrade system?**
+Not documented. The advertised features cover menu creation, shop design, and the five service tasks; nothing about staff or upgrade costs is confirmed.

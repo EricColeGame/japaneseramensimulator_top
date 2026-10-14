@@ -1,107 +1,92 @@
 export const metadata = {
-  title: "Japanese Ramen Simulator Chashu Guide: Braise, Slice, and Serve Perfect Pork",
-  description: "Master chashu in Japanese Ramen Simulator: choose the right pork cut, braise it for rich flavor, slice it thin, and turn every bowl into top-tier profit.",
+  title: "Japanese Ramen Simulator: A Practical Guide to the Co-Op Ramen Shop Game",
+  description: "Japanese Ramen Simulator is a six-player co-op ramen shop sim from Wild Dog. Here's what's advertised, what players report, and what isn't documented.",
   category: "items",
-  date: "2026-10-12",
-}
+  date: "2026-10-14",
+};
 
-Chashu is the item that separates a forgettable bowl of noodles from one customers line up for, and in Japanese Ramen Simulator chashu is one of the highest-value toppings you can unlock. If your pork comes out dry, gray, or unevenly sliced, your ratings stall no matter how good your broth is. Getting Japanese Ramen Simulator chashu right — the cut, the braise, the chill, the slice — is the fastest way to raise ticket prices, satisfy picky customers, and open better menu slots.
+Wild Dog released **Japanese Ramen Simulator** on 9 October 2026, and it arrived with a premise that sounds simple until you try to run a kitchen with five other people. This is a co-operative ramen shop management game for up to six players. You prepare ingredients, cook, serve food, look after customers, and clean up — the full loop of a working shop, not just the noodle bowl.
 
-This guide covers the full chashu pipeline: which pork to buy, how to braise it without overcooking, how to slice for maximum quality score, and how to price bowls so your margin holds up during a rush. Exact numbers shift between builds and updates, so treat the values below as planning guidelines rather than fixed constants — and always verify against your own save file.
+This article sticks to what the developer actually advertises, notes where community discussion has filled gaps, and is explicit about what nobody has documented. If you want to check anything for yourself, the [official Steam store page](https://store.steampowered.com/app/4968640/) is the only source that matters.
 
-## Why Chashu Is the Star of Your Ramen Bowls
+## What the store page actually promises
 
-In most ramen management games, toppings are the multiplier layer. Broth sets the baseline appeal, noodles set the texture score, but chashu is what customers visually judge first. A bowl with a glossy, well-sliced piece of braised pork reads as "premium" instantly, which lets you charge more without losing satisfaction.
+According to the official Steam listing, Japanese Ramen Simulator is a ramen shop management simulator for up to six players. The advertised activity list is broad and deliberately mundane:
 
-That matters because chashu is also one of the few items that scales in both directions. Early on, a single cheap cut can carry your whole menu. Later, when you are competing for high-end regulars, the same topping becomes a differentiator between a good shop and a great one. Community reports consistently place pork-based toppings near the top of "most requested" lists during evening service, when customers order richer, heavier bowls.
+- Preparing ingredients
+- Cooking
+- Serving food
+- Looking after customers
+- Cleaning up
 
-Chashu does three jobs at once in your shop:
+On top of that loop, the description says players create their own menu and design the shop. The camera can be switched between first-person and third-person, and the store page specifically notes that players prone to motion sickness can choose a view — a small but genuinely useful accessibility detail that many first-person kitchen games skip.
 
-- **Raises base bowl value** — a chashu-topped bowl typically commands a higher price than the same bowl without it.
-- **Satisfies preference flags** — customers with meaty, rich, or savory preferences will accept fewer total toppings if chashu is present.
-- **Enables batching** — one large braise produces many servings, which keeps your prep time low during peak hours.
+That is the whole verified feature set. Notably, the store page does **not** publish a recipe list with exact ingredient quantities, prices, or any kind of code system. If you have seen a "recipe code" chart circulating, it did not come from the developer's own store description.
 
-If you are still deciding which food sim to sink time into, it helps to [browse the ramen and cooking simulator listings on Steam](https://store.steampowered.com/search/?term=ramen+simulator) to see how different titles handle topping systems before you commit to a grind.
+## Why six-player co-op changes the way you cook
 
-## Chashu Cuts and Types: Picking the Right Pork
+Most cooking games are a solo efficiency puzzle. Here, the interesting variable is division of labour. With up to six players and one shop to run, the bottleneck is rarely the noodles — it is coordination.
 
-Not every pork cut behaves the same way once it hits your prep station. Fat content drives flavor score, but it also slows cooking and makes clean slicing harder. The table below summarizes how each option generally performs.
+A practical mental model, and one that follows from the advertised tasks rather than from any official design document:
 
-| Cut / Style | Fat Level | In-Game Behavior | Best Used For |
-| --- | --- | --- | --- |
-| Rolled pork belly | High | Richest flavor score, slowest cook, needs chilling to slice | Premium tonkotsu-style bowls and high-price slots |
-| Pork shoulder | Moderate | Balanced flavor, holds shape well, forgiving timing | Shoyu and shio bowls, mid-tier menus |
-| Pork loin | Low | Cheap but dries out fast and scores poorly | Budget bowls and early-game filler |
-| Chicken chashu | Low | Lighter flavor, cheaper substitute, lower richness | Cost control and light-preference customers |
-| Torched finish (aburi) | Varies | Adds a seared aroma bonus on top of any base cut | Late-game premium bowls and specials |
+| Station type | Advertised activity | Why it matters in a group |
+|---|---|---|
+| Prep | Preparing ingredients | Feeds everything downstream; a stall here starves the pot |
+| Heat | Cooking | Timing-sensitive, hard to abandon mid-task |
+| Pass | Serving food | Connects kitchen to customers, exposes handoff mistakes |
+| Floor | Looking after customers | Interrupt-driven; pulls people off fixed stations |
 
-A practical rule: match the cut to the price tier you are selling. Belly belongs on your most expensive bowl, shoulder on your workhorse bowl, and loin on the cheap bowl you keep around for volume. Mixing this up is the most common reason players see a premium bowl underperform.
+The point of the table is not to claim these are literal in-game stations. It is that the advertised task list naturally splits into fixed, timing-sensitive work and interrupt-driven work, and groups tend to fail when everyone gravitates to the same category. Players who take the moving jobs — serving and customer care — usually free the others to hold the cooking line.
 
-## Step-by-Step Chashu Prep in Japanese Ramen Simulator
+## Menu design and shop layout: where the real decisions live
 
-The process is simple, but order matters. Skipping the chill step, for example, will ruin your slice quality no matter how good the braise was.
+The two features with the most long-term consequence are the ones the store page mentions almost in passing: creating your own menu, and designing the shop.
 
-| Step | Action | Why It Matters | Frequent Mistake |
-| --- | --- | --- | --- |
-| 1. Prep | Roll and tie the pork into an even cylinder | Even shape = even slices = consistent quality | Leaving the cut flat and uneven |
-| 2. Sear | Brown all sides on high heat | Builds the deep roasted flavor customers rate highly | Searing on low heat and steaming the meat |
-| 3. Braise | Simmer in soy, mirin, sake, ginger, garlic, scallion | The liquid is where most of the flavor score comes from | Boiling hard instead of gentle simmering |
-| 4. Rest | Cool, then refrigerate in the braising liquid | Cold pork slices cleanly; warm pork shreds | Slicing while still hot |
-| 5. Slice | Cut thin, consistent pieces across the grain | Thin slices cover more of the bowl and look premium | Thick, ragged cuts that read as low effort |
-| 6. Hold | Keep portions in liquid until service | Prevents drying out during a rush | Leaving slices exposed on the counter |
+Because no recipe quantities, ingredient prices, or costs are published officially, treat any specific number you read elsewhere as a third-party claim rather than documentation. Third-party guides have discussed menu and layout decisions, but they are secondary observations and should be read that way.
 
-### Timing Your Braise Around the Lunch Rush
+What is safe to reason about is the *logic* of a player-designed menu:
 
-Chashu is a batch item, so plan it like one. Start the braise well before your first service block so the pork has time to cool fully. A common player approach is to braise during a quiet morning window, chill through the afternoon, then slice to order for the dinner crowd. This keeps quality high without eating into the hours when you should be serving customers.
+- A shorter menu concentrates prep and cooking into fewer, more repeatable actions, which suits a group that is still learning the shop.
+- A longer menu gives each of up to six players a distinct job, which can help a coordinated team but punishes an uncoordinated one.
+- Shop layout and menu size interact: a menu you cannot physically route through your own floor plan is a self-inflicted bottleneck.
 
-If you run out mid-rush, resist the urge to slice warm pork straight from the pot. The quality penalty is usually worse than simply running a lighter menu for a few minutes.
+For anyone unsure where to start, the low-risk move is to begin narrow, learn the shop's physical flow, then widen the menu once your group has a repeatable rhythm. That is player practice and general cooking logic, not a documented strategy.
 
-## Quality Tiers, Pricing, and Profit
+## First-person, third-person, and motion sickness
 
-Chashu is not one item — it is a spectrum. Two bowls can both say "chashu" and still earn wildly different amounts depending on freshness, slice thickness, and garnish. The tier table below shows how that progression generally works.
+The camera toggle is worth calling out because it is one of the few features the developer describes in concrete terms. You can switch between first-person and third-person, and the store page says you can choose a view if you are prone to motion sickness.
 
-| Tier | Relative Quality | Ingredient Cost | Suggested Use | Margin Profile |
-| --- | --- | --- | --- | --- |
-| Basic | Low | Very low | Budget bowls, early game, volume filler | Thin but safe |
-| Standard | Medium | Low–medium | Everyday menu bowls | Healthy, consistent |
-| Premium | High | Medium–high | Signature bowls, upsells | Strong per-bowl profit |
-| Signature | Very high | High | Limited specials, VIP customers | Highest value, tight timing |
+If you are sensitive to camera motion, third-person is the obvious first try. If you are not sure, the honest answer is that only you can test it — boot the game, switch views early, and adjust before you commit to a long co-op session. Nobody outside the developer can tell you which setting will feel comfortable for you.
 
-Two pricing habits pay off. First, never price a premium chashu bowl at the same level as a standard one — the quality gap is your justification for a higher number. Second, watch your ingredient spend as a share of bowl price. If chashu cost creeps past roughly a third of the bowl's price, you are usually better off shrinking the portion or moving that cut to a cheaper menu slot.
+## What is not documented
 
-Player experience suggests that a small, consistently excellent chashu portion outperforms a large, sloppy one almost every time. Customers appear to weight presentation and slice quality more heavily than sheer quantity.
+This is the part most articles skip. As of the official Steam appdetails retrieved 14 October 2026, the following are **not** published:
 
-## Marinades, Pairings, and Common Mistakes
+- Exact recipe quantities or ingredient lists
+- Ingredient or menu prices
+- A recipe code system of any kind
+- Shop upgrade costs
+- Staff or hiring systems
+- Patch notes or post-launch balance changes
 
-Your braising liquid is effectively a flavor profile selector. Swapping the base changes which customers respond best to the bowl.
-
-| Marinade Base | Flavor Profile | Pairs Well With |
-| --- | --- | --- |
-| Shoyu, mirin, and sake | Classic, balanced, savory-sweet | Tonkotsu and shoyu bowls |
-| Miso-forward | Deeper, slightly sweet, heavier | Rich winter specials |
-| Shio-style (light salt) | Clean, lets the pork lead | Light broths and delicate noodles |
-| Chili oil finish | Spicy, aromatic, bold | Late-night menu and spice-preference customers |
-
-Common mistakes that quietly tank your chashu score:
-
-- **Slicing too thick.** Thick slices look generous but often score lower and cover less of the bowl.
-- **Skipping the sear.** Without browning, the flavor ceiling stays low no matter how long you braise.
-- **Overcrowding the pot.** Too much pork at once means uneven cooking and inconsistent portions.
-- **Ignoring freshness.** Day-old slices lose value fast; rotate stock and braise in realistic batches.
-- **Neglecting the garnish.** A scallion or egg pairing often lifts the whole bowl's perceived quality.
+If you see precise figures for any of these presented as fact, they are either datamined, community-tested, or invented — and you have no way to tell which from the page alone. The reliable way to verify any of it is to check in-game or re-read the official store page after an update.
 
 ## FAQ
 
-**What is the best cut of pork for chashu in Japanese Ramen Simulator?**
-For most players, pork shoulder is the best all-round choice because it balances flavor, cost, and sliceability. Rolled pork belly gives the highest flavor ceiling but demands more prep time and careful chilling. Start with shoulder, then move to belly once your workflow is stable.
+**How many players can join a shop?**
+Up to six, per the official store description.
 
-**How thin should I slice chashu?**
-Thin enough that the slices drape over the noodles rather than sit on top of them. In practice, that means aiming for consistent, delicate cuts rather than thick slabs. Consistency matters more than any single target thickness — uneven slices drag your average quality down.
+**Is there a published recipe list with quantities?**
+No. The store page does not include exact ingredient quantities, prices, or a code system.
 
-**Can I make chashu without a full braise station?**
-Yes, but your quality ceiling will be lower. Early on, a simple simmer setup is enough to produce standard-tier chashu and keep your menu competitive. Upgrade when chashu becomes a meaningful share of your revenue.
+**Can I play in third person?**
+Yes. The description says you can switch between first-person and third-person views, and choose a view if you are prone to motion sickness.
 
-**Why does my chashu quality keep dropping during service?**
-Almost always holding conditions. Slices left out of the braising liquid dry out and lose score within a short window. Keep portions in liquid, slice close to service, and avoid pre-slicing an entire batch hours ahead.
+**Can I design my own menu and shop?**
+Yes — both are advertised features.
 
-Get the cut, the braise, and the chill right, and Japanese Ramen Simulator chashu becomes the most reliable profit engine in your shop — one that rewards planning far more than it rewards grinding.
+**Who developed it, and when did it release?**
+Wild Dog, released 9 October 2026.
+
+**Where should I check for accurate details?**
+The [Japanese Ramen Simulator page on Steam](https://store.steampowered.com/app/4968640/). It is the authority on what the game actually contains.
